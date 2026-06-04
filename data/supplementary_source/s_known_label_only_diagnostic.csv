@@ -1,0 +1,4 @@
+﻿Calibration setting,Uses unknown annotations in calibration?,Threshold objective,B,P,R,UFA,BG FP,AP
+Raw,no,raw calibration threshold,0.7718645092136313,0.7367311601294888,0.6623350253807107,280,2985,0.4859480196280931
+Known-label-only calibration,no,calibration known F1_K=0.7015,0.7773032317201889,0.7473450989380396,0.6620642978003384,159,2830,0.4852608920913172
+GORC-RF,yes,open-set B with unknown-aware weights,0.7773838324757317,0.7458349182198555,0.6635532994923858,163,2954,0.486747851680945

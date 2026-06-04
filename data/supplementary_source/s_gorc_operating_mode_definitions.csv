@@ -1,0 +1,4 @@
+﻿mode,definition,selection_or_definition,held_out_role
+GORC-SCG,Direct score-class-geometry reliability-ranking mode.,Full logistic ranker fitted on calibration data; global threshold selected on calibration B.,False-accept-sensitive mode with lower recall/AP than GORC-RF.
+GORC-RF,Balanced reliability-first operating mode.,Selects the highest calibration B candidate from the audited policy grid.,"Highest held-out B among audited COCO rows, without minimizing every false-accept count."
+GORC-AP-C,AP-constrained operating mode.,"Applies calibration AP/AP50 eligibility, then maximizes calibration B among eligible policies.",COCO AP-ranked stream is unchanged to table precision in the fixed-candidate evaluator; accepted set changes after thresholding.

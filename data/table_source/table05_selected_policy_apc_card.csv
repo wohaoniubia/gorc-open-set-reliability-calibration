@@ -1,0 +1,10 @@
+﻿Protocol / detector,Mode,Selected score family / key setting,Threshold,Calibration selection rule,AP/AP50 eligibility,AP-ranked stream effect
+COCO-Val-OpenSet-5K / YOLO-World-l,GORC-SCG,direct score-class-geometry logistic ranker,0.85,threshold selected on calibration B,none,AP-unconstrained reliability ranking
+COCO-Val-OpenSet-5K / YOLO-World-l,GORC-RF,geometry-alpha blend (alpha = 0.8),0.70,maximize calibration B,none,AP-unconstrained policy grid
+COCO-Val-OpenSet-5K / YOLO-World-l,GORC-AP-C,class reliability scaling (gamma = 0.25),0.30,maximize calibration B after AP/AP50 eligibility,zero tolerance,within-class AP ranking unchanged
+LVIS-Clear-Mini-300 / YOLO-World-l,GORC-SCG,direct score-class-geometry logistic ranker,0.65,threshold selected on calibration B,none,AP-unconstrained reliability ranking
+LVIS-Clear-Mini-300 / YOLO-World-l,GORC-RF,geometry-alpha score (alpha = 1.0),0.8950788982510685,maximize calibration B,none,AP-unconstrained policy grid
+LVIS-Clear-Mini-300 / YOLO-World-l,GORC-AP-C,blend score (alpha = 0.2),0.75,maximize calibration B after AP/AP50 eligibility,tolerance = 0.005,ranked stream may change within eligibility band
+COCO-Val-OpenSet-5K / Grounding DINO tiny,GORC-SCG,direct score-class-geometry logistic ranker,0.44086585270686546,threshold selected on calibration B,none,AP-unconstrained reliability ranking
+COCO-Val-OpenSet-5K / Grounding DINO tiny,GORC-RF,geometry-alpha blend (alpha = 0.8),0.45,maximize calibration B,none,AP-unconstrained policy grid
+COCO-Val-OpenSet-5K / Grounding DINO tiny,GORC-AP-C,geometry-alpha blend (alpha = 0.8),0.45,maximize calibration B after AP/AP50 eligibility,zero tolerance,same selected stream as RF after eligibility
