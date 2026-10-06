@@ -1,8 +1,8 @@
-# Anonymous GORC reproducibility archive
+# GORC reproduction guide
 
 This archive reproduces the frozen-detector output-side experiments from public-dataset candidate caches. It contains eight separate streams: the three original detector/dataset streams and five newly inferred COCO permitted-vocabulary streams. Original COCO YOLO and the new original20 control remain separate because their floating-point candidate representations and AP differ slightly.
 
-## Run from this directory
+## Run from the repository root
 
 Use Python 3.11 and install requirements in a fresh environment. The recorded numerical dependency versions match the experiment environment. Numba accelerates the matcher; an identical Python implementation is used when Numba is absent.
 
