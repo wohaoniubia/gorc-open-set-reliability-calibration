@@ -1,0 +1,7 @@
+﻿Vocabulary,"Known classes (20 for COCO, 4 for LVIS)",Known / unknown test objects
+"COCO, primary (first 20 categories)","person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, traffic light, fire hydrant, stop sign, parking meter, bench, bird, cat, dog, horse, sheep, cow","14,775 / 14,613"
+"COCO, VOC20","person, bicycle, car, motorcycle, airplane, bus, train, boat, bird, cat, dog, horse, sheep, cow, bottle, chair, couch, potted plant, dining table, tv","16,912 / 12,476"
+"COCO, random set 1 (seed 611)","car, motorcycle, airplane, bus, horse, bear, zebra, handbag, frisbee, sports ball, skateboard, spoon, orange, carrot, hot dog, couch, mouse, remote, microwave, vase","5,229 / 24,159"
+"COCO, random set 2 (seed 612)","airplane, bus, traffic light, bench, cat, horse, cow, suitcase, skis, skateboard, cup, fork, hot dog, mouse, keyboard, toaster, sink, book, clock, vase","5,183 / 24,205"
+"COCO, random set 3 (seed 613)","car, train, truck, bear, snowboard, banana, sandwich, orange, broccoli, carrot, hot dog, pizza, donut, toilet, laptop, remote, microwave, oven, teddy bear, hair drier","4,728 / 24,660"
+LVIS-Clear-Mini-300,"bottle, cup, chair, bowl. Unknown: apple, banana, orange fruit, plate, fork, vase, glass (drink container), knife",218 / 207

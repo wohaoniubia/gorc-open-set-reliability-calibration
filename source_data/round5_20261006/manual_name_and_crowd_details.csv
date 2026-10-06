@@ -1,0 +1,151 @@
+﻿sample_id,category,object_name,vocabulary_relation,box_fit,confidence,notes,reviewer,reviewed_at,image_id,det_id,max_full_GT_IoU,type_at_50,max_crowd_box_coverage,crowd_box_coverage_ge_50,recorded_name_normalized,recorded_name_matches_known
+BG001,可辨认物体,stop sign,已知类,较完整贴合物体,高,,Author,2026-10-05T09:04:50.522Z,lvis_000000333697,lvis_000000333697_yw_162177,0.0605925991435167,background_false_accept,0.0,False,stop sign,True
+BG002,可辨认物体,person,已知类,包含大量周边,高,,Author,2026-10-05T09:04:55.811Z,lvis_000000151820,lvis_000000151820_yw_071649,0.4011974848865541,background_false_accept,0.0,False,person,True
+BG003,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:04:58.099Z,lvis_000000117492,lvis_000000117492_yw_051264,0.0024213366000253,background_false_accept,1.0,True,person,True
+BG004,物体局部或含糊区域,boat,已知类,物体局部,高,,Author,2026-10-05T09:05:00.176Z,lvis_000000442822,lvis_000000442822_yw_217023,0.2024398373568508,background_false_accept,1.0,True,boat,True
+BG005,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:05:02.613Z,lvis_000000097988,lvis_000000097988_yw_043359,0.2359399949280898,background_false_accept,1.0,True,person,True
+BG006,可辨认物体,traffic light,已知类,较完整贴合物体,高,,Author,2026-10-05T09:05:04.821Z,lvis_000000032941,lvis_000000032941_yw_015088,0.0,background_false_accept,0.0,False,traffic light,True
+BG007,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:05:07.243Z,lvis_000000326248,lvis_000000326248_yw_159038,0.2894904171713247,background_false_accept,0.9955152096611914,True,person,True
+BG008,物体局部或含糊区域,person,已知类,包含大量周边,高,,Author,2026-10-05T09:05:10.439Z,lvis_000000018837,lvis_000000018837_yw_009581,0.499197836395113,background_false_accept,0.0,False,person,True
+BG009,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:05:24.824Z,lvis_000000370486,lvis_000000370486_yw_180791,0.004891498206098,background_false_accept,1.0,True,person,True
+BG010,物体局部或含糊区域,bird,已知类,较完整贴合物体,中,,Author,2026-10-05T09:05:47.975Z,lvis_000000553669,lvis_000000553669_yw_267979,0.0017127117492661,background_false_accept,0.0,False,bird,True
+BG011,可辨认物体,sign,已知类,较完整贴合物体,高,,Author,2026-10-06T04:24:12.057Z,lvis_000000516804,lvis_000000516804_yw_251332,0.0,background_false_accept,0.0,False,sign,False
+BG012,物体局部或含糊区域,person,已知类,较完整贴合物体,低,,Author,2026-10-05T09:06:21.484Z,lvis_000000463542,lvis_000000463542_yw_226778,0.0005806644705855,background_false_accept,1.0,True,person,True
+BG013,物体局部或含糊区域,traffic light,已知类,较完整贴合物体,高,,Author,2026-10-05T09:06:42.848Z,lvis_000000546659,lvis_000000546659_yw_264863,0.0,background_false_accept,0.0,False,traffic light,True
+BG014,物体局部或含糊区域,car,已知类,较完整贴合物体,中,,Author,2026-10-05T09:07:00.710Z,lvis_000000228436,lvis_000000228436_yw_112297,0.0757983676798739,background_false_accept,1.0,True,car,True
+BG015,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:07:10.260Z,lvis_000000076468,lvis_000000076468_yw_033393,0.0289848541402449,background_false_accept,1.0,True,person,True
+BG016,物体局部或含糊区域,box,已知类,较完整贴合物体,低,,Author,2026-10-05T09:07:47.036Z,lvis_000000279927,lvis_000000279927_yw_135541,0.0063865723228971,background_false_accept,0.8704590703945922,True,box,False
+BG017,可辨认物体,sign,已知类,较完整贴合物体,高,,Author,2026-10-05T09:08:05.680Z,lvis_000000101022,lvis_000000101022_yw_045676,0.0,background_false_accept,0.0,False,sign,False
+BG018,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:08:13.909Z,lvis_000000059635,lvis_000000059635_yw_026083,0.00700924627752,background_false_accept,1.0,True,person,True
+BG019,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:08:26.871Z,lvis_000000361919,lvis_000000361919_yw_176775,0.0011818286732648,background_false_accept,1.0,True,person,True
+BG020,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:08:47.142Z,lvis_000000254814,lvis_000000254814_yw_123549,0.0043823326803251,background_false_accept,1.0,True,person,True
+BG021,物体局部或含糊区域,person,已知类,物体局部,高,,Author,2026-10-05T09:08:57.653Z,lvis_000000014439,lvis_000000014439_yw_006973,0.4562488017340407,background_false_accept,1.0,True,person,True
+BG022,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:09:08.369Z,lvis_000000024021,lvis_000000024021_yw_011461,0.0143699574980644,background_false_accept,1.0,True,person,True
+BG023,物体局部或含糊区域,cow,已知类,较完整贴合物体,中,,Author,2026-10-05T09:09:20.982Z,lvis_000000298697,lvis_000000298697_yw_146721,0.449496677896272,background_false_accept,0.0,False,cow,True
+BG024,物体局部或含糊区域,bench,已知类,较完整贴合物体,低,,Author,2026-10-05T09:18:17.831Z,lvis_000000387387,lvis_000000387387_yw_190048,0.0019477796983163,background_false_accept,0.0,False,bench,True
+BG025,可辨认物体,sheep,已知类,较完整贴合物体,高,,Author,2026-10-06T04:21:23.960Z,lvis_000000546556,lvis_000000546556_yw_264564,0.0060833283993233,background_false_accept,0.0,False,sheep,True
+BG026,可辨认物体,car,已知类,较完整贴合物体,高,,Author,2026-10-05T09:15:15.405Z,lvis_000000460229,lvis_000000460229_yw_225059,0.385905420742049,background_false_accept,0.0,False,car,True
+BG027,可辨认物体,motorcycle,已知类,较完整贴合物体,高,,Author,2026-10-05T09:15:24.599Z,lvis_000000254814,lvis_000000254814_yw_123495,0.0040338040374934,background_false_accept,1.0,True,motorcycle,True
+BG028,背景或纹理,other object,不确定,不适用或不确定,中,,Author,2026-10-05T09:15:41.477Z,lvis_000000425702,lvis_000000425702_yw_207183,0.0,background_false_accept,0.0,False,other object,False
+BG029,物体局部或含糊区域,horse,已知类,物体局部,高,,Author,2026-10-05T09:16:09.843Z,lvis_000000488251,lvis_000000488251_yw_237497,0.3841931523825585,background_false_accept,0.0,False,horse,True
+BG030,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-06T04:21:35.413Z,lvis_000000178744,lvis_000000178744_yw_085381,0.0592684943415114,background_false_accept,0.0,False,person,True
+BG031,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:16:28.150Z,lvis_000000486104,lvis_000000486104_yw_237075,0.0019510165081777,background_false_accept,1.0,True,person,True
+BG032,可辨认物体,sheep,已知类,较完整贴合物体,高,,Author,2026-10-05T09:16:42.377Z,lvis_000000546556,lvis_000000546556_yw_264568,0.0093910840341166,background_false_accept,0.0,False,sheep,True
+BG033,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:16:50.362Z,lvis_000000480985,lvis_000000480985_yw_234891,0.4450928945077452,background_false_accept,0.0,False,person,True
+BG034,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:17:10.572Z,lvis_000000334977,lvis_000000334977_yw_163235,0.0258463071417162,background_false_accept,0.0,False,person,True
+BG035,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:17:24.065Z,lvis_000000345361,lvis_000000345361_yw_168955,0.0967696623033498,background_false_accept,0.0,False,person,True
+BG036,物体局部或含糊区域,person,已知类,物体局部,高,,Author,2026-10-05T09:17:39.628Z,lvis_000000072795,lvis_000000072795_yw_031811,0.0205670552464903,background_false_accept,1.0,True,person,True
+BG037,可辨认物体,bench,已知类,较完整贴合物体,高,,Author,2026-10-06T04:21:45.284Z,lvis_000000294783,lvis_000000294783_yw_144426,0.0,background_false_accept,0.0,False,bench,True
+BG038,物体局部或含糊区域,person,已知类,较完整贴合物体,中,,Author,2026-10-05T09:18:44.698Z,lvis_000000520910,lvis_000000520910_yw_252923,0.0,background_false_accept,0.0,False,person,True
+BG039,可辨认物体,bicycle,已知类,较完整贴合物体,高,,Author,2026-10-06T04:21:51.174Z,lvis_000000013177,lvis_000000013177_yw_006210,0.3209817599326622,background_false_accept,0.0,False,bicycle,True
+BG040,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:19:28.403Z,lvis_000000342295,lvis_000000342295_yw_167342,0.0,background_false_accept,0.0,False,person,True
+BG041,物体局部或含糊区域,person,已知类,物体局部,高,,Author,2026-10-05T09:19:40.742Z,lvis_000000326248,lvis_000000326248_yw_159055,0.0,background_false_accept,0.0,False,person,True
+BG042,可辨认物体,clothing,已知类,较完整贴合物体,高,,Author,2026-10-05T09:20:07.406Z,lvis_000000306582,lvis_000000306582_yw_150837,0.0421998098447689,background_false_accept,0.0,False,clothing,False
+BG043,可辨认物体,wheelchair,其余类,较完整贴合物体,高,,Author,2026-10-05T09:21:49.189Z,lvis_000000044877,lvis_000000044877_yw_019593,0.3461981359289259,background_false_accept,0.0,False,wheelchair,False
+BG044,物体局部或含糊区域,person,已知类,物体局部,高,,Author,2026-10-05T09:22:08.336Z,lvis_000000231508,lvis_000000231508_yw_114566,0.0072990457858901,background_false_accept,1.0,True,person,True
+BG045,无法判断,other object,不确定,不适用或不确定,中,,Author,2026-10-05T09:22:29.008Z,lvis_000000089556,lvis_000000089556_yw_040650,0.0,background_false_accept,0.0,False,other object,False
+BG046,背景或纹理,other object,不确定,不适用或不确定,高,,Author,2026-10-05T09:22:45.390Z,lvis_000000184324,lvis_000000184324_yw_089444,0.04734099960558,background_false_accept,1.0,True,other object,False
+BG047,物体局部或含糊区域,car,已知类,较完整贴合物体,低,,Author,2026-10-05T09:22:57.118Z,lvis_000000572303,lvis_000000572303_yw_277586,0.3512414612945726,background_false_accept,0.0,False,car,True
+BG048,物体局部或含糊区域,person,已知类,包含大量周边,低,,Author,2026-10-05T09:23:15.872Z,lvis_000000361142,lvis_000000361142_yw_175775,0.1634290468595316,background_false_accept,0.0,False,person,True
+BG049,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:23:23.724Z,lvis_000000293200,lvis_000000293200_yw_143473,0.1750738076907468,background_false_accept,1.0,True,person,True
+BG050,可辨认物体,hand,其余类,较完整贴合物体,高,,Author,2026-10-05T09:23:56.653Z,lvis_000000251824,lvis_000000251824_yw_122242,0.4776609364017944,background_false_accept,0.0,False,hand,False
+BG051,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:24:04.522Z,lvis_000000229849,lvis_000000229849_yw_113052,0.0306945789569712,background_false_accept,1.0,True,person,True
+BG052,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:24:12.810Z,lvis_000000132329,lvis_000000132329_yw_058895,0.0688741595363549,background_false_accept,0.0,False,person,True
+BG053,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:24:19.807Z,lvis_000000057597,lvis_000000057597_yw_024738,0.033217898634301,background_false_accept,1.0,True,person,True
+BG054,可辨认物体,horse,已知类,包含大量周边,高,,Author,2026-10-05T09:24:32.704Z,lvis_000000054931,lvis_000000054931_yw_023553,0.4996892479211958,background_false_accept,0.0,False,horse,True
+BG055,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:24:41.933Z,lvis_000000142238,lvis_000000142238_yw_065390,0.4824919219257709,background_false_accept,0.0,False,person,True
+BG056,物体局部或含糊区域,person,已知类,物体局部,中,,Author,2026-10-05T09:24:54.642Z,lvis_000000431876,lvis_000000431876_yw_210652,0.0214819856035433,background_false_accept,0.0,False,person,True
+BG057,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:25:01.505Z,lvis_000000133244,lvis_000000133244_yw_060223,0.144930244177659,background_false_accept,1.0,True,person,True
+BG058,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:25:09.191Z,lvis_000000456662,lvis_000000456662_yw_222858,0.0028975968867573,background_false_accept,0.0,False,person,True
+BG059,可辨认物体,car,已知类,较完整贴合物体,高,,Author,2026-10-05T09:25:16.344Z,lvis_000000546823,lvis_000000546823_yw_264953,0.4824976666274991,background_false_accept,0.9734878215381184,True,car,True
+BG060,可辨认物体,person,已知类,包含大量周边,高,,Author,2026-10-05T09:25:26.009Z,lvis_000000139099,lvis_000000139099_yw_063741,0.0797687486851401,background_false_accept,0.9729678396798545,True,person,True
+BG061,可辨认物体,person,已知类,物体局部,高,,Author,2026-10-05T09:25:46.065Z,lvis_000000542127,lvis_000000542127_yw_262624,0.1152380687287148,background_false_accept,1.0,True,person,True
+BG062,可辨认物体,person,已知类,包含大量周边,高,,Author,2026-10-05T09:25:56.080Z,lvis_000000117492,lvis_000000117492_yw_051273,0.010472171933127,background_false_accept,1.0,True,person,True
+BG063,物体局部或含糊区域,traffic light,已知类,较完整贴合物体,中,,Author,2026-10-05T09:26:13.662Z,lvis_000000309391,lvis_000000309391_yw_152210,0.4745928730920414,background_false_accept,0.0,False,traffic light,True
+BG064,可辨认物体,sheep,已知类,较完整贴合物体,高,,Author,2026-10-05T09:26:28.451Z,lvis_000000546556,lvis_000000546556_yw_264593,0.0029632282671129,background_false_accept,0.0,False,sheep,True
+BG065,可辨认物体,person,已知类,物体局部,高,,Author,2026-10-05T09:26:38.009Z,lvis_000000458045,lvis_000000458045_yw_223488,0.4322191158538139,background_false_accept,0.0,False,person,True
+BG066,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:26:46.020Z,lvis_000000224807,lvis_000000224807_yw_109941,0.0106375982723436,background_false_accept,1.0,True,person,True
+BG067,可辨认物体,chair,已知类,较完整贴合物体,中,,Author,2026-10-05T09:27:16.086Z,lvis_000000155341,lvis_000000155341_yw_073580,0.3577708402885045,background_false_accept,0.0,False,chair,False
+BG068,物体局部或含糊区域,person,已知类,不适用或不确定,低,,Author,2026-10-05T09:27:31.167Z,lvis_000000057597,lvis_000000057597_yw_024755,0.158346788944583,background_false_accept,1.0,True,person,True
+BG069,可辨认物体,sign,已知类,较完整贴合物体,高,,Author,2026-10-05T09:27:46.281Z,lvis_000000016249,lvis_000000016249_yw_008351,0.116618669638643,background_false_accept,0.0,False,sign,False
+BG070,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:27:53.951Z,lvis_000000274460,lvis_000000274460_yw_132772,0.0,background_false_accept,0.0,False,person,True
+BG071,可辨认物体,person,已知类,包含大量周边,高,,Author,2026-10-05T09:28:05.013Z,lvis_000000012670,lvis_000000012670_yw_005888,0.0840779076854049,background_false_accept,1.0,True,person,True
+BG072,可辨认物体,person,已知类,物体局部,高,,Author,2026-10-05T09:28:16.724Z,lvis_000000140987,lvis_000000140987_yw_064905,0.2032013428428435,background_false_accept,0.0,False,person,True
+BG073,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:28:26.772Z,lvis_000000254814,lvis_000000254814_yw_123517,0.0096707558314799,background_false_accept,1.0,True,person,True
+BG074,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:28:33.868Z,lvis_000000006471,lvis_000000006471_yw_002940,0.0482874633749212,background_false_accept,0.0,False,person,True
+BG075,物体局部或含糊区域,bus,已知类,包含大量周边,低,框选区域中物体太多,Author,2026-10-05T09:29:32.310Z,lvis_000000114907,lvis_000000114907_yw_050341,0.3521801070386488,background_false_accept,0.4868972902958523,False,bus,True
+BG076,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:29:40.333Z,lvis_000000481390,lvis_000000481390_yw_235106,0.1217680424375655,background_false_accept,1.0,True,person,True
+BG077,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:29:49.564Z,lvis_000000303566,lvis_000000303566_yw_148616,0.1226558239744426,background_false_accept,1.0,True,person,True
+BG078,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:29:56.487Z,lvis_000000261097,lvis_000000261097_yw_127034,0.1852491723185391,background_false_accept,1.0,True,person,True
+BG079,可辨认物体,person,已知类,包含大量周边,高,,Author,2026-10-05T09:30:07.027Z,lvis_000000534827,lvis_000000534827_yw_259769,0.3903516576814678,background_false_accept,0.0,False,person,True
+BG080,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:30:14.201Z,lvis_000000540414,lvis_000000540414_yw_261631,0.1541554475726392,background_false_accept,1.0,True,person,True
+BG081,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:30:21.787Z,lvis_000000019109,lvis_000000019109_yw_009955,0.0,background_false_accept,0.0,False,person,True
+BG082,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:30:28.793Z,lvis_000000254814,lvis_000000254814_yw_123561,0.0025265800846551,background_false_accept,1.0,True,person,True
+BG083,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-06T04:21:59.369Z,lvis_000000390555,lvis_000000390555_yw_191652,0.0239778254651632,background_false_accept,1.0,True,person,True
+BG084,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:30:45.040Z,lvis_000000093717,lvis_000000093717_yw_041907,0.0,background_false_accept,0.0,False,person,True
+BG085,可辨认物体,traffic light,已知类,较完整贴合物体,高,,Author,2026-10-05T09:30:54.568Z,lvis_000000309391,lvis_000000309391_yw_152207,0.3636337137638324,background_false_accept,0.0,False,traffic light,True
+BG086,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:31:05.702Z,lvis_000000284445,lvis_000000284445_yw_138324,0.4273544028470099,background_false_accept,0.549652375465547,True,person,True
+BG087,物体局部或含糊区域,bicycle,已知类,较完整贴合物体,低,,Author,2026-10-05T09:31:24.756Z,lvis_000000087038,lvis_000000087038_yw_039245,0.0045782217670409,background_false_accept,1.0,True,bicycle,True
+BG088,可辨认物体,person,已知类,包含大量周边,高,,Author,2026-10-05T09:31:36.972Z,lvis_000000431876,lvis_000000431876_yw_210646,0.3192909138847178,background_false_accept,0.0,False,person,True
+BG089,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:31:43.804Z,lvis_000000199236,lvis_000000199236_yw_097112,0.0386076383124017,background_false_accept,0.9313445097945411,True,person,True
+BG090,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:31:51.723Z,lvis_000000572620,lvis_000000572620_yw_277906,0.1737574398787046,background_false_accept,1.0,True,person,True
+BG091,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:32:00.191Z,lvis_000000097988,lvis_000000097988_yw_043357,0.014095100310565,background_false_accept,1.0,True,person,True
+BG092,无法判断,other object,不确定,较完整贴合物体,高,,Author,2026-10-05T09:32:25.583Z,lvis_000000463849,lvis_000000463849_yw_227474,0.0,background_false_accept,0.0,False,other object,False
+BG093,可辨认物体,car,已知类,较完整贴合物体,低,,Author,2026-10-05T09:32:38.852Z,lvis_000000491867,lvis_000000491867_yw_239383,0.0469852290297571,background_false_accept,0.0,False,car,True
+BG094,可辨认物体,car,已知类,较完整贴合物体,高,,Author,2026-10-05T09:32:46.416Z,lvis_000000470924,lvis_000000470924_yw_230080,0.2272809818836961,background_false_accept,0.0,False,car,True
+BG095,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-06T04:22:07.868Z,lvis_000000343561,lvis_000000343561_yw_167691,0.0062797954669087,background_false_accept,1.0,True,person,True
+BG096,可辨认物体,bench,已知类,较完整贴合物体,高,,Author,2026-10-05T09:33:04.071Z,lvis_000000342128,lvis_000000342128_yw_167098,0.1361532188724903,background_false_accept,0.0,False,bench,True
+BG097,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:33:11.291Z,lvis_000000163057,lvis_000000163057_yw_077688,0.0456654263243524,background_false_accept,1.0,True,person,True
+BG098,物体局部或含糊区域,other object,不确定,不适用或不确定,高,,Author,2026-10-05T09:33:28.016Z,lvis_000000138639,lvis_000000138639_yw_063325,0.00375844329935,background_false_accept,1.0,True,other object,False
+BG099,可辨认物体,rhino,其余类,较完整贴合物体,高,,Author,2026-10-05T09:34:02.547Z,lvis_000000016010,lvis_000000016010_yw_007983,0.0,background_false_accept,0.0,False,rhino,False
+BG100,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:34:10.110Z,lvis_000000410650,lvis_000000410650_yw_199738,0.0147278707188032,background_false_accept,0.9692580771662792,True,person,True
+BG101,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:34:19.767Z,lvis_000000296231,lvis_000000296231_yw_145250,0.0,background_false_accept,0.0,False,person,True
+BG102,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:34:28.735Z,lvis_000000143572,lvis_000000143572_yw_066466,0.1300977794689299,background_false_accept,1.0,True,person,True
+BG103,物体局部或含糊区域,person,已知类,较完整贴合物体,高,,Author,2026-10-06T04:22:22.611Z,lvis_000000577932,lvis_000000577932_yw_279670,0.0,background_false_accept,0.0,False,person,True
+BG104,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:34:44.639Z,lvis_000000284445,lvis_000000284445_yw_138321,0.0691584411892263,background_false_accept,1.0,True,person,True
+BG105,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:34:55.381Z,lvis_000000217285,lvis_000000217285_yw_106007,0.0175675737025533,background_false_accept,1.0,True,person,True
+BG106,可辨认物体,person,已知类,包含大量周边,高,,Author,2026-10-05T09:35:09.870Z,lvis_000000147223,lvis_000000147223_yw_068700,0.0455850271762227,background_false_accept,0.0,False,person,True
+BG107,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:35:16.592Z,lvis_000000390555,lvis_000000390555_yw_191656,0.1209071951403502,background_false_accept,1.0,True,person,True
+BG108,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:35:22.929Z,lvis_000000304404,lvis_000000304404_yw_149978,0.0191642653810622,background_false_accept,1.0,True,person,True
+BG109,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:35:30.473Z,lvis_000000274460,lvis_000000274460_yw_132758,0.0495983495698614,background_false_accept,0.0,False,person,True
+BG110,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-06T04:22:34.314Z,lvis_000000098716,lvis_000000098716_yw_044134,0.4740125454434181,background_false_accept,0.0,False,person,True
+BG111,可辨认物体,person,已知类,包含大量周边,高,,Author,2026-10-05T09:35:53.403Z,lvis_000000086582,lvis_000000086582_yw_039127,0.4165657254144077,background_false_accept,0.0,False,person,True
+BG112,物体局部或含糊区域,person,已知类,较完整贴合物体,低,,Author,2026-10-05T09:36:08.864Z,lvis_000000255917,lvis_000000255917_yw_123995,0.0316021650425601,background_false_accept,1.0,True,person,True
+BG113,无法判断,sheep,已知类,较完整贴合物体,高,,Author,2026-10-05T09:36:28.787Z,lvis_000000156071,lvis_000000156071_yw_073923,0.4363332295121795,background_false_accept,1.0,True,sheep,True
+BG114,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:36:37.756Z,lvis_000000290248,lvis_000000290248_yw_141840,0.4900023028604204,background_false_accept,1.0,True,person,True
+BG115,可辨认物体,traffic light,已知类,较完整贴合物体,低,,Author,2026-10-05T09:37:06.642Z,lvis_000000278006,lvis_000000278006_yw_134428,0.0,background_false_accept,0.0,False,traffic light,True
+BG116,可辨认物体,person,已知类,较完整贴合物体,中,,Author,2026-10-05T09:37:18.646Z,lvis_000000343561,lvis_000000343561_yw_167684,0.1567592719156422,background_false_accept,1.0,True,person,True
+BG117,物体局部或含糊区域,person,已知类,较完整贴合物体,低,,Author,2026-10-05T09:37:37.687Z,lvis_000000082696,lvis_000000082696_yw_036584,0.0,background_false_accept,0.0,False,person,True
+BG118,可辨认物体,foot,其余类,较完整贴合物体,高,,Author,2026-10-05T09:37:54.177Z,lvis_000000482917,lvis_000000482917_yw_236073,0.3308863782856843,background_false_accept,0.0,False,foot,False
+BG119,可辨认物体,person,已知类,物体局部,高,,Author,2026-10-05T09:38:17.079Z,lvis_000000276018,lvis_000000276018_yw_133485,0.4576960408908132,background_false_accept,0.0,False,person,True
+BG120,可辨认物体,horse,已知类,较完整贴合物体,高,,Author,2026-10-05T09:38:27.889Z,lvis_000000453341,lvis_000000453341_yw_220761,0.0,background_false_accept,0.0,False,horse,True
+BG121,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:38:39.326Z,lvis_000000370486,lvis_000000370486_yw_180793,0.0017668936502075,background_false_accept,1.0,True,person,True
+BG122,可辨认物体,car,已知类,较完整贴合物体,高,,Author,2026-10-05T09:38:51.020Z,lvis_000000011197,lvis_000000011197_yw_004983,0.0,background_false_accept,0.0,False,car,True
+BG123,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:38:57.873Z,lvis_000000072795,lvis_000000072795_yw_031807,0.0047965790405115,background_false_accept,1.0,True,person,True
+BG124,可辨认物体,car,已知类,较完整贴合物体,高,,Author,2026-10-05T09:39:06.737Z,lvis_000000460147,lvis_000000460147_yw_224713,0.0175711721950705,background_false_accept,1.0,True,car,True
+BG125,可辨认物体,traffic light,已知类,较完整贴合物体,中,,Author,2026-10-05T09:39:20.195Z,lvis_000000039484,lvis_000000039484_yw_017824,0.230887042367245,background_false_accept,0.0,False,traffic light,True
+BG126,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:39:27.281Z,lvis_000000520659,lvis_000000520659_yw_252389,0.2820803083128105,background_false_accept,1.0,True,person,True
+BG127,无法判断,person,不确定,不适用或不确定,高,,Author,2026-10-05T09:39:53.558Z,lvis_000000162092,lvis_000000162092_yw_077244,0.269431415274627,background_false_accept,0.0,False,person,True
+BG128,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:40:00.496Z,lvis_000000476770,lvis_000000476770_yw_232736,0.0152941630534612,background_false_accept,0.9778184010199962,True,person,True
+BG129,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:40:07.391Z,lvis_000000095862,lvis_000000095862_yw_042714,0.0919342981562913,background_false_accept,1.0,True,person,True
+BG130,无法判断,other object,不确定,不适用或不确定,高,,Author,2026-10-05T09:40:38.223Z,lvis_000000126226,lvis_000000126226_yw_056215,0.137573650219084,background_false_accept,0.0,False,other object,False
+BG131,无法判断,other object,不确定,不适用或不确定,高,,Author,2026-10-05T09:40:56.973Z,lvis_000000350148,lvis_000000350148_yw_171055,0.2056056417126966,background_false_accept,0.0,False,other object,False
+BG132,可辨认物体,car,已知类,较完整贴合物体,高,,Author,2026-10-05T09:41:05.661Z,lvis_000000336232,lvis_000000336232_yw_163974,0.002251938196883,background_false_accept,1.0,True,car,True
+BG133,物体局部或含糊区域,cow,已知类,较完整贴合物体,高,,Author,2026-10-06T04:22:41.681Z,lvis_000000559099,lvis_000000559099_yw_270246,0.0541492525445659,background_false_accept,1.0,True,cow,True
+BG134,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:41:24.781Z,lvis_000000572900,lvis_000000572900_yw_278206,0.0,background_false_accept,0.0,False,person,True
+BG135,可辨认物体,truck,已知类,物体局部,高,,Author,2026-10-05T09:41:43.987Z,lvis_000000123131,lvis_000000123131_yw_054358,0.3614961131976424,background_false_accept,0.0,False,truck,True
+BG136,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:41:50.511Z,lvis_000000250282,lvis_000000250282_yw_121930,0.0641123309401724,background_false_accept,1.0,True,person,True
+BG137,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:41:56.453Z,lvis_000000390555,lvis_000000390555_yw_191635,0.1447364732823471,background_false_accept,1.0,True,person,True
+BG138,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-06T04:22:50.393Z,lvis_000000098287,lvis_000000098287_yw_043703,0.4299113547129933,background_false_accept,0.0,False,person,True
+BG139,可辨认物体,person,已知类,较完整贴合物体,低,,Author,2026-10-05T09:42:17.906Z,lvis_000000560312,lvis_000000560312_yw_271208,0.0756517409974228,background_false_accept,0.0,False,person,True
+BG140,物体局部或含糊区域,traffic light,已知类,较完整贴合物体,高,,Author,2026-10-06T04:23:00.684Z,lvis_000000553511,lvis_000000553511_yw_267753,0.4430195434778426,background_false_accept,0.0,False,traffic light,True
+BG141,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-06T04:23:09.226Z,lvis_000000156071,lvis_000000156071_yw_073920,0.1106327536565923,background_false_accept,1.0,True,person,True
+BG142,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:42:40.726Z,lvis_000000520659,lvis_000000520659_yw_252382,0.003294650256379,background_false_accept,0.9066534486491414,True,person,True
+BG143,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:42:47.699Z,lvis_000000472678,lvis_000000472678_yw_231037,0.0047741840962053,background_false_accept,0.0,False,person,True
+BG144,背景或纹理,person,已知类,物体局部,低,极其模糊,Author,2026-10-05T09:43:14.434Z,lvis_000000065798,lvis_000000065798_yw_029420,0.0026809678828327,background_false_accept,1.0,True,person,True
+BG145,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:43:06.984Z,lvis_000000290248,lvis_000000290248_yw_141836,0.2035921339285956,background_false_accept,1.0,True,person,True
+BG146,可辨认物体,person,已知类,较完整贴合物体,低,模糊,Author,2026-10-06T04:23:15.109Z,lvis_000000334977,lvis_000000334977_yw_163232,0.0052816890946735,background_false_accept,0.0,False,person,True
+BG147,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:43:44.547Z,lvis_000000212453,lvis_000000212453_yw_103357,0.0082773233068597,background_false_accept,0.0,False,person,True
+BG148,物体局部或含糊区域,sign,已知类,物体局部,低,,Author,2026-10-05T09:44:06.758Z,lvis_000000309391,lvis_000000309391_yw_152219,0.0032212051879366,background_false_accept,0.5895965578056712,True,sign,False
+BG149,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:44:14.743Z,lvis_000000410650,lvis_000000410650_yw_199737,0.0087882708009444,background_false_accept,1.0,True,person,True
+BG150,可辨认物体,person,已知类,较完整贴合物体,高,,Author,2026-10-05T09:44:22.285Z,lvis_000000453341,lvis_000000453341_yw_220756,0.0,background_false_accept,0.0,False,person,True

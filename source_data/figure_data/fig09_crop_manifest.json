@@ -1,0 +1,128 @@
+[
+  {
+    "panel": "a",
+    "det_id": "lvis_000000304545_yw_150246",
+    "source_image_sha256": "6fd870d7d530062a891ef165d9e4c5f40df23003e129ec4754b5997ce7014fd7",
+    "crop_xyxy": [
+      0,
+      0,
+      640,
+      522
+    ],
+    "padding_xy": [
+      28,
+      0
+    ],
+    "padding_canvas": [
+      696,
+      522
+    ],
+    "brightness_contrast_gamma": "none",
+    "stitching": false
+  },
+  {
+    "panel": "b",
+    "det_id": "lvis_000000307658_yw_151391",
+    "source_image_sha256": "0db1ecf55f6c507c17a500f7948b185ad6f32e8fa7f36c08c495bd590a6f6a32",
+    "crop_xyxy": [
+      0,
+      0,
+      589,
+      640
+    ],
+    "padding_xy": [
+      132,
+      0
+    ],
+    "padding_canvas": [
+      854,
+      641
+    ],
+    "brightness_contrast_gamma": "none",
+    "stitching": false
+  },
+  {
+    "panel": "c",
+    "det_id": "lvis_000000380913_yw_187374",
+    "source_image_sha256": "5e9b8a7ce105df1ca2551d8b00101b53c53140a7a27cfbb6d549197a6798b707",
+    "crop_xyxy": [
+      0,
+      0,
+      640,
+      428
+    ],
+    "padding_xy": [
+      0,
+      26
+    ],
+    "padding_canvas": [
+      640,
+      480
+    ],
+    "brightness_contrast_gamma": "none",
+    "stitching": false
+  },
+  {
+    "panel": "d",
+    "det_id": "lvis_000000398377_yw_194724",
+    "source_image_sha256": "b2fce7c24d850739541b77b845303e457b0e689354778b8303f54f94485fac99",
+    "crop_xyxy": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "padding_xy": [
+      0,
+      0
+    ],
+    "padding_canvas": [
+      500,
+      375
+    ],
+    "brightness_contrast_gamma": "none",
+    "stitching": false
+  },
+  {
+    "panel": "e",
+    "det_id": "lvis_000000235836_yw_116701",
+    "source_image_sha256": "2a2269de29e82e4eac88dc306453c3840961ca79626d52f7c700b8c998284801",
+    "crop_xyxy": [
+      0,
+      177,
+      362,
+      449
+    ],
+    "padding_xy": [
+      0,
+      0
+    ],
+    "padding_canvas": [
+      363,
+      273
+    ],
+    "brightness_contrast_gamma": "none",
+    "stitching": false
+  },
+  {
+    "panel": "f",
+    "det_id": "lvis_000000326248_yw_159038",
+    "source_image_sha256": "d93eef38f260cd20b70a58171dcda72ebbcac72b1cf5d1be8583072159917d2f",
+    "crop_xyxy": [
+      218,
+      111,
+      640,
+      427
+    ],
+    "padding_xy": [
+      0,
+      0
+    ],
+    "padding_canvas": [
+      422,
+      317
+    ],
+    "brightness_contrast_gamma": "none",
+    "stitching": false
+  }
+]

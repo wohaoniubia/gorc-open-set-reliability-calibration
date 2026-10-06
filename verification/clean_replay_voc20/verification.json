@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "command": "replay",
+  "dataset": "voc20",
+  "metrics_rows": 10,
+  "calibration_images": 1000,
+  "test_images": 4000,
+  "test_candidate_count": 128494,
+  "empty_images": 4,
+  "full_result_reconciled": true,
+  "max_compiled_score_absolute_error": 5.551115123125783e-16,
+  "max_reconstructed_feature_absolute_error": 0.0,
+  "fixed_score_errors": {
+    "Raw": 0.0,
+    "RF": 0.0,
+    "AP-C": 0.0,
+    "SC": 0.0,
+    "SCG": 0.0
+  },
+  "private_source_read_guard_active": true,
+  "protocol": "explicit complete split population; revised predicted-class TP/all-overlap UFA/GT-independent BG; custom full-candidate101-point AP before acceptance threshold"
+}

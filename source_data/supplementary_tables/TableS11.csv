@@ -1,0 +1,6 @@
+﻿Method,Uses unknown annotations,B,P,R,UFA,BG FP,Full-list AP
+Raw global threshold,Threshold chosen by B,0.7729,0.7384,0.6638,299,2875,0.4859
+Per-class raw thresholds,Thresholds chosen by B,0.7748,0.7649,0.6432,148,2469,0.4859
+"GORC, known-class labels only",No,0.7782,0.7496,0.6632,191,2791,0.4860
+"GORC-RF, full calibration",Yes,0.7789,0.7487,0.6650,176,2828,0.4858
+Full − known-only(95% interval),,"+0.0007 [0.00003, 0.00146]",,,"−15 [−24, −7]","+37 [18, 56]",

@@ -1,0 +1,942 @@
+{
+  "complete": true,
+  "n_runs": 16,
+  "budget_sizes": [
+    25,
+    50,
+    100,
+    250,
+    500,
+    1000
+  ],
+  "seeds": [
+    711,
+    712,
+    713
+  ],
+  "nested_subsets_predeclared": true,
+  "fixed_original_4000_test_population": true,
+  "full_budget_matches_E0": true,
+  "all_input_files_unchanged": true,
+  "all_models_and_policies_budget_calibration_only": true,
+  "fixed_family_C": true,
+  "small_budget_hyperparameter_search": false,
+  "runs": [
+    {
+      "run": "seed711_n25",
+      "complete": true,
+      "fit_ids_sha256": "42bf75dd2b7072a84676d2c0355910ccb34a31d7e1b06ae0b21d4a38d2fca398",
+      "feature_dimension": 230,
+      "n_fit_candidates": 449,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 293,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed712_n25",
+      "complete": true,
+      "fit_ids_sha256": "46002e997c1a24d233a5f7d8e24ea1c9052bdd59b8ef03265f300c75fe27a1c0",
+      "feature_dimension": 219,
+      "n_fit_candidates": 610,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 293,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed713_n25",
+      "complete": true,
+      "fit_ids_sha256": "ffbf0832001d58dcb13545c8e240e25888b7319fd6c44208e871ade76572d6a0",
+      "feature_dimension": 230,
+      "n_fit_candidates": 798,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 297,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed711_n50",
+      "complete": true,
+      "fit_ids_sha256": "c5287a0fc8943cb4b8bebf938791199ff6d2e1dfa443d55f69c3e4e4311abb31",
+      "feature_dimension": 230,
+      "n_fit_candidates": 882,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 297,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed712_n50",
+      "complete": true,
+      "fit_ids_sha256": "a9339df75425e2fc89b570394d626259781c9ad62fe3199d897d3d303b9e6f6d",
+      "feature_dimension": 230,
+      "n_fit_candidates": 1092,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 300,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed713_n50",
+      "complete": true,
+      "fit_ids_sha256": "9d3af6ce3ad244ace200200759698c96ac7c2ac0ca2475ad78c3364473023c07",
+      "feature_dimension": 230,
+      "n_fit_candidates": 1255,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 297,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed711_n100",
+      "complete": true,
+      "fit_ids_sha256": "a40d90dab090b4175e1669ae99e637c181c9ff5a5cdcc40312442af512781766",
+      "feature_dimension": 230,
+      "n_fit_candidates": 1956,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 300,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed712_n100",
+      "complete": true,
+      "fit_ids_sha256": "1be585c7eb6e7674ac81273393f870563b6b6a8e2ffdc458c17356bcaaad8e19",
+      "feature_dimension": 230,
+      "n_fit_candidates": 2403,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 299,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed713_n100",
+      "complete": true,
+      "fit_ids_sha256": "11e646b6d455c08a0723a7745aaea7ac48eadcc1eb6ffbc3f70bad173bb7f29a",
+      "feature_dimension": 230,
+      "n_fit_candidates": 2704,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 299,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed711_n250",
+      "complete": true,
+      "fit_ids_sha256": "935258ab4f4f4fe8519f90cdaf0967979ad8aa6b547f89bee1ea1f60b3cd4e40",
+      "feature_dimension": 230,
+      "n_fit_candidates": 5463,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 300,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed712_n250",
+      "complete": true,
+      "fit_ids_sha256": "583ca7b083485ed38f46ecb20e14a5e3219cb8a248a82c5a4ac26f38429fbf62",
+      "feature_dimension": 230,
+      "n_fit_candidates": 6491,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 299,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed713_n250",
+      "complete": true,
+      "fit_ids_sha256": "f22ab9316c5cdd37b46438ffd04d656b8084eb0a347bf3ca8b9f7623ab72d90a",
+      "feature_dimension": 230,
+      "n_fit_candidates": 6531,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 299,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed711_n500",
+      "complete": true,
+      "fit_ids_sha256": "65b01379735c18eeeb7ae05d14d61c73083a19c638c01d0bd782fc6727c5166e",
+      "feature_dimension": 230,
+      "n_fit_candidates": 11743,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 300,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed712_n500",
+      "complete": true,
+      "fit_ids_sha256": "71e9ca693b1ec8d89a57a86c9a985d17c83bbf231ac46abdad78427c6ab0fc29",
+      "feature_dimension": 230,
+      "n_fit_candidates": 12105,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 300,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "seed713_n500",
+      "complete": true,
+      "fit_ids_sha256": "97e6b3133bfe12bb5698024c7b4b5649f8defe61144e3349c1a45d325e47eca4",
+      "feature_dimension": 230,
+      "n_fit_candidates": 12583,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 300,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    },
+    {
+      "run": "full_n1000",
+      "complete": true,
+      "fit_ids_sha256": "55b55401863543467015b271842f4eb19e91b05683a7d8418fc491cb65c6d154",
+      "feature_dimension": 230,
+      "n_fit_candidates": 24931,
+      "policy_capacity": {
+        "named_streams": 16,
+        "unique_score_streams": 15,
+        "named_policies": 320,
+        "unique_ordered_acceptance_policies": 300,
+        "rules": {
+          "anchors": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "cal_quantiles": [
+            0.25,
+            0.5,
+            0.7,
+            0.8,
+            0.9,
+            0.95
+          ],
+          "include_cal_max": true
+        },
+        "duplicate_streams": {
+          "raw_score": "raw_score",
+          "geometry_risk_score": "geometry_risk_score",
+          "geometry_alpha_0p050": "geometry_alpha_0p050",
+          "geometry_alpha_0p100": "geometry_alpha_0p100",
+          "geometry_alpha_0p200": "geometry_alpha_0p200",
+          "geometry_alpha_0p400": "geometry_alpha_0p400",
+          "geometry_alpha_0p600": "geometry_alpha_0p600",
+          "geometry_alpha_0p800": "geometry_alpha_0p800",
+          "geometry_alpha_1p000": "geometry_risk_score",
+          "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+          "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+          "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+          "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+          "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+          "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+          "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+        }
+      }
+    }
+  ],
+  "method_lock_sha256": "86ee1098f056a16084cef2f90314a4802859d22b4a1de1ca181b021cf0ba2edc",
+  "executed_source_sha256": "b108dc0107f1655f1ac5afa76c18c3927545a5cafd2babd43ba28f417792b92a",
+  "all_run_metrics_sha256": "e0fcb435039ec796a149366a665c489a8d37a6dc2e01bc3d4cbab27976aed6a0",
+  "summary_sha256": "d64184161aedf89e4d7ebc8e326c0dce41974134ba062baf32b1b778143761c8"
+}

@@ -1,0 +1,21 @@
+vocabulary,contrast,metric,observed_difference,ci_low,ci_high,n_boot,seed,bootstrap_population_images,alias_note
+random20_seed611,RF-Raw,precision_recall_unknown_balanced_score,0.01925303803776801,0.011408415213127226,0.02738490432002775,2000,20260930,4000,RF equals SCG_RF; not a separate method
+random20_seed611,RF-Raw,known_precision,0.0258586605267771,0.013553901190332706,0.03915589343545074,2000,20260930,4000,RF equals SCG_RF; not a separate method
+random20_seed611,RF-Raw,known_recall,0.01663798049340226,0.006051056737281113,0.027257544191997943,2000,20260930,4000,RF equals SCG_RF; not a separate method
+random20_seed611,RF-Raw,unknown_false_accept_objects,-182.0,-222.0,-145.0,2000,20260930,4000,RF equals SCG_RF; not a separate method
+random20_seed611,RF-Raw,background_false_accept_count,65.0,-1.0,129.02499999999986,2000,20260930,4000,RF equals SCG_RF; not a separate method
+random20_seed611,AP-C-Raw,precision_recall_unknown_balanced_score,0.020709136240593007,0.013670505854264612,0.028021346099486064,2000,20260930,4000,
+random20_seed611,AP-C-Raw,known_precision,-0.022351221310091818,-0.033013451024539925,-0.012030768394577314,2000,20260930,4000,
+random20_seed611,AP-C-Raw,known_recall,0.0558424172882005,0.04667309546769527,0.06481369404634608,2000,20260930,4000,
+random20_seed611,AP-C-Raw,unknown_false_accept_objects,0.0,-31.025,32.0,2000,20260930,4000,
+random20_seed611,AP-C-Raw,background_false_accept_count,296.0,230.0,365.02499999999986,2000,20260930,4000,
+random20_seed611,SCG-SC,precision_recall_unknown_balanced_score,-0.0016719438482550864,-0.007198639122673883,0.003561760945648161,2000,20260930,4000,
+random20_seed611,SCG-SC,known_precision,-0.016199209219111665,-0.026397779966540136,-0.006786210979829995,2000,20260930,4000,
+random20_seed611,SCG-SC,known_recall,0.006693440428380271,-0.0004107285042076606,0.013605905577489863,2000,20260930,4000,
+random20_seed611,SCG-SC,unknown_false_accept_objects,11.0,-18.0,39.0,2000,20260930,4000,
+random20_seed611,SCG-SC,background_false_accept_count,99.0,50.975,148.0,2000,20260930,4000,
+random20_seed611,SCG_RF-SC_RF,precision_recall_unknown_balanced_score,-0.0016719438482550864,-0.007198639122673883,0.003561760945648161,2000,20260930,4000,
+random20_seed611,SCG_RF-SC_RF,known_precision,-0.016199209219111665,-0.026397779966540136,-0.006786210979829995,2000,20260930,4000,
+random20_seed611,SCG_RF-SC_RF,known_recall,0.006693440428380271,-0.0004107285042076606,0.013605905577489863,2000,20260930,4000,
+random20_seed611,SCG_RF-SC_RF,unknown_false_accept_objects,11.0,-18.0,39.0,2000,20260930,4000,
+random20_seed611,SCG_RF-SC_RF,background_false_accept_count,99.0,50.975,148.0,2000,20260930,4000,

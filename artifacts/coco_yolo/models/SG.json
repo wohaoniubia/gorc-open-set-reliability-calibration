@@ -1,0 +1,98 @@
+{
+  "C": 0.1,
+  "class_weight": "balanced",
+  "solver": "liblinear",
+  "max_iter": 1000,
+  "random_state": 12,
+  "unknown_weight": 2.0,
+  "background_weight": 1.25,
+  "feature_order": [
+    "raw_score",
+    "score_logit",
+    "box_area_norm",
+    "box_aspect_log",
+    "box_width_norm",
+    "box_height_norm",
+    "center_x_norm",
+    "center_y_norm",
+    "edge_min_dist_norm",
+    "edge_contact_count",
+    "pred_label"
+  ],
+  "variant": "SG",
+  "supervision": "full",
+  "numeric": [
+    "raw_score",
+    "score_logit",
+    "box_area_norm",
+    "box_aspect_log",
+    "box_width_norm",
+    "box_height_norm",
+    "center_x_norm",
+    "center_y_norm",
+    "edge_min_dist_norm",
+    "edge_contact_count"
+  ],
+  "with_class": false,
+  "fit_ids_sha256": "55b55401863543467015b271842f4eb19e91b05683a7d8418fc491cb65c6d154",
+  "taxonomy": "revised predicted-class TP, all-overlap UFA, GT-independent BG",
+  "n_fit_images": 1000,
+  "n_fit_candidates": 24931,
+  "positive": 2911,
+  "negative": 22020,
+  "risk_weight_sum": 31461.0,
+  "feature_names": [
+    "num__raw_score",
+    "num__score_logit",
+    "num__box_area_norm",
+    "num__box_aspect_log",
+    "num__box_width_norm",
+    "num__box_height_norm",
+    "num__center_x_norm",
+    "num__center_y_norm",
+    "num__edge_min_dist_norm",
+    "num__edge_contact_count"
+  ],
+  "coef": [
+    [
+      0.5436978502612118,
+      1.8888429101416881,
+      -0.00760125571375901,
+      -0.03157492820126713,
+      -0.10550658863092954,
+      -0.03383736821458227,
+      0.07964292907743777,
+      0.058878970900950164,
+      0.19532529668093426,
+      -0.1279483515087347
+    ]
+  ],
+  "intercept": [
+    -1.734129125532905
+  ],
+  "scaler_mean": [
+    0.10398083172289267,
+    -4.233946229261769,
+    0.05455480465498718,
+    -0.13475523836933087,
+    0.13832743565547662,
+    0.17193685102635747,
+    0.4984756091743987,
+    0.4819739507720647,
+    0.14155273924247277,
+    0.4307488668725683
+  ],
+  "scaler_scale": [
+    0.23121340334800106,
+    2.456886556501506,
+    0.13212030593334373,
+    0.8206023576707063,
+    0.19879765001192432,
+    0.2186989127335875,
+    0.2935317406500367,
+    0.23934512522893975,
+    0.13991860476678117,
+    0.6754752498430383
+  ],
+  "class_encoder_categories": []
+}

@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "C": 0.1,
+  "family": "class_interactions",
+  "dense_feature_dimension": 230,
+  "trained_logistic_parameters": 231,
+  "compiled_numeric_dimension": 10,
+  "dense_raw_path_matches_E0": true,
+  "compiled_raw_path_matches_E0": true,
+  "compiled_primary_runtime_eligible": true,
+  "max_feature_abs_error": 8.992806499463768e-15,
+  "max_dense_score_abs_error": 5.551115123125783e-16,
+  "max_compiled_score_abs_error": 6.106226635438361e-16,
+  "numerical_score_tolerance": 1e-10,
+  "metric_tolerance": 1e-12,
+  "calibration_and_test_operating_and_AP_rows_recomputed": true,
+  "metrics_source": "final_results/E0/coco_yolo; no published metric is replaced by the compiled implementation",
+  "compilation_changes_fitted_parameters": false,
+  "timing_performed": true,
+  "fallback_rule": "If masks or metrics differ, dense reference remains authoritative and compiled timings are supplemental only."
+}

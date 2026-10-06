@@ -1,0 +1,63 @@
+{
+  "source_docx": "manuscript_final_20261006.docx",
+  "source_sha256": "93c165d7c1752f8b7589b961e2859bfbc7c95594a532b173fa6e119abf835f76",
+  "display_values_not_unrounded_results": true,
+  "tables": [
+    {
+      "table": "1",
+      "caption": "Table 1. Feature controls and operating variants.",
+      "file": "source_data/manuscript_tables/Table1.csv",
+      "rows": 5,
+      "columns": 3,
+      "sha256": "5b3339af204dff8e0da35075a51ce783db0891a967139fe5a0e7d521b626a399"
+    },
+    {
+      "table": "2",
+      "caption": "Table 2. Datasets and detector candidate counts.",
+      "file": "source_data/manuscript_tables/Table2.csv",
+      "rows": 3,
+      "columns": 11,
+      "sha256": "4db9bc928cac6b82aa4d78921ea8ff00a0b99baed64b0e090292c9e2cb7e8a40"
+    },
+    {
+      "table": "3",
+      "caption": "Table 3. Main COCO operating points with YOLO-World-l.",
+      "file": "source_data/manuscript_tables/Table3.csv",
+      "rows": 3,
+      "columns": 11,
+      "sha256": "8677f41b258426dbcb51647a35ce8a0233052a3d8ce926b2b698b7e74ca9f0e6"
+    },
+    {
+      "table": "4",
+      "caption": "Table 4. COCO baseline and feature comparisons.",
+      "file": "source_data/manuscript_tables/Table4.csv",
+      "rows": 12,
+      "columns": 8,
+      "sha256": "557204f309163c712de38ac810fe9c925a49193c0008b24628374b2d867e61cb"
+    },
+    {
+      "table": "5",
+      "caption": "Table 5. Fitted model size and complete output-side processing footprint.",
+      "file": "source_data/manuscript_tables/Table5.csv",
+      "rows": 10,
+      "columns": 3,
+      "sha256": "37fe9e8e5c8c7e4c45bf4e26824665228004e0793e2272335ba374a8d64e221d"
+    },
+    {
+      "table": "6",
+      "caption": "Table 6. Selected score policies and calibration criteria.",
+      "file": "source_data/manuscript_tables/Table6.csv",
+      "rows": 9,
+      "columns": 6,
+      "sha256": "4f4500dfd9796f671351877ac4c73a999774762579c53ddf1c004232187be28d"
+    },
+    {
+      "table": "7",
+      "caption": "Table 7. Compact LVIS and Grounding DINO diagnostics.",
+      "file": "source_data/manuscript_tables/Table7.csv",
+      "rows": 5,
+      "columns": 10,
+      "sha256": "11a96b3a7353196fb759cda10e6e133f480f6627066050d5d2b408df02fa0e6b"
+    }
+  ]
+}

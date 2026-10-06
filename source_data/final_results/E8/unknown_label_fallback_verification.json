@@ -1,0 +1,6 @@
+{
+  "complete": true,
+  "test_input_candidates": 16,
+  "max_dense_compiled_absolute_error": 0.0,
+  "implementation": "ignored one-hot maps to global numeric coefficient/intercept row"
+}

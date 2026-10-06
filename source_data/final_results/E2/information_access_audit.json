@@ -1,0 +1,56 @@
+[
+  {
+    "seed": 1201,
+    "label_identity": true,
+    "fit_known_objects": 3471,
+    "known_only_GT_all_known": true,
+    "known_only_candidate_forbidden_columns": [],
+    "cal_ids_hash": "55b55401863543467015b271842f4eb19e91b05683a7d8418fc491cb65c6d154",
+    "test_ids_hash": "8d0041004258122ff2c98d29912eb24f6e46164c663f2abca004199b3a28f8ff"
+  },
+  {
+    "seed": 101,
+    "label_identity": true,
+    "fit_known_objects": 3793,
+    "known_only_GT_all_known": true,
+    "known_only_candidate_forbidden_columns": [],
+    "cal_ids_hash": "3581f63ff80f51466aa793dd65b318236536347bdfca91513968cb545beae09f",
+    "test_ids_hash": "85aac8db5724a0aa587dc53a1f45d911d279b25284134f5c439cbe408ef6f0a2"
+  },
+  {
+    "seed": 202,
+    "label_identity": true,
+    "fit_known_objects": 3741,
+    "known_only_GT_all_known": true,
+    "known_only_candidate_forbidden_columns": [],
+    "cal_ids_hash": "187c6ec3bc962d0fad5447a14dc2cc4d3c1ccf976e03af61be809e32a3052090",
+    "test_ids_hash": "05e6b58a3579456dae83523adcfee6ff8b3c4f8e4032600c29163d0a496a1d3b"
+  },
+  {
+    "seed": 303,
+    "label_identity": true,
+    "fit_known_objects": 3584,
+    "known_only_GT_all_known": true,
+    "known_only_candidate_forbidden_columns": [],
+    "cal_ids_hash": "8db269d07cf448b91a88b4411db02fa413af3b521e25600c67e08d638afe4f76",
+    "test_ids_hash": "5d9a0425da4e74fe71764c2322907db27743d73045156aa171ab2643c2ccd21e"
+  },
+  {
+    "seed": 404,
+    "label_identity": true,
+    "fit_known_objects": 3663,
+    "known_only_GT_all_known": true,
+    "known_only_candidate_forbidden_columns": [],
+    "cal_ids_hash": "52a5dee27e05c0a9bb2cf82d54c73a4cf23f60d15da99dacaaf70968d1b94f0d",
+    "test_ids_hash": "dbe0c7591b184f13e06e2d43d27a46c381f0ff7243f6d2fdc049258d57fc3ca4"
+  },
+  {
+    "seed": 505,
+    "label_identity": true,
+    "fit_known_objects": 3772,
+    "known_only_GT_all_known": true,
+    "known_only_candidate_forbidden_columns": [],
+    "cal_ids_hash": "f8ec141fb27d73f443df9c43c670853eed9c1bfdc39e2fd1d8ad0a46a307af3d",
+    "test_ids_hash": "7a7a5a06623cf823e4d54213ef86735aedb94f07e5f5ced2842dc03194fcd9a5"
+  }
+]

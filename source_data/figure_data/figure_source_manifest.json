@@ -1,0 +1,236 @@
+{
+  "created_at_utc": "2026-09-30T17:58:41.371685+00:00",
+  "primary_recipe": {
+    "locked_date": "2026-10-01",
+    "decision_stage": "After calibration-only enhancement comparison; before evaluating the enhanced candidate on held-out test",
+    "chosen_family": "class_interactions",
+    "C": 0.1,
+    "reason": "Largest mean independent calibration-selection B across the predeclared three500fit/500selection splits; improves on the best additive C control.",
+    "calibration_mean_B": 0.7814942781475089,
+    "delta_cal_B_vs_original_additive_C05": 0.0006851892673463977,
+    "delta_cal_B_vs_best_additive_C1": 0.000523986956494582,
+    "delta_cal_B_vs_matched_interaction_SC": 0.000568953616112311,
+    "held_out_test_used_for_family_or_C_choice": false,
+    "SCG_input": "standardized raw score, logit and eight geometry terms; predicted-class one-hot; class-by-standardized-numeric interactions",
+    "SC_input": "standardized raw score/logit; predicted-class one-hot; class-by-score interactions; no geometry",
+    "primary_SC_dimension": 62,
+    "primary_SCG_dimension": 230,
+    "SG_control": "raw score/logit plus eight geometry terms, no class indicator or interactions, same C and weights",
+    "risk_weights": {
+      "unknown_false_accept": 2.0,
+      "background_false_accept": 1.25,
+      "other": 1.0
+    },
+    "policy_family": "same16 named streams and the same fixed-anchor/cal-quantile threshold construction; B selection and zero-tolerance AP/AP50 gate",
+    "final_validation_required": [
+      "primary and secondary E0/E1",
+      "matched known-only E2",
+      "five vocabulary streams E3",
+      "selection objectives E4",
+      "nested selection E5",
+      "matched threshold E6",
+      "annotation-support E7",
+      "full online E8",
+      "official COCO AP separate check"
+    ],
+    "do_not_reselect_from_final_test_results": true,
+    "original_additive_experiments_retained": true
+  },
+  "source_files": {
+    "[original experiment resource: audit/manuscript_ooxml_inventory.json]": "571e2e3abeb149d474b7fc6c653b56fbb87d0ab706320d71927cbda59528d986",
+    "[original experiment resource: source_snapshot/manuscript.docx]": "dea4dd5f95fbfc3eb76d1a7b66d619ce2cd5277b564fa547df0bf874ea42c1d0",
+    "[original experiment resource: final_results/E0/coco_yolo/integrity.json]": "46b90f6855d0f3c1b6c922d1a9f8f9f511f81321b935b93edd50ed59a54e6720",
+    "[original experiment resource: final_results/E0/coco_yolo/scores.npz]": "96ae8d89454306d343692bcb21c3efd0b18bdfa49058ac20bfd96c75a0c8fcf7",
+    "[original experiment resource: final_results/E0/coco_yolo/score_alignment.csv]": "f2e15370ff45031c022ca9a01b06e3aadb59ebb630912583e3244267d0e8ca85",
+    "[original experiment resource: final_results/E0/coco_yolo/selected_policies.csv]": "ccb73d61f93a98f25c91447e3ac6fe629661b00155dce2acf56c5f7c8526bd2e",
+    "[original experiment resource: final_results/E0/coco_yolo/models/SC.json]": "12e674481be8d56b6d84972fdcb472b384a4cee22cec35984329f8b1c8180230",
+    "[original experiment resource: final_results/E0/coco_yolo/models/SCG.json]": "6c401b4b6a20292985378a37da1c644058211dfde6e8bb0b93e40ea5ca0174fa",
+    "[original project resource: GORC_paper_release_bundle/data_outputs/coco_main/step12c_gorc/csv/step12c_geometry_scored_candidates.csv]": "8e07ccfc6c009abcca95b3564a0a984802659f6785c71dee953a64123fb318ce",
+    "[original experiment resource: final_results/E0/coco_yolo/main_metrics.csv]": "1fdf9e186a01266e26d1178a916ecfda8cb8d0a46af97cd1ac4ecf832c31edc4",
+    "[original experiment resource: results/baselines/metrics.csv]": "b7095d87ef86e68c45f8fb686ee6d7223cc2d535e2507abe02c9e989d6a85b0d",
+    "[original experiment resource: final_results/baselines_matched_score_C01/metrics.csv]": "016954f6c0cb3fca20c188de141d56cb8457539edc2158deadf40da69e1c8042",
+    "[original experiment resource: final_results/E0/coco_yolo/policy_grid_cal.csv]": "401dfc41ebcd14675d870a405819c4f66f0c2c5473390f0d6bddd0b1319ba0d6",
+    "[original experiment resource: final_results/E1/geometry_groups/geometry_group_metrics.csv]": "2f73bec2a72bfdbed04793f90fc497b501f0f58a6a5606fa5e60bb08bf3e8e7a",
+    "[original experiment resource: final_results/E1/geometry_groups/SC_size.json]": "6400152fe820d7015621676749917d844402debb87a218c83abfb6e960869290",
+    "[original experiment resource: final_results/E1/geometry_groups/SC_aspect.json]": "f4d042d86b2ad8bbd940691569e67bc613ffad94ad0846c7fd149e095cc4396d",
+    "[original experiment resource: final_results/E1/geometry_groups/SC_position.json]": "81b5f82c0625b2043e1fb6c5a43e2cdc0314ed802c5d6609319521067200be98",
+    "[original experiment resource: final_results/E1/geometry_groups/SC_boundary.json]": "2188d4cf5a816b8a8cdefcc982e55b24b0afb3ef50a9600fe453fb1c582332b4",
+    "[original experiment resource: final_results/E1/fixed_policy_coco_yolo/paired_CI.csv]": "4c16c30dae98a40793235cb591ae87211cbb19fef138eb547154ff1d8df13aa0",
+    "[original experiment resource: final_results/E1/exact_AP_bootstrap/paired_CI.csv]": "d40c3e3c9100e5c0459754cf644c5e971b7c3a1da8189134332c552586435cfb",
+    "[original experiment resource: final_results/E1/repeated_split_results.csv]": "80f0c130fde11c4d06cf6f062db3f764f8c617d42428be47693310542c9db1e4",
+    "[original experiment resource: final_results/calibration_budget/RF_test_budget_summary.csv]": "2481d51c2ec73f41905aae62ca8d87c40e8700c5ea9948a18d03735250375077",
+    "[original experiment resource: final_results/prompt_stress/prompt_stress_summary.csv]": "1567805c398ee2a33d783d2a3e607d7417e7b05eee73de070344d54a2474a4fb",
+    "[original experiment resource: final_results/E7/all_candidate_annotation_support.csv]": "c3c8ffc4b69c71e848fa6de99d21ad40981a674ddbb6a3cca2eb08e34bea5aeb",
+    "[original experiment resource: audit/final_method_lock.json]": "86ee1098f056a16084cef2f90314a4802859d22b4a1de1ca181b021cf0ba2edc",
+    "[original experiment resource: final_results/reassessment_20261001/submitted_Platt_bridge.csv]": "a1c2484e700342bfca3823e4fbabf25a71e0fdb82286e07195430052fa5a99fe"
+  },
+  "source_data_hashes": {
+    "fig01_workflow_spec.json": "8d52f307c9063d0ae7003e4304ef716b0d725b0bedd516f72436ef8e21e4b9cc",
+    "fig02_taxonomy_contract.json": "f81f787c68ccb97c1249a3b9ed0422636ed123a03af2f5cd19267fc1489d6bfa",
+    "fig03_coco_operating_landscape.csv": "dde0c83f280bd6dafecb3fb81e38feb6248abd3f8cd1aa1eb664794a3565ff1d",
+    "fig04_policy_grid_risk_coverage.csv": "d1b790c53fcdafbe049060b9345f0af8740bdad3302ec1c6f2aa56f0f399c294",
+    "fig04_reliability_score_bins.csv": "3cb93055285922e2d8b7d3900da2bf8dbdaf9e27eb66c3e25b5e496d57e0d63d",
+    "fig05_preference_scores.csv": "56c3a772ee0ffc98bc999e570419a29822bf0e01b334c3e73091ba66a2a4e6a3",
+    "fig05_preference_winners.csv": "1a8b5d059b6bc9dbfe1e75ef059a1f3a485da4b6878567326df1b4fdc2c36400",
+    "fig06_geometry_group_ablation.csv": "17f9722256814022382120ad2d9955ae91981beb9bc1aade51c9f8f5a8821720",
+    "fig07_bootstrap_ci.csv": "b2337f90a7f4c99d156da4c89964721e641895fa434aa6c98d0d7bf3075766a1",
+    "fig07_calibration_budget.csv": "b66cc7a74cfe6ac662881401ca4691ef2c5728daa9665510dd20f25fb96b74b6",
+    "fig07_repeated_split_exact_ap.csv": "f475e7a21306de30616fbb885e73841f25be7567f215da93636281ba8996fa82",
+    "fig07_repeated_split_false_accept_changes.csv": "16e990bae30c6a98e4a8e546521efaf09894149c07c7686eea261de0f00fbb96",
+    "fig08_prompt_stress.csv": "5074fed3637254f49d4a0302a37af1360d4676c32cbf49ed953a605882d72b00",
+    "fig09_crop_manifest.json": "06e7fe97e74aa9b4f784c2ac956970ff0c402b90d97fd8f9bc34f75d051fca7f",
+    "fig09_object_level_verification.json": "46ac632919e347ff34f11f26de39cd2994c1ba4f43ba2573531e1b1f56a0d8b6",
+    "fig09_qualitative_cases_manifest.csv": "be9f8a3957014f8f757dfd18eb48bfb9b18fb5c4e3c45c8e6468c14055790c89"
+  },
+  "submitted_appearance": {
+    "1": {
+      "figure_id": 1,
+      "relationship_id": "rId7",
+      "media_part": "word/media/image1.png",
+      "media_sha256": "558a23b70c32c20da99d482eb4ca29e5750b42715c77986396ebf7e60c5c0a74",
+      "pixel_size": [
+        10819,
+        4165
+      ],
+      "width_EMU": 5486400,
+      "height_EMU": 2112010,
+      "width_mm": 152.4,
+      "height_mm": 58.66694444444445,
+      "aspect_ratio": 2.597714972940469,
+      "reference": "[original experiment resource: figures/qa/appearance_reference/original_Fig1.png]"
+    },
+    "2": {
+      "figure_id": 2,
+      "relationship_id": "rId8",
+      "media_part": "word/media/image2.png",
+      "media_sha256": "b65684f905c82f99a7be7d61b68ef8b88e51f68d83862a1287b5c095f9ce3c7d",
+      "pixel_size": [
+        2229,
+        1031
+      ],
+      "width_EMU": 5486400,
+      "height_EMU": 2537460,
+      "width_mm": 152.4,
+      "height_mm": 70.485,
+      "aspect_ratio": 2.1621621621621623,
+      "reference": "[original experiment resource: figures/qa/appearance_reference/original_Fig2.png]"
+    },
+    "3": {
+      "figure_id": 3,
+      "relationship_id": "rId9",
+      "media_part": "word/media/image3.png",
+      "media_sha256": "92d7a3408091706ac31cd3cc84b5e0ef2e974743b992323db9f4b2d05d0ddc84",
+      "pixel_size": [
+        12299,
+        4250
+      ],
+      "width_EMU": 5486400,
+      "height_EMU": 1895475,
+      "width_mm": 152.4,
+      "height_mm": 52.65208333333333,
+      "aspect_ratio": 2.8944723618090453,
+      "reference": "[original experiment resource: figures/qa/appearance_reference/original_Fig3.png]"
+    },
+    "4": {
+      "figure_id": 4,
+      "relationship_id": "rId10",
+      "media_part": "word/media/image4.png",
+      "media_sha256": "2067d7c81f051e50e3167d3188fb28ce50194de2f0d9c65a712e59890a745fe7",
+      "pixel_size": [
+        1920,
+        1342
+      ],
+      "width_EMU": 5438775,
+      "height_EMU": 3800475,
+      "width_mm": 151.07708333333332,
+      "height_mm": 105.56875,
+      "aspect_ratio": 1.431077694235589,
+      "reference": "[original experiment resource: figures/qa/appearance_reference/original_Fig4.png]"
+    },
+    "5": {
+      "figure_id": 5,
+      "relationship_id": "rId11",
+      "media_part": "word/media/image5.png",
+      "media_sha256": "af3bf9012d0def02e2f871e7f185add9d2b7902967a463a683cfc2e5499ae13e",
+      "pixel_size": [
+        1960,
+        1301
+      ],
+      "width_EMU": 5486400,
+      "height_EMU": 3643175,
+      "width_mm": 152.4,
+      "height_mm": 101.19930555555555,
+      "aspect_ratio": 1.505939187659116,
+      "reference": "[original experiment resource: figures/qa/appearance_reference/original_Fig5.png]"
+    },
+    "6": {
+      "figure_id": 6,
+      "relationship_id": "rId12",
+      "media_part": "word/media/image6.png",
+      "media_sha256": "b0aa20400427d4f33f028b965e5003a6d9cd18167835c970915df785d28e14bc",
+      "pixel_size": [
+        1911,
+        1041
+      ],
+      "width_EMU": 5486400,
+      "height_EMU": 2991485,
+      "width_mm": 152.4,
+      "height_mm": 83.09680555555556,
+      "aspect_ratio": 1.8340055189980895,
+      "reference": "[original experiment resource: figures/qa/appearance_reference/original_Fig6.png]"
+    },
+    "7": {
+      "figure_id": 7,
+      "relationship_id": "rId13",
+      "media_part": "word/media/image7.png",
+      "media_sha256": "98457133835d020d91786a189eec15fb701cd704016f16620cfd24d0546bb5bd",
+      "pixel_size": [
+        1920,
+        1512
+      ],
+      "width_EMU": 5172075,
+      "height_EMU": 4072890,
+      "width_mm": 143.66875,
+      "height_mm": 113.13583333333334,
+      "aspect_ratio": 1.2698783910196445,
+      "reference": "[original experiment resource: figures/qa/appearance_reference/original_Fig7.png]"
+    },
+    "8": {
+      "figure_id": 8,
+      "relationship_id": "rId14",
+      "media_part": "word/media/image8.png",
+      "media_sha256": "8714fdbc7e507835b4aaf606466f642d1eebf74fc97ac2a27fa654c89c3a37b5",
+      "pixel_size": [
+        1920,
+        773
+      ],
+      "width_EMU": 5486400,
+      "height_EMU": 2207895,
+      "width_mm": 152.4,
+      "height_mm": 61.330416666666665,
+      "aspect_ratio": 2.4849007765314925,
+      "reference": "[original experiment resource: figures/qa/appearance_reference/original_Fig8.png]"
+    },
+    "9": {
+      "figure_id": 9,
+      "relationship_id": "rId15",
+      "media_part": "word/media/image9.png",
+      "media_sha256": "7083985524f510fe79164f9dd9b5be57d73dd5c2b8b4b64c93d2676f3fbf8b48",
+      "pixel_size": [
+        10320,
+        6059
+      ],
+      "width_EMU": 5486400,
+      "height_EMU": 3221355,
+      "width_mm": 152.4,
+      "height_mm": 89.48208333333334,
+      "aspect_ratio": 1.7031342400946186,
+      "reference": "[original experiment resource: figures/qa/appearance_reference/original_Fig9.png]"
+    }
+  },
+  "legacy_numeric_results_used": false,
+  "source_script_sha256": "a7ec5ff795950640f6efe5aca3952d85931d6922924c513e27dbffb19eceb17f",
+  "finalized": true,
+  "reassessment": "Figures 3 and 5 include both original-grid and common-grid class-balanced logit controls. Other figure assets retain their prior verified values.",
+  "submission_final_source_script_sha256": "dd00af27655721f8c25d454cda7f240a57b88521f0f8ec986f4ad86e53afb1f0"
+}

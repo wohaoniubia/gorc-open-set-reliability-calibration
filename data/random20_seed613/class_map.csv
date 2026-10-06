@@ -1,0 +1,81 @@
+category_id,raw_name,class_name,role,is_known,supercategory,object_count,image_count
+1,person,person,unknown,False,person,11004,2693
+2,bicycle,bicycle,unknown,False,vehicle,316,149
+3,car,car,known,True,vehicle,1932,535
+4,motorcycle,motorcycle,unknown,False,vehicle,371,159
+5,airplane,airplane,unknown,False,vehicle,143,97
+6,bus,bus,unknown,False,vehicle,285,189
+7,train,train,known,True,vehicle,190,157
+8,truck,truck,known,True,vehicle,415,250
+9,boat,boat,unknown,False,vehicle,430,121
+10,traffic light,traffic_light,unknown,False,outdoor,637,191
+11,fire hydrant,fire_hydrant,unknown,False,outdoor,101,86
+13,stop sign,stop_sign,unknown,False,outdoor,75,69
+14,parking meter,parking_meter,unknown,False,outdoor,60,37
+15,bench,bench,unknown,False,outdoor,413,235
+16,bird,bird,unknown,False,animal,440,125
+17,cat,cat,unknown,False,animal,202,184
+18,dog,dog,unknown,False,animal,218,177
+19,horse,horse,unknown,False,animal,273,128
+20,sheep,sheep,unknown,False,animal,361,65
+21,cow,cow,unknown,False,animal,380,87
+22,elephant,elephant,unknown,False,animal,255,89
+23,bear,bear,known,True,animal,71,49
+24,zebra,zebra,unknown,False,animal,268,85
+25,giraffe,giraffe,unknown,False,animal,232,101
+27,backpack,backpack,unknown,False,accessory,371,228
+28,umbrella,umbrella,unknown,False,accessory,413,174
+31,handbag,handbag,unknown,False,accessory,540,292
+32,tie,tie,unknown,False,accessory,254,145
+33,suitcase,suitcase,unknown,False,accessory,303,105
+34,frisbee,frisbee,unknown,False,sports,115,84
+35,skis,skis,unknown,False,sports,241,120
+36,snowboard,snowboard,known,True,sports,69,49
+37,sports ball,sports_ball,unknown,False,sports,263,169
+38,kite,kite,unknown,False,sports,336,91
+39,baseball bat,baseball_bat,unknown,False,sports,146,97
+40,baseball glove,baseball_glove,unknown,False,sports,148,100
+41,skateboard,skateboard,unknown,False,sports,179,127
+42,surfboard,surfboard,unknown,False,sports,269,149
+43,tennis racket,tennis_racket,unknown,False,sports,225,167
+44,bottle,bottle,unknown,False,kitchen,1025,379
+46,wine glass,wine_glass,unknown,False,kitchen,343,110
+47,cup,cup,unknown,False,kitchen,899,390
+48,fork,fork,unknown,False,kitchen,215,155
+49,knife,knife,unknown,False,kitchen,326,181
+50,spoon,spoon,unknown,False,kitchen,253,153
+51,bowl,bowl,unknown,False,kitchen,626,314
+52,banana,banana,known,True,food,379,103
+53,apple,apple,unknown,False,food,239,76
+54,sandwich,sandwich,known,True,food,177,98
+55,orange,orange,known,True,food,287,85
+56,broccoli,broccoli,known,True,food,316,71
+57,carrot,carrot,known,True,food,371,81
+58,hot dog,hot_dog,known,True,food,127,51
+59,pizza,pizza,known,True,food,285,153
+60,donut,donut,known,True,food,338,62
+61,cake,cake,unknown,False,food,316,124
+62,chair,chair,unknown,False,furniture,1791,580
+63,couch,couch,unknown,False,furniture,261,195
+64,potted plant,potted_plant,unknown,False,furniture,343,172
+65,bed,bed,unknown,False,furniture,163,149
+67,dining table,dining_table,unknown,False,furniture,697,501
+70,toilet,toilet,known,True,furniture,179,149
+72,tv,tv,unknown,False,electronic,288,207
+73,laptop,laptop,known,True,electronic,231,183
+74,mouse,mouse,unknown,False,electronic,106,88
+75,remote,remote,known,True,electronic,283,145
+76,keyboard,keyboard,unknown,False,electronic,153,106
+77,cell phone,cell_phone,unknown,False,electronic,262,214
+78,microwave,microwave,known,True,appliance,55,54
+79,oven,oven,known,True,appliance,143,115
+80,toaster,toaster,unknown,False,appliance,9,8
+81,sink,sink,unknown,False,appliance,225,187
+82,refrigerator,refrigerator,unknown,False,appliance,126,101
+84,book,book,unknown,False,indoor,1161,230
+85,clock,clock,unknown,False,indoor,267,204
+86,vase,vase,unknown,False,indoor,277,137
+87,scissors,scissors,unknown,False,indoor,36,28
+88,teddy bear,teddy_bear,known,True,indoor,191,94
+89,hair drier,hair_drier,known,True,indoor,11,9
+90,toothbrush,toothbrush,unknown,False,indoor,57,34

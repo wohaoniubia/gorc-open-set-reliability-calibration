@@ -1,0 +1,77 @@
+{
+  "complete": true,
+  "n_variants": 3,
+  "all_image_ledgers_cover_400": true,
+  "subset_GT_only": true,
+  "n_subset_images": 400,
+  "n_calibration_images": 100,
+  "n_test_images": 300,
+  "all_calibration_only_refits_and_selections": true,
+  "geometry_recomputed": true,
+  "old_scores_reused": false,
+  "source_annotations_and_raw_caches_unchanged": true,
+  "actual_prompt_strings_bound_to_original_integrity": true,
+  "method_lock_sha256": "86ee1098f056a16084cef2f90314a4802859d22b4a1de1ca181b021cf0ba2edc",
+  "executed_source_sha256": "b108dc0107f1655f1ac5afa76c18c3927545a5cafd2babd43ba28f417792b92a",
+  "variants": [
+    {
+      "prompt_variant": "canonical_periods",
+      "complete": true,
+      "source_hashes": {
+        "[original project resource: outputs/gorc_major_revision_round3/03_prompt_sensitivity/variants/canonical_periods/csv/raw_predictions.csv]": "b56a03b0bba764a9735f12a054b193a060c6f90e44b72aace60470101628aae2",
+        "[original project resource: outputs/gorc_major_revision_round3/03_prompt_sensitivity/variants/canonical_periods/csv/processed_images.csv]": "23684f00fc128ea475934d8c93bcba3f49a3e01983d2c01859bbac0c920318bc"
+      },
+      "raw_candidates": 3914,
+      "post_nms_candidates": 2956,
+      "feature_dimension": 219,
+      "n_fit_candidates": 766,
+      "fit_ids_sha256": "46cfaf09830cc8d15f9ab0fd7833e200775618af0646e1726ae81a0d0c93c3c8",
+      "test_ids_sha256": "758d0d812df21fb9b1d334ec4cd7825a99bc4f579cffcf5e9bcb071494ed37e6",
+      "known_test_GT": 1054,
+      "unknown_test_GT": 1114,
+      "old_geometry_scores_reused": false,
+      "ledger_400_verified": true,
+      "source_cache_unchanged": true
+    },
+    {
+      "prompt_variant": "comma_separated",
+      "complete": true,
+      "source_hashes": {
+        "[original project resource: outputs/gorc_major_revision_round3/03_prompt_sensitivity/variants/comma_separated/csv/raw_predictions.csv]": "640bc85efa681d321b43fda5adf7fc3fb282e93c95e0577a6667764ac946e9e8",
+        "[original project resource: outputs/gorc_major_revision_round3/03_prompt_sensitivity/variants/comma_separated/csv/processed_images.csv]": "926fdb0469cdb98b3a5f72177a4270d43fdc1c2ef44cc9f33618ef0b571d3da8"
+      },
+      "raw_candidates": 610,
+      "post_nms_candidates": 553,
+      "feature_dimension": 131,
+      "n_fit_candidates": 137,
+      "fit_ids_sha256": "46cfaf09830cc8d15f9ab0fd7833e200775618af0646e1726ae81a0d0c93c3c8",
+      "test_ids_sha256": "758d0d812df21fb9b1d334ec4cd7825a99bc4f579cffcf5e9bcb071494ed37e6",
+      "known_test_GT": 1054,
+      "unknown_test_GT": 1114,
+      "old_geometry_scores_reused": false,
+      "ledger_400_verified": true,
+      "source_cache_unchanged": true
+    },
+    {
+      "prompt_variant": "phrase_photo",
+      "complete": true,
+      "source_hashes": {
+        "[original project resource: outputs/gorc_major_revision_round3/03_prompt_sensitivity/variants/phrase_photo/csv/raw_predictions.csv]": "efba1975168fafbe9c69758609633f1338f44edf76cb1f764af39219927e4249",
+        "[original project resource: outputs/gorc_major_revision_round3/03_prompt_sensitivity/variants/phrase_photo/csv/processed_images.csv]": "2329bc256d60ae29735e83afc945fabcfff209b07622e79659dfd45c1adcd341"
+      },
+      "raw_candidates": 99,
+      "post_nms_candidates": 96,
+      "feature_dimension": 76,
+      "n_fit_candidates": 14,
+      "fit_ids_sha256": "46cfaf09830cc8d15f9ab0fd7833e200775618af0646e1726ae81a0d0c93c3c8",
+      "test_ids_sha256": "758d0d812df21fb9b1d334ec4cd7825a99bc4f579cffcf5e9bcb071494ed37e6",
+      "known_test_GT": 1054,
+      "unknown_test_GT": 1114,
+      "old_geometry_scores_reused": false,
+      "ledger_400_verified": true,
+      "source_cache_unchanged": true
+    }
+  ],
+  "all_prompt_metrics_sha256": "7d52a1645f5d36530fedfb808ec4dc5db9a8ff93b85003a7e68a2cfc997a234e",
+  "summary_sha256": "1567805c398ee2a33d783d2a3e607d7417e7b05eee73de070344d54a2474a4fb"
+}

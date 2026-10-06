@@ -1,0 +1,6 @@
+comparison,metric,n_boot,mean_difference,median_difference,CI_low,CI_high,positive_fraction,negative_fraction,zero_fraction,point_difference
+RF minus Raw per-class threshold,precision_recall_unknown_balanced_score,2000,0.004180815190029504,0.004186929105103487,0.0014835141249611161,0.007085895052170069,0.997,0.003,0.0,0.0041618790502533365
+RF minus Raw per-class threshold,known_precision,2000,-0.016172827715757798,-0.016179335071541345,-0.021170147024873687,-0.010879901190553296,0.0,1.0,0.0,-0.01620479352800741
+RF minus Raw per-class threshold,known_recall,2000,0.02180012819572258,0.02169777328700173,0.01793753418313497,0.026020780545320102,1.0,0.0,0.0,0.021793570219966196
+RF minus Raw per-class threshold,unknown_false_accept_objects,2000,27.7105,28.0,8.0,48.0,0.9955,0.0025,0.002,28.0
+RF minus Raw per-class threshold,background_false_accept_count,2000,359.3875,359.0,269.0,449.02499999999986,1.0,0.0,0.0,359.0

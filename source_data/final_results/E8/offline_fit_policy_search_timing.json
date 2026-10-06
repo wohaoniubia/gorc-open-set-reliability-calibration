@@ -1,0 +1,16 @@
+{
+  "C": 0.1,
+  "family": "class_interactions",
+  "dense_dimension": 230,
+  "trained_logistic_parameters": 231,
+  "calibration_images": 1000,
+  "calibration_candidates": 24931,
+  "ranker_fit_including_label_matching_seconds": 0.5293386000012106,
+  "class_prior_including_label_matching_seconds": 0.4156046999996761,
+  "score_all_candidates_dense_seconds": 0.17459550000057789,
+  "cal_evaluator_precompute_seconds": 0.36427919999914593,
+  "policy_grid_AP_selection_seconds": 0.8035297999995237,
+  "class_coefficient_compilation_seconds": 5.5199998314492404e-05,
+  "threads": 1,
+  "repetitions": 1
+}

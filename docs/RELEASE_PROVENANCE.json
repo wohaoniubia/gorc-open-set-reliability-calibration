@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-06",
+  "previous_commit": "7f70dd3d566e377d194371767a7d8c6c2b42994a",
+  "source_reproducibility_zip_sha256": "6c8bf2c3b68be8193edb7e26dcd8a3b18f1c5129ad4290044b2d1446ce0230f8",
+  "manuscript_sha256": "93c165d7c1752f8b7589b961e2859bfbc7c95594a532b173fa6e119abf835f76",
+  "supplement_sha256": "eb245767dd8cd0e1784c5748d8e18033f24b0241d793920b45e7cd526de61cdf",
+  "scientific_results_changed": false,
+  "reviewer_letters_included": false,
+  "prior_markdown_archived": "docs/history/pre_20261006"
+}

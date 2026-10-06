@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "num_vocabulary_runs": 5,
+  "family": "class_interactions",
+  "C": 0.1,
+  "method_lock_sha256": "86ee1098f056a16084cef2f90314a4802859d22b4a1de1ca181b021cf0ba2edc",
+  "detector_manifest_sha256": "8d46fce4bdbf0983b38a0d4cbe7c1c7e32e3912d4a1e74e7de73a3fb82d52e2e",
+  "independently_generated_detector_streams": 5,
+  "num_inference_image_vocabulary_pairs_reused": 25000,
+  "input_inference_files_unchanged": true,
+  "all_models_calibration_only": true,
+  "all_selected_before_enhanced_test": true,
+  "all_policies_same16_stream_family_capacity": true,
+  "bootstrap_replicates": 2000,
+  "core_module_sha256": "d0373559f07f2fe51d3c277aaf8f34b6734f7c1d944c5a13c07102a75a9a3e8c",
+  "enhanced_module_sha256": "43ce81c0d9079bd706554c8cc9d6c62ca0298ae7ff92ae51507e3d50acb789bf",
+  "final_tables": {
+    "all_vocabulary_metrics.csv": "0938cdc32a6c8112ee8b2b97f4f5919ae86a84c7b9fc7ca48b411c1661659547",
+    "all_vocabulary_matched_policy_metrics.csv": "6ebef19d10860feab61089b0bda4af232bed33584fe0a4d92e7ea2f998aa73e9",
+    "all_vocabulary_paired_CI.csv": "fb93591ac9665d9fe380f8d690ebd77103232c0d18e63e13a0a2ada52c3b95ee"
+  }
+}

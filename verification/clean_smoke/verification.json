@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "command": "smoke",
+  "dataset": "coco_yolo",
+  "metrics_rows": 12,
+  "calibration_images": 17,
+  "test_images": 17,
+  "test_candidate_count": 400,
+  "empty_images": 2,
+  "full_result_reconciled": false,
+  "max_compiled_score_absolute_error": 2.220446049250313e-16,
+  "max_reconstructed_feature_absolute_error": 8.881784197001252e-16,
+  "fixed_score_errors": {},
+  "private_source_read_guard_active": true,
+  "protocol": "explicit complete split population; revised predicted-class TP/all-overlap UFA/GT-independent BG; custom full-candidate101-point AP before acceptance threshold"
+}

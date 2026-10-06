@@ -1,0 +1,218 @@
+{
+  "complete": true,
+  "streams": 8,
+  "all_original_source_reads_denied": true,
+  "results": [
+    {
+      "dataset": "coco_yolo",
+      "exit_code": 0,
+      "verification": {
+        "complete": true,
+        "command": "replay",
+        "dataset": "coco_yolo",
+        "metrics_rows": 12,
+        "calibration_images": 1000,
+        "test_images": 4000,
+        "test_candidate_count": 100497,
+        "empty_images": 15,
+        "full_result_reconciled": true,
+        "max_compiled_score_absolute_error": 4.440892098500626e-16,
+        "max_reconstructed_feature_absolute_error": 8.992806499463768e-15,
+        "fixed_score_errors": {
+          "Raw": 0.0,
+          "RF": 0.0,
+          "AP-C": 0.0,
+          "SC": 0.0,
+          "SCG": 0.0,
+          "SG": 0.0
+        },
+        "private_source_read_guard_active": true,
+        "protocol": "explicit complete split population; revised predicted-class TP/all-overlap UFA/GT-independent BG; custom full-candidate101-point AP before acceptance threshold"
+      }
+    },
+    {
+      "dataset": "coco_gdino",
+      "exit_code": 0,
+      "verification": {
+        "complete": true,
+        "command": "replay",
+        "dataset": "coco_gdino",
+        "metrics_rows": 12,
+        "calibration_images": 1000,
+        "test_images": 4000,
+        "test_candidate_count": 28240,
+        "empty_images": 819,
+        "full_result_reconciled": true,
+        "max_compiled_score_absolute_error": 3.885780586188048e-16,
+        "max_reconstructed_feature_absolute_error": 9.381384558082573e-15,
+        "fixed_score_errors": {
+          "Raw": 0.0,
+          "RF": 0.0,
+          "AP-C": 0.0,
+          "SC": 0.0,
+          "SCG": 0.0,
+          "SG": 0.0
+        },
+        "private_source_read_guard_active": true,
+        "protocol": "explicit complete split population; revised predicted-class TP/all-overlap UFA/GT-independent BG; custom full-candidate101-point AP before acceptance threshold"
+      }
+    },
+    {
+      "dataset": "lvis_yolo",
+      "exit_code": 0,
+      "verification": {
+        "complete": true,
+        "command": "replay",
+        "dataset": "lvis_yolo",
+        "metrics_rows": 12,
+        "calibration_images": 105,
+        "test_images": 195,
+        "test_candidate_count": 6010,
+        "empty_images": 0,
+        "full_result_reconciled": true,
+        "max_compiled_score_absolute_error": 7.216449660063518e-16,
+        "max_reconstructed_feature_absolute_error": 5.551115123125783e-15,
+        "fixed_score_errors": {
+          "Raw": 0.0,
+          "RF": 0.0,
+          "AP-C": 0.0,
+          "SC": 1.1102230246251565e-16,
+          "SCG": 0.0,
+          "SG": 0.0
+        },
+        "private_source_read_guard_active": true,
+        "protocol": "explicit complete split population; revised predicted-class TP/all-overlap UFA/GT-independent BG; custom full-candidate101-point AP before acceptance threshold"
+      }
+    },
+    {
+      "dataset": "original20",
+      "exit_code": 0,
+      "verification": {
+        "complete": true,
+        "command": "replay",
+        "dataset": "original20",
+        "metrics_rows": 10,
+        "calibration_images": 1000,
+        "test_images": 4000,
+        "test_candidate_count": 100492,
+        "empty_images": 15,
+        "full_result_reconciled": true,
+        "max_compiled_score_absolute_error": 4.440892098500626e-16,
+        "max_reconstructed_feature_absolute_error": 0.0,
+        "fixed_score_errors": {
+          "Raw": 0.0,
+          "RF": 0.0,
+          "AP-C": 0.0,
+          "SC": 0.0,
+          "SCG": 0.0
+        },
+        "private_source_read_guard_active": true,
+        "protocol": "explicit complete split population; revised predicted-class TP/all-overlap UFA/GT-independent BG; custom full-candidate101-point AP before acceptance threshold"
+      }
+    },
+    {
+      "dataset": "voc20",
+      "exit_code": 0,
+      "verification": {
+        "complete": true,
+        "command": "replay",
+        "dataset": "voc20",
+        "metrics_rows": 10,
+        "calibration_images": 1000,
+        "test_images": 4000,
+        "test_candidate_count": 128494,
+        "empty_images": 4,
+        "full_result_reconciled": true,
+        "max_compiled_score_absolute_error": 5.551115123125783e-16,
+        "max_reconstructed_feature_absolute_error": 0.0,
+        "fixed_score_errors": {
+          "Raw": 0.0,
+          "RF": 0.0,
+          "AP-C": 0.0,
+          "SC": 0.0,
+          "SCG": 0.0
+        },
+        "private_source_read_guard_active": true,
+        "protocol": "explicit complete split population; revised predicted-class TP/all-overlap UFA/GT-independent BG; custom full-candidate101-point AP before acceptance threshold"
+      }
+    },
+    {
+      "dataset": "random20_seed611",
+      "exit_code": 0,
+      "verification": {
+        "complete": true,
+        "command": "replay",
+        "dataset": "random20_seed611",
+        "metrics_rows": 10,
+        "calibration_images": 1000,
+        "test_images": 4000,
+        "test_candidate_count": 86924,
+        "empty_images": 26,
+        "full_result_reconciled": true,
+        "max_compiled_score_absolute_error": 5.551115123125783e-16,
+        "max_reconstructed_feature_absolute_error": 0.0,
+        "fixed_score_errors": {
+          "Raw": 0.0,
+          "RF": 0.0,
+          "AP-C": 0.0,
+          "SC": 0.0,
+          "SCG": 0.0
+        },
+        "private_source_read_guard_active": true,
+        "protocol": "explicit complete split population; revised predicted-class TP/all-overlap UFA/GT-independent BG; custom full-candidate101-point AP before acceptance threshold"
+      }
+    },
+    {
+      "dataset": "random20_seed612",
+      "exit_code": 0,
+      "verification": {
+        "complete": true,
+        "command": "replay",
+        "dataset": "random20_seed612",
+        "metrics_rows": 10,
+        "calibration_images": 1000,
+        "test_images": 4000,
+        "test_candidate_count": 92126,
+        "empty_images": 43,
+        "full_result_reconciled": true,
+        "max_compiled_score_absolute_error": 4.440892098500626e-16,
+        "max_reconstructed_feature_absolute_error": 0.0,
+        "fixed_score_errors": {
+          "Raw": 0.0,
+          "RF": 0.0,
+          "AP-C": 0.0,
+          "SC": 0.0,
+          "SCG": 0.0
+        },
+        "private_source_read_guard_active": true,
+        "protocol": "explicit complete split population; revised predicted-class TP/all-overlap UFA/GT-independent BG; custom full-candidate101-point AP before acceptance threshold"
+      }
+    },
+    {
+      "dataset": "random20_seed613",
+      "exit_code": 0,
+      "verification": {
+        "complete": true,
+        "command": "replay",
+        "dataset": "random20_seed613",
+        "metrics_rows": 10,
+        "calibration_images": 1000,
+        "test_images": 4000,
+        "test_candidate_count": 60985,
+        "empty_images": 122,
+        "full_result_reconciled": true,
+        "max_compiled_score_absolute_error": 4.440892098500626e-16,
+        "max_reconstructed_feature_absolute_error": 0.0,
+        "fixed_score_errors": {
+          "Raw": 0.0,
+          "RF": 0.0,
+          "AP-C": 0.0,
+          "SC": 0.0,
+          "SCG": 0.0
+        },
+        "private_source_read_guard_active": true,
+        "protocol": "explicit complete split population; revised predicted-class TP/all-overlap UFA/GT-independent BG; custom full-candidate101-point AP before acceptance threshold"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿Method,Role / features,B,P,R,UFA,BG FP,AP
+Raw global threshold,Cal-selected baseline,0.7729,0.7384,0.6638,299,2875,0.4859
+Raw per-class threshold,Cal-selected class baseline,0.7748,0.7649,0.6432,148,2469,0.4859
+Ordinary Platt/logistic,Unweighted score-logit baseline,0.7725,0.7272,0.6728,315,3090,0.4859
+"Class-balanced logit, fine grid",C=0.5; 22 anchors + 25 quantiles + extrema,0.7692,0.7734,0.6285,231,2232,0.4859
+"Class-balanced logit, common grid",C=0.5; common 20-threshold grid,0.7731,0.7347,0.6675,302,2945,0.4859
+Positive temperature scaling,Cal-NLL score transform,0.7730,0.7355,0.6665,302,2930,0.4859
+Isotonic regression,Cal monotone score transform,0.7725,0.7426,0.6592,286,2792,0.4855
+Score-only risk logistic,Matched C and risk weighting,0.7727,0.7404,0.6617,292,2836,0.4859
+GORC-SC,Score/class interaction control,0.7791,0.7484,0.6654,169,2833,0.4859
+GORC-SG,Score/geometry without class,0.7736,0.7381,0.6636,235,2960,0.4833
+GORC-SCG,Full direct ranking mode,0.7792,0.7488,0.6646,145,2848,0.4803
+GORC-RF / AP-C,B selection; same AP-gated policy,0.7789,0.7487,0.6650,176,2828,0.4858

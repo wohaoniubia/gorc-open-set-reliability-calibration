@@ -1,0 +1,7 @@
+﻿Mode,Implementation,Median (ms),95th percentile (ms),Per image (ms)
+SCG,Dense,169.0,173.8,0.0423
+RF,Dense,166.3,172.1,0.0416
+AP-C,Dense,167.0,172.7,0.0417
+SCG,Folded,31.8,33.5,0.0080
+RF,Folded,32.1,33.1,0.0080
+AP-C,Folded,32.0,33.5,0.0080

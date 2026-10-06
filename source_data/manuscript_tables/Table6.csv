@@ -1,0 +1,10 @@
+﻿Dataset / detector,Mode,Selected score family / key setting,Threshold,Calibration selection rule,AP / AP50 tolerance
+COCO / YOLO-World-l,GORC-SCG,Direct SCG score,0.8000,cal B over direct score,none
+COCO / YOLO-World-l,GORC-RF,Blend (α=0.8),0.7000,max cal B,none
+COCO / YOLO-World-l,GORC-AP-C,Blend (α=0.8),0.7000,AP/AP50 gate then cal B,zero
+LVIS / YOLO-World-l,GORC-SCG,Direct SCG score,0.9000,cal B over direct score,none
+LVIS / YOLO-World-l,GORC-RF,Blend (α=0.8),0.8000,max cal B,none
+LVIS / YOLO-World-l,GORC-AP-C,Blend (α=0.8),0.8000,AP/AP50 gate then cal B,0.005
+COCO / Grounding DINO tiny,GORC-SCG,Direct SCG score,0.5000,cal B over direct score,none
+COCO / Grounding DINO tiny,GORC-RF,Direct SCG score,0.5000,max cal B,none
+COCO / Grounding DINO tiny,GORC-AP-C,Direct SCG score,0.5000,AP/AP50 gate then cal B,zero

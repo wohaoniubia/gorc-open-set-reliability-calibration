@@ -1,0 +1,4 @@
+﻿Prompt format,"Candidates on all 400 images, before / after suppression",B: Raw → RF,Full-list AP: Raw → RF,UFA: Raw → RF,BG FP: Raw → RF,RF policy
+"Period-separated (""person. bicycle. …"")",3914 / 2956,0.7477 → 0.7483,0.4712 → 0.4768,0 → 2,262 → 331,"Direct, τ = 0.50"
+"Comma-separated (""person, bicycle, …"")",610 / 553,0.0155 → 0.0000,0.0090 → 0.0055,119 → 2,67 → 3,"Direct, τ = 0.80"
+"Photo phrases (""a photo of a person"", …)",99 / 96,0.1167 → 0.0278,0.0800 → 0.0769,8 → 0,26 → 6,"Blend α = 0.8, τ = 0.50"

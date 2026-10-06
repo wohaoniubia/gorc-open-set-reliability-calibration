@@ -1,0 +1,12 @@
+{
+  "n_images": 1000,
+  "n_candidates": 24931,
+  "n_gt": 7393,
+  "n_test_annotations_opened": 0,
+  "n_cal_annotations_opened": 1000,
+  "test_candidate_rows_discarded": 100497,
+  "cal_ids_sha256": "55b55401863543467015b271842f4eb19e91b05683a7d8418fc491cb65c6d154",
+  "cache_sha256": "8e07ccfc6c009abcca95b3564a0a984802659f6785c71dee953a64123fb318ce",
+  "candidate_features_from_existing_cache": true,
+  "legacy_cached_risk_labels_read": false
+}

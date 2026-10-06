@@ -1,0 +1,11 @@
+{
+  "known_TP": "predicted-class one-to-one IoU>=.50 match",
+  "UFA": "union of all overlapped annotated unknown objects by accepted non-TP boxes; object-level",
+  "BG_FP": "accepted box with no known or unknown GT overlap at IoU>=.50; detection-level",
+  "BG_affects_B_via_precision": true,
+  "independent_BG_cost_absent_from_unweighted_B": true,
+  "aspect_cue": "log(pixel box width / pixel box height), not normalized width/height ratio",
+  "boundary_min_cue": "min nonnegative pixel gap / min(image width,image height)",
+  "near_edge_count_cue": "number of sides with gap<=0.015*max(image width,image height)",
+  "schematic_icons_do_not_assign_primary_dataset_known_class_membership": true
+}

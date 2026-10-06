@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "raw_UFA_objects": 299,
+  "RF_UFA_objects": 176,
+  "shown_unknown_objects_have_no_RF_nonTP_accepted_overlap_at_IoU50": true,
+  "shown_suppressed_boxes_below_fixed_RF_threshold": true,
+  "BG_definition": "no known or unknown GT overlap at IoU .50, independent of known matching occupancy",
+  "examples_are_selected_qualitative_cases_not_random_semantic_audit": true
+}

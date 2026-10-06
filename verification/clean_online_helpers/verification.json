@@ -1,0 +1,51 @@
+{
+  "complete": true,
+  "command": "verify-online",
+  "dataset": "coco_yolo",
+  "private_source_read_guard_active": true,
+  "original_timing_helpers_match_frozen_acceptance": true,
+  "rows": [
+    {
+      "method": "SCG",
+      "implementation": "dense_reference",
+      "accepted_count": 16123,
+      "max_score_error": 3.3306690738754696e-16,
+      "mask_identical": true
+    },
+    {
+      "method": "RF",
+      "implementation": "dense_reference",
+      "accepted_count": 16129,
+      "max_score_error": 4.440892098500626e-16,
+      "mask_identical": true
+    },
+    {
+      "method": "AP-C",
+      "implementation": "dense_reference",
+      "accepted_count": 16129,
+      "max_score_error": 4.440892098500626e-16,
+      "mask_identical": true
+    },
+    {
+      "method": "SCG",
+      "implementation": "compiled_class_coefficients",
+      "accepted_count": 16123,
+      "max_score_error": 4.440892098500626e-16,
+      "mask_identical": true
+    },
+    {
+      "method": "RF",
+      "implementation": "compiled_class_coefficients",
+      "accepted_count": 16129,
+      "max_score_error": 3.3306690738754696e-16,
+      "mask_identical": true
+    },
+    {
+      "method": "AP-C",
+      "implementation": "compiled_class_coefficients",
+      "accepted_count": 16129,
+      "max_score_error": 3.3306690738754696e-16,
+      "mask_identical": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "model_score_max_absolute_errors": {
+    "Score-only balanced logistic": 0.0,
+    "Ordinary Platt/logistic": 0.0,
+    "Positive temperature scaling": 0.0,
+    "Isotonic regression": 0.0
+  },
+  "calibration_fit_ids_match": true,
+  "raw_class_acceptance_stream_identical": true,
+  "calibration_coordinate_B_non_decreasing": true,
+  "recomputed_metric_rows": 10,
+  "max_metric_absolute_error": 1.1102230246251565e-16,
+  "AP_raw_class_baseline_uses_unthresholded_full_raw_scores": true
+}

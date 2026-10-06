@@ -1,0 +1,15 @@
+{
+  "model_family": "class_interactions",
+  "C": 0.1,
+  "annotation_objects": 36781,
+  "known_objects": 18246,
+  "unknown_objects": 18535,
+  "annotation_source": "[original project resource: outputs/step12a_coco_val_openset_protocol/annotations]",
+  "full_GT": "all known and unknown protocol annotations, including already matched objects",
+  "policy_source": "[original experiment resource: final_results/E0/coco_yolo/selected_policies.csv]",
+  "policy_selection": "calibration-only final E0 policies, frozen across IoU .5 and .75",
+  "unit": "BG detections, UFA distinct annotated unknown objects, candidate-level label transitions",
+  "interpretation": "Annotation support cannot establish semantic background or quantify unannotated-object contamination.",
+  "no_object_relabelling_performed": true,
+  "traceability_sample_seed": 20260930
+}

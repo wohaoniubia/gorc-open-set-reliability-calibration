@@ -1,0 +1,88 @@
+{
+  "C": 0.1,
+  "class_weight": "balanced",
+  "solver": "liblinear",
+  "max_iter": 1000,
+  "random_state": 12,
+  "unknown_weight": 2.0,
+  "background_weight": 1.25,
+  "feature_order": [
+    "raw_score",
+    "score_logit",
+    "box_area_norm",
+    "box_aspect_log",
+    "box_width_norm",
+    "box_height_norm",
+    "center_x_norm",
+    "center_y_norm",
+    "edge_min_dist_norm",
+    "edge_contact_count",
+    "pred_label"
+  ],
+  "family": "class_interactions",
+  "variant": "SC",
+  "supervision": "full",
+  "fit_ids_sha256": "87182a22e5a56a652b52f6d3579101dca5dc0287bfcbeed42be0ea68ea196c4c",
+  "n_fit_images": 105,
+  "n_fit_candidates": 3086,
+  "profile_shrinkage": 20.0,
+  "profile_min_scale_fraction": 0.1,
+  "profile_fit_source": "known TP fit detections only",
+  "feature_names": [
+    "raw_score",
+    "score_logit",
+    "class=bottle",
+    "class=bowl",
+    "class=chair",
+    "class=cup",
+    "class=bottle*raw_score",
+    "class=bottle*score_logit",
+    "class=bowl*raw_score",
+    "class=bowl*score_logit",
+    "class=chair*raw_score",
+    "class=chair*score_logit",
+    "class=cup*raw_score",
+    "class=cup*score_logit"
+  ],
+  "feature_dimension": 14,
+  "class_conditioned_geometry": false,
+  "class_score_interactions": true,
+  "profile_geometry": false,
+  "taxonomy": "revised",
+  "n_fit_known_tp": 103,
+  "coef": [
+    [
+      0.18067536925268768,
+      1.4280372475759187,
+      -0.5953703214758195,
+      -0.8188798407860317,
+      0.3676524948407156,
+      -0.7479576062841956,
+      0.03599327799191444,
+      0.2349497903352252,
+      -0.0067159597411147074,
+      0.5346591244521322,
+      0.03304950602238221,
+      0.34354713939052084,
+      0.11834854497935292,
+      0.3148811933980582
+    ]
+  ],
+  "intercept": [
+    -1.7945552737052737
+  ],
+  "scaler_mean": [
+    0.10364372591166351,
+    -4.068311732367505
+  ],
+  "scaler_scale": [
+    0.20944490635663962,
+    2.337171642055496
+  ],
+  "categories": [
+    "bottle",
+    "bowl",
+    "chair",
+    "cup"
+  ]
+}

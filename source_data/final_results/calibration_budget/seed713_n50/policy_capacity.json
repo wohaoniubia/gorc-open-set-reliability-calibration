@@ -1,0 +1,50 @@
+{
+  "named_streams": 16,
+  "unique_score_streams": 15,
+  "named_policies": 320,
+  "unique_ordered_acceptance_policies": 297,
+  "rules": {
+    "anchors": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "cal_quantiles": [
+      0.25,
+      0.5,
+      0.7,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "include_cal_max": true
+  },
+  "duplicate_streams": {
+    "raw_score": "raw_score",
+    "geometry_risk_score": "geometry_risk_score",
+    "geometry_alpha_0p050": "geometry_alpha_0p050",
+    "geometry_alpha_0p100": "geometry_alpha_0p100",
+    "geometry_alpha_0p200": "geometry_alpha_0p200",
+    "geometry_alpha_0p400": "geometry_alpha_0p400",
+    "geometry_alpha_0p600": "geometry_alpha_0p600",
+    "geometry_alpha_0p800": "geometry_alpha_0p800",
+    "geometry_alpha_1p000": "geometry_risk_score",
+    "class_reliability_gamma_0p250": "class_reliability_gamma_0p250",
+    "class_reliability_gamma_0p500": "class_reliability_gamma_0p500",
+    "class_reliability_gamma_0p750": "class_reliability_gamma_0p750",
+    "class_reliability_gamma_1p000": "class_reliability_gamma_1p000",
+    "raw_light_geom_gate_0p050": "raw_light_geom_gate_0p050",
+    "raw_light_geom_gate_0p100": "raw_light_geom_gate_0p100",
+    "raw_light_geom_gate_0p200": "raw_light_geom_gate_0p200"
+  }
+}

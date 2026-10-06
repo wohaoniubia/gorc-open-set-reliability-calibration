@@ -1,0 +1,13 @@
+raw_name,safe_name,lvis_category_id,role,local_class_id
+bottle,bottle,133,known,0
+cup,cup,344,known,1
+chair,chair,232,known,2
+bowl,bowl,139,known,3
+apple,apple,12,unknown,4
+banana,banana,45,unknown,5
+orange_(fruit),orange_fruit,735,unknown,6
+plate,plate,818,unknown,7
+fork,fork,469,unknown,8
+vase,vase,1139,unknown,9
+glass_(drink_container),glass_drink_container,498,unknown,10
+knife,knife,615,unknown,11

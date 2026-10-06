@@ -1,0 +1,6 @@
+﻿Variant,Inputs and role,Calibration selection
+SC,Confidence and class terms; matched control,Choose a direct-score threshold by B
+SG,Confidence and geometry; no class terms,Choose a direct-score threshold by B
+SCG,Full class-conditioned ranker; direct variant,Choose a direct-score threshold by B
+RF,Shared full ranker and policy families,Choose the score policy and threshold by B
+AP-C,Same policy families as RF,"Apply the calibration AP/AP50 gate, then choose by B"

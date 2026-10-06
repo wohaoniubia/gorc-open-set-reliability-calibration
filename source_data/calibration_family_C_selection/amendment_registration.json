@@ -1,0 +1,76 @@
+{
+  "amendment_date": "2026-10-01",
+  "amendment_reason": "Assess class-conditioned geometry beyond class offsets, comparing enhanced candidates on calibration images only. No enhanced held-out result is consulted.",
+  "inputs": "Only original 1000 calibration images, fixed cached boxes/classes/raw scores and their calibration GT",
+  "test_images_permitted": 0,
+  "families": [
+    "additive",
+    "class_interactions",
+    "class_profile",
+    "interactions_profile"
+  ],
+  "C_values": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "variants": [
+    "SC",
+    "SCG"
+  ],
+  "seeds": [
+    777,
+    778,
+    779
+  ],
+  "fit_images_per_seed": 500,
+  "selection_images_per_seed": 500,
+  "feature_definitions": {
+    "additive": "raw score, logit, class offsets, eight geometry features for SCG",
+    "class_interactions": "additive plus class×standardized score/logit; SCG additionally class×all eight standardized geometry features",
+    "class_profile": "additive; SCG adds eight absolute standardized deviations from fit known-TP class geometry profiles and their diagonal Euclidean distance",
+    "interactions_profile": "class interactions plus the same nine geometry profile features in SCG"
+  },
+  "matched_SC": "Delete every geometry term and profile term; retain class×score/logit in interaction families",
+  "profile": {
+    "source": "fit known-TP detections only",
+    "prior_pseudocount": 20.0,
+    "min_scale_fraction_global": 0.1,
+    "min_absolute_scale": 1e-06,
+    "extra_feature_scaler": "fit candidates only"
+  },
+  "other_parameters": {
+    "C": 0.5,
+    "class_weight": "balanced",
+    "solver": "liblinear",
+    "max_iter": 1000,
+    "random_state": 12,
+    "unknown_weight": 2.0,
+    "background_weight": 1.25,
+    "feature_order": [
+      "raw_score",
+      "score_logit",
+      "box_area_norm",
+      "box_aspect_log",
+      "box_width_norm",
+      "box_height_norm",
+      "center_x_norm",
+      "center_y_norm",
+      "edge_min_dist_norm",
+      "edge_contact_count",
+      "pred_label"
+    ]
+  },
+  "policy_grid": "same 16 streams and anchors/cal-quantiles/max rule for each fitted model",
+  "objective": "largest mean formal selection B across three splits; ties lower mean BG, then higher mean project AP, then fewer features and fixed family/C order",
+  "enhancement_acceptance": "Enhanced family must exceed best additive family mean B by more than 1e-12; otherwise retain the additive family",
+  "baseline_reference_C": 0.5,
+  "baseline_C_sensitivity": true,
+  "heldout_lock_required_after_this_stage": true,
+  "uncertainty": "three internal splits overlap; results are model selection diagnostics rather than independent replications",
+  "implementation_sha256": {
+    "enhanced_rankers.py": "43ce81c0d9079bd706554c8cc9d6c62ca0298ae7ff92ae51507e3d50acb789bf",
+    "run_enhancement_selection.py": "c60ff6db34d233db9920a8798cbf372c0e95ef0b55e1046b2f2140d4003f770c"
+  }
+}

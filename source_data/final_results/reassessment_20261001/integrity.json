@@ -1,0 +1,32 @@
+{
+  "no_new_detector_inference": true,
+  "no_new_main_policy_selection": true,
+  "original_Platt_row_exactly_reproduced": true,
+  "paired_bootstrap_repeats": 2000,
+  "paired_seed": 20261001,
+  "all_test_images_including_empty": true,
+  "LVIS_annotation_support_not_semantic_reannotation": true,
+  "complete": true,
+  "script_sha256": "b1efa7661e61a3222f8fbf2d56bb534bcd9cfd058a38536d5f6bfb23bd6cebae",
+  "outputs": {
+    "corrected_label_fit_submitted_threshold_grid_cal.csv": "2f0fcbb793ae251a1bf4d98bc151dd99522da028ebbcf71ec399ef13cbf9c1aa",
+    "LVIS_BG_cross_annotation_detections.csv": "e2750b17ff070c71dad445f49d355f98276fd880d7d4964ddc7b1b2183a9e48d",
+    "LVIS_BG_cross_annotation_summary.csv": "e93a6653dcaaa0f83e0147ecd9a0917898f3ac863d39480bd35f404650f000be",
+    "LVIS_cross_annotation_protocol.json": "b86adb719930ec7f96c5a854510bb764bf29f273c5120000bd42007c0c3b44a0",
+    "nested_AP_gate_comparison.csv": "45676e020052d58ba695e08627f0f5e8cca982fda00d2367c676f95d1c1f0bf0",
+    "original_recipe_recalibrated.joblib": "b114d964f7d69f6215f53f264c1c44151567fd5216abd9927788b21da16afe7f",
+    "original_recipe_recalibration_grid_cal.csv": "4341c9a3c072b9baad2835e4023a8e9bb5cffb1759f0343eed89918676411fde",
+    "original_recipe_selected_policy.json": "ade3355a752cfd40ccf061bb3201d8957505b437e780a10d939f93f2d8e4659a",
+    "original_recipe_training_labels.csv": "cc338a789d11f7e2eb7abed037f60dcd16fc879a5363bea23873274e67ec0a99",
+    "RF_vs_perclass_bootstrap_replicates.csv": "f621beaffd49cdc8756631f926cf25e796eea6b0c55f0e2a26c16acf09c0f3e1",
+    "RF_vs_perclass_full_list_AP_CI.csv": "4ec031180c05a125d66833a9c1de21a4eba8055d379d4b4f1656dc9aba8849b5",
+    "RF_vs_perclass_metrics.csv": "0e9c25fada2064a0575b400af936ed81973cdf9b686e12d236cebdb4be09000b",
+    "RF_vs_perclass_paired_CI.csv": "784463dc5c7dfba644c7d8e4f627f4cb99063f72f05e0143df56ae330ed83a41",
+    "submitted_fit_original_evaluator_grid_cal.csv": "8655bf25103d4381499935aa2d4e47cd966be180ae6480fd5e0e2674f2370113",
+    "submitted_fit_reselection_grid_cal.csv": "08fc644c6e250491237a04af68c7c188cf74c806276342c8cadd1f2d396fd775",
+    "submitted_fit_submitted_threshold_grid_cal.csv": "980167792ee33a2152ebb1ffedb655edd66cb949d724f51f8a42c53eba5b9889",
+    "submitted_Platt_bridge.csv": "a1c2484e700342bfca3823e4fbabf25a71e0fdb82286e07195430052fa5a99fe",
+    "submitted_threshold_grid_verification.json": "6f4e99bd3b6099065a309ecb21711ab061e05d385a0e06ec6a1a85a232ed32ac"
+  },
+  "archive_note": "Historical experiment hashes bind the original outputs before path anonymization. MANIFEST.json binds actual package files."
+}

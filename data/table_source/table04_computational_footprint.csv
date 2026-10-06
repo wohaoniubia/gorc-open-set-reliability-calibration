@@ -1,9 +1,0 @@
-﻿Item,Value,Scope
-Detector access,output-only,"boxes, labels, and scores"
-Detector reruns,0,cached candidate stream reused
-Detector modifications,none,"no weights, prompts, proposals, or NMS changes"
-Feature dimension,30,COCO / YOLO-World-l full feature vector
-Model parameters,31,logistic ranker including intercept
-Standardization + scoring + filtering,0.056984 s,"preconstructed cached feature rows; excludes feature construction, fitting, grid search, disk I/O, image loading, detector inference, and detector NMS"
-Per-image post-hoc time,0.0114 ms/image,5000-image cached COCO stream; same timing scope
-Relative overhead,0.0243%,"relative to measured detector-output generation time; detector time excluded from numerator"

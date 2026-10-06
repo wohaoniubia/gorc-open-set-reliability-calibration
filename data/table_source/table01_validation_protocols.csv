@@ -1,4 +1,0 @@
-﻿protocol,detector,images_cal,images_test,known_classes,unknown_classes,known_gt_test,unknown_gt_test,candidates_all,candidates_test,raw_accepted_test,notes
-COCO-Val-OpenSet-5K,YOLO-World-l,1000,4000,20,60,14775,14613,125428 (24931 cal + 100497 test),100497,13283,Primary public-scale validation.
-LVIS-Clear-Mini-300,YOLO-World-l,105,195,4,8,218,207,9096 (3086 cal + 6010 test),6010,286,Compact secondary analysis.
-COCO-Val-OpenSet-5K,Grounding DINO tiny,1000,4000,20,60,14775,14613,35488 (7248 cal + 28240 test),28240,14060,Detector-interface and prompt-stress diagnostic.

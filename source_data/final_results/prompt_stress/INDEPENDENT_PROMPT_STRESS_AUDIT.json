@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "n_variants": 3,
+  "checks": [
+    {
+      "prompt_variant": "canonical_periods",
+      "raw_NMS_geometry_reconstruction_verified": true,
+      "source_COCO_subset_GT_exact_ids_labels_boxes": true,
+      "all_400_ledger_images_verified": true,
+      "model_round_trip_scores_verified": true,
+      "calibration_only_labels_prior_verified": true,
+      "policy_cal_grid_reselection_verified": true,
+      "full_300_test_metrics_AP_verified": true,
+      "summary_deltas_and_actual_prompt_verified": true
+    },
+    {
+      "prompt_variant": "comma_separated",
+      "raw_NMS_geometry_reconstruction_verified": true,
+      "source_COCO_subset_GT_exact_ids_labels_boxes": true,
+      "all_400_ledger_images_verified": true,
+      "model_round_trip_scores_verified": true,
+      "calibration_only_labels_prior_verified": true,
+      "policy_cal_grid_reselection_verified": true,
+      "full_300_test_metrics_AP_verified": true,
+      "summary_deltas_and_actual_prompt_verified": true
+    },
+    {
+      "prompt_variant": "phrase_photo",
+      "raw_NMS_geometry_reconstruction_verified": true,
+      "source_COCO_subset_GT_exact_ids_labels_boxes": true,
+      "all_400_ledger_images_verified": true,
+      "model_round_trip_scores_verified": true,
+      "calibration_only_labels_prior_verified": true,
+      "policy_cal_grid_reselection_verified": true,
+      "full_300_test_metrics_AP_verified": true,
+      "summary_deltas_and_actual_prompt_verified": true
+    }
+  ],
+  "n_images": 400,
+  "n_test_images": 300,
+  "n_GT": 2906,
+  "GT_source_original_COCO_sha256": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+  "subset_GT_exact_verified": true,
+  "full_5000_GT_not_used_in_metric_denominators": true,
+  "scope": "actual Grounding DINO prompts and original output mapping; 100cal/300test diagnostic only"
+}

@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "private_source_read_guard_active": true,
+  "isolated_copy_outside_original_project": true,
+  "checks": [
+    {
+      "file": "submitted_Platt_bridge.csv",
+      "rows": 9,
+      "maximum_numeric_difference": 0.0
+    },
+    {
+      "file": "RF_vs_perclass_metrics.csv",
+      "rows": 2,
+      "maximum_numeric_difference": 0.0
+    },
+    {
+      "file": "RF_vs_perclass_paired_CI.csv",
+      "rows": 5,
+      "maximum_numeric_difference": 0.0
+    },
+    {
+      "file": "LVIS_BG_cross_annotation_detections.csv",
+      "rows": 8172,
+      "maximum_numeric_difference": 0.0
+    },
+    {
+      "file": "LVIS_BG_cross_annotation_summary.csv",
+      "rows": 3,
+      "maximum_numeric_difference": 0.0
+    },
+    {
+      "file": "nested_AP_gate_comparison.csv",
+      "rows": 12,
+      "maximum_numeric_difference": 0.0
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "source_docx": "ESM_1_final_20261006.docx",
+  "source_sha256": "eb245767dd8cd0e1784c5748d8e18033f24b0241d793920b45e7cd526de61cdf",
+  "display_values_not_unrounded_results": true,
+  "tables": [
+    {
+      "table": "Notation",
+      "caption": "Notation. Unless stated otherwise, results refer to YOLO-World-l on the 4000 COCO test images, with matching at IoU 0.50.",
+      "file": "source_data/supplementary_tables/TableNotation.csv",
+      "rows": 13,
+      "columns": 2,
+      "sha256": "77f07d521f427ef5986e697f88e47a7ee63c9ef97a0d7936ae006c5370afb909"
+    },
+    {
+      "table": "S1",
+      "caption": "Table S1. Score functions and thresholds searched during policy selection.",
+      "file": "source_data/supplementary_tables/TableS1.csv",
+      "rows": 6,
+      "columns": 4,
+      "sha256": "8b58abc574203b61b1bc8b7bce8ad571ede7b5ce87bed5118793002210f411fc"
+    },
+    {
+      "table": "S2",
+      "caption": "Table S2. Mean selection B of the 16 ranker configurations on three internal calibration splits.",
+      "file": "source_data/supplementary_tables/TableS2.csv",
+      "rows": 4,
+      "columns": 5,
+      "sha256": "92474e6c24c1e93ccf454054c29b8296bb66aa01a7c4ebc5e3100f1e57490433"
+    },
+    {
+      "table": "S3",
+      "caption": "Table S3. Detector and inference settings.",
+      "file": "source_data/supplementary_tables/TableS3.csv",
+      "rows": 11,
+      "columns": 3,
+      "sha256": "126de58186b2d41c959b7a575fbff70edc5053999f2252804a936a3528cf46fc"
+    },
+    {
+      "table": "S4",
+      "caption": "Table S4. Known classes in each vocabulary.",
+      "file": "source_data/supplementary_tables/TableS4.csv",
+      "rows": 6,
+      "columns": 3,
+      "sha256": "015747ed75faeee5d039e256680982b39d9d00ee2b75bb18cbb9821123392fc7"
+    },
+    {
+      "table": "S5",
+      "caption": "Table S5. Paired differences with 95% image-bootstrap intervals (COCO, YOLO-World-l).",
+      "file": "source_data/supplementary_tables/TableS5.csv",
+      "rows": 8,
+      "columns": 3,
+      "sha256": "0c70acad92104d93032f44f20c4904f6c1a75397f8162a738191517e85b9d72c"
+    },
+    {
+      "table": "S6",
+      "caption": "Table S6. Effect of adding geometry to the matched SC model (SCG \u2212 SC), with 95% intervals.",
+      "file": "source_data/supplementary_tables/TableS6.csv",
+      "rows": 3,
+      "columns": 8,
+      "sha256": "9596a8d1e88d726b02db544081f6922139b4db1899b5fa899ba6aca2e092d724"
+    },
+    {
+      "table": "S7",
+      "caption": "Table S7. Raw, SC and SCG (= RF = AP-C) on five repeated calibration/test splits.",
+      "file": "source_data/supplementary_tables/TableS7.csv",
+      "rows": 6,
+      "columns": 8,
+      "sha256": "358117aba7ced306c1255a4e2132b9eb798207d8672f7d9747092fd62d199013"
+    },
+    {
+      "table": "S8",
+      "caption": "Table S8. Adding each geometry group to SC (COCO, YOLO-World-l).",
+      "file": "source_data/supplementary_tables/TableS8.csv",
+      "rows": 5,
+      "columns": 6,
+      "sha256": "e56b9f0e2158f28756b1bf00ba077626f0f1a12b1efb8861ed33431673146640"
+    },
+    {
+      "table": "S9",
+      "caption": "Table S9. Per-class effect of geometry (SCG \u2212 SC; COCO, YOLO-World-l).",
+      "file": "source_data/supplementary_tables/TableS9.csv",
+      "rows": 20,
+      "columns": 7,
+      "sha256": "92fe2d83f41c7699dc033ebe1c8b379544d673ef218567b7c2fdf80062d6be6c"
+    },
+    {
+      "table": "S10",
+      "caption": "Table S10. GORC-RF versus per-class raw thresholds, with 95% paired intervals.",
+      "file": "source_data/supplementary_tables/TableS10.csv",
+      "rows": 6,
+      "columns": 4,
+      "sha256": "b32e25984496dcd6c4ebefc1d3b8defaaacaf709dfdbad0ba22fbc17e44bac5f"
+    },
+    {
+      "table": "S11",
+      "caption": "Table S11. Calibration with and without annotated unknown objects.",
+      "file": "source_data/supplementary_tables/TableS11.csv",
+      "rows": 5,
+      "columns": 8,
+      "sha256": "c4f1ec67c2d664d830d1b5e4079fe171a18caddff76aa2aa5cb5eca5abce707e"
+    },
+    {
+      "table": "S12",
+      "caption": "Table S12. Effect of risk weights and selection criterion on the selected policy.",
+      "file": "source_data/supplementary_tables/TableS12.csv",
+      "rows": 4,
+      "columns": 6,
+      "sha256": "15d29f6a0b82a36b8b436ee0e24f32b8d682701ec3c72fc620e0b32b2dc5b180"
+    },
+    {
+      "table": "S13",
+      "caption": "Table S13. Raw and GORC-RF on five known-class vocabularies, with the distinct AP-C policy shown separately (test images).",
+      "file": "source_data/supplementary_tables/TableS13.csv",
+      "rows": 6,
+      "columns": 6,
+      "sha256": "3984da981653dce00151861851ac17fb5d7de62f04e441943ec89396b72cbd11"
+    },
+    {
+      "table": "S14",
+      "caption": "Table S14. GORC-RF with smaller calibration sets (mean \u00b1 standard deviation over three subsets).",
+      "file": "source_data/supplementary_tables/TableS14.csv",
+      "rows": 6,
+      "columns": 5,
+      "sha256": "f3e2e02a0189e901df36728cb925b6201dc0c08967092d6f612726b7d60a631b"
+    },
+    {
+      "table": "S15",
+      "caption": "Table S15. Nested configuration, fitting and policy selection (test results).",
+      "file": "source_data/supplementary_tables/TableS15.csv",
+      "rows": 3,
+      "columns": 7,
+      "sha256": "ed2e94061bf5a0eb9b9aa84bd0c658b3f998cfeccbe5e08d1fb7e03b42e5791f"
+    },
+    {
+      "table": "S16",
+      "caption": "Table S16. Policies selected under alternative calibration criteria (test results).",
+      "file": "source_data/supplementary_tables/TableS16.csv",
+      "rows": 7,
+      "columns": 7,
+      "sha256": "73d99e0bdd4ac296329fa07873654e0fc7d926e13cabb9992aebe57708dbd440"
+    },
+    {
+      "table": "S17",
+      "caption": "Table S17. Preference-weighted risk of the fixed policies (lower is better).",
+      "file": "source_data/supplementary_tables/TableS17.csv",
+      "rows": 13,
+      "columns": 8,
+      "sha256": "a303398b28492d0d994df9db29e62a31686b46e97e9b26235204448012ff29b5"
+    },
+    {
+      "table": "S18",
+      "caption": "Table S18. Test results at thresholds matched to Raw on the calibration images.",
+      "file": "source_data/supplementary_tables/TableS18.csv",
+      "rows": 8,
+      "columns": 9,
+      "sha256": "33582ee66977343627b8b3402564fb09b55a6d7df5c3d390ab62b1c1ad51b32a"
+    },
+    {
+      "table": "S19",
+      "caption": "Table S19. Official COCO evaluation (pycocotools) of full candidate lists and accepted sets.",
+      "file": "source_data/supplementary_tables/TableS19.csv",
+      "rows": 5,
+      "columns": 6,
+      "sha256": "b6f7c6bcc78864323584d926ac0efd17128ec2a983c6550e62be7dfa7b295e49"
+    },
+    {
+      "table": "S20",
+      "caption": "Table S20. Fixed policies evaluated at IoU 0.50 and 0.75.",
+      "file": "source_data/supplementary_tables/TableS20.csv",
+      "rows": 4,
+      "columns": 6,
+      "sha256": "124b5bfffd77d20babd304578622788b0c3277e0079ae6610cb6dc9a6367a56a"
+    },
+    {
+      "table": "S21a",
+      "caption": "Table S21. Annotation support and author inspection of BG FP boxes. (a) Matches to LVIS annotations (IoU \u2265 0.50).",
+      "file": "source_data/supplementary_tables/TableS21a.csv",
+      "rows": 3,
+      "columns": 5,
+      "sha256": "db731a77a1a896aca5f69b57c91691190fd5cf755e90fd0b0bdea86d54a7c06d"
+    },
+    {
+      "table": "S21b",
+      "caption": "Table S21 (continued). (b) Author inspection of the 150 sampled RF background detections.",
+      "file": "source_data/supplementary_tables/TableS21b.csv",
+      "rows": 5,
+      "columns": 3,
+      "sha256": "b0cce52f52dc925c98a3738572571eb424632d3ec071e591503d7d48b479badc"
+    },
+    {
+      "table": "S22",
+      "caption": "Table S22. Grounding DINO with three prompt formats (300 test images).",
+      "file": "source_data/supplementary_tables/TableS22.csv",
+      "rows": 3,
+      "columns": 7,
+      "sha256": "6343bf9f6bda5741e8ea14b9aff54128a799ecea74969782643aa6183ccfae8b"
+    },
+    {
+      "table": "S23",
+      "caption": "Table S23. Processing time for all 100,497 test candidates (4000 images, one CPU thread).",
+      "file": "source_data/supplementary_tables/TableS23.csv",
+      "rows": 6,
+      "columns": 5,
+      "sha256": "664584f0962e2cf036ae94e699b57eca52caf3ef3dd9a1748b7a8f08a80809c2"
+    }
+  ]
+}

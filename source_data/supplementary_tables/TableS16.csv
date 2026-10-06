@@ -1,0 +1,8 @@
+﻿Calibration criterion,Selected policy,B,P,R,UFA,BG FP
+"B, weights P:R:URR = 1:1:1 (RF)","Blend α = 0.8, τ = 0.70",0.7789,0.7487,0.6650,176,2828
+Weights 1:1:2,"Blend α = 0.8, τ = 0.70",0.7789,0.7487,0.6650,176,2828
+Weights 2:1:1,"Direct, τ = 0.90",0.7680,0.8181,0.5959,83,1686
+Weights 1:2:1,"Direct, τ = 0.70",0.7727,0.6945,0.7008,223,3967
+B with BG budget of Raw,"Blend α = 0.8, τ = 0.70",0.7789,0.7487,0.6650,176,2828
+B with BG budget of ordinary Platt,"Blend α = 0.8, τ = 0.70",0.7789,0.7487,0.6650,176,2828
+B with BG budget of per-class thresholds,"Direct, τ = 0.894",0.7700,0.8123,0.6028,86,1776

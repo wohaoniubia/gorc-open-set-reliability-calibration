@@ -1,0 +1,14 @@
+﻿Term,Meaning
+Raw,Detector confidence with one global threshold chosen on calibration images
+SC,"Ranker using confidence and predicted class, with class-specific confidence coefficients"
+SG,"Ranker using confidence and box geometry, without class terms"
+SCG,"Full ranker using confidence, predicted class and geometry, with class-specific coefficients"
+RF,Mode that selects the score function and threshold with the highest calibration B
+AP-C,RF restricted to policies meeting the calibration AP and AP50 tolerances relative to Raw (Table 6 of the paper)
+"P, R",Precision and recall for known classes
+UFA,Number of annotated unknown objects covered by at least one accepted false detection
+BG FP,Number of accepted detections with IoU below the matching threshold for every annotated object
+URR,"Unknown reject rate, 1 − UFA/ (number of annotated unknown objects)"
+B,"Harmonic mean of P, R and URR"
+Full-list AP,AP computed on all candidate detections before the acceptance threshold
+Accepted-set AP,AP computed only on the detections that pass the threshold

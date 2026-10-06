@@ -1,0 +1,4 @@
+﻿preference,lowest_risk_policy,best_gorc_mode,scope
+Unknown-risk heavy,GORC-SCG,GORC-SCG,"fixed previously calibration-selected policies; illustrative different-unit normalized preference, not cal reselection"
+Background-risk heavy,"Class-balanced logit, fine grid",GORC-RF; GORC-AP-C,"fixed previously calibration-selected policies; illustrative different-unit normalized preference, not cal reselection"
+Coverage-sensitive,Ordinary Platt/logistic,GORC-RF; GORC-AP-C,"fixed previously calibration-selected policies; illustrative different-unit normalized preference, not cal reselection"

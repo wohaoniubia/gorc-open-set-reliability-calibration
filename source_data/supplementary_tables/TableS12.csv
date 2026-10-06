@@ -1,0 +1,5 @@
+﻿Risk weights,Selection criterion,Selected policy,B,UFA,BG FP
+With unknown/background weights,F1,"Blend α = 0.8, τ = 0.70",0.7789,176,2828
+With unknown/background weights,B,"Blend α = 0.8, τ = 0.70",0.7789,176,2828
+Uniform,F1,"Blend α = 0.8, τ = 0.70",0.7782,191,2791
+Uniform,B,"Blend α = 0.8, τ = 0.70",0.7782,191,2791

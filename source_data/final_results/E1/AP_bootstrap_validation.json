@@ -1,0 +1,22 @@
+{
+  "direct_step8j_cloned_population_match": true,
+  "replicate": [
+    0,
+    1,
+    1,
+    3,
+    4,
+    4,
+    7,
+    0
+  ],
+  "n_images": 8,
+  "n_clones": 8,
+  "AP": {
+    "AP50": 0.5702204148986327,
+    "AP75": 0.4873143564356436,
+    "AP": 0.45564533239038196
+  },
+  "sorting": "pandas original quicksort per cloned class stream",
+  "matching": "independent clone GT; ten original custom AP IoUs"
+}

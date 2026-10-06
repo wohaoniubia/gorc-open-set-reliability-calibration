@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "n_boot": 500,
+  "n_test_images": 4000,
+  "seed": 61302,
+  "exact_custom_AP": true,
+  "official_COCOeval": false,
+  "cloned_GT_rematched": true,
+  "elapsed_seconds": 73.8329598903656,
+  "archive_note": "Historical experiment hashes bind the original outputs before path anonymization. MANIFEST.json binds actual package files."
+}

@@ -1,0 +1,176 @@
+{
+  "registered_date": "2026-09-30",
+  "stage": "before_new_held_out_results",
+  "primary_recipe": {
+    "numeric_features": [
+      "raw_score",
+      "score_logit",
+      "box_area_norm",
+      "box_aspect_log",
+      "box_width_norm",
+      "box_height_norm",
+      "center_x_norm",
+      "center_y_norm",
+      "edge_min_dist_norm",
+      "edge_contact_count"
+    ],
+    "class_encoding": "one-hot predicted permitted class; fit on calibration images only",
+    "C": 0.5,
+    "solver": "liblinear",
+    "class_weight": "balanced",
+    "max_iter": 1000,
+    "random_state": 12,
+    "risk_type_sample_weights": {
+      "unknown_false_accept": 2.0,
+      "background_false_accept": 1.25,
+      "other": 1.0
+    },
+    "SCG_RF_shared_ranker": true,
+    "SC_ablation": "same recipe, remove the eight geometry terms only",
+    "SG_ablation": "same recipe, remove class indicator only",
+    "selection_recipe_chosen_from_test_results": false
+  },
+  "revised_metric_definition": {
+    "known_TP": "score-ranked one-to-one matching to ground truth of the predicted known class at reliability IoU",
+    "UFA": "number of distinct annotated unknown ground-truth objects overlapped at or above reliability IoU by at least one accepted non-TP detection; all overlapping unknown objects are counted in the union",
+    "BG_FP": "number of accepted non-TP detections with no known-object and no annotated-unknown-object overlap at or above reliability IoU; support is tested against all ground-truth objects, including already matched known objects",
+    "wrong_class_duplicates": "affect precision; excluded from BG when supported by any known overlap",
+    "legacy_reconciliation_required": true,
+    "training_labels": "recompute known TP/rest on fit images using raw-score ranking and revised known matching",
+    "unknown_free_label_identity_test": true,
+    "reliability_IoU": 0.5,
+    "fixed_policy_IoU_sensitivity": 0.75,
+    "AP": "retain project class-wise 101-point IoU0.50:0.95 fixed-candidate evaluator; explicitly describe it and separately identify any official COCO evaluation"
+  },
+  "experiments": {
+    "E1": {
+      "image_split_seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "operating_bootstrap_replicates": 1000,
+      "exact_AP_bootstrap_replicates": 500,
+      "secondary_detector": "Grounding DINO COCO"
+    },
+    "E2": {
+      "full_vs_strict_known_only": true,
+      "selection_full": "B",
+      "selection_known_only": "known F1",
+      "same_family_hyperparameter_threshold_rules": true,
+      "mechanism_factors": [
+        "risk_type_weighting off/on",
+        "F1/B policy selection"
+      ],
+      "class_prior_isolation": true
+    },
+    "E3": {
+      "known_sets": [
+        "original actual20",
+        "standard VOC20",
+        "random611",
+        "random612",
+        "random613"
+      ],
+      "random_generator": "numpy.default_rng on sorted actual COCO category IDs; choose20 without replacement; sort prompt by category ID",
+      "new_detector_streams": true,
+      "same_primary_image_split": true
+    },
+    "E4": {
+      "PRU_weight_combinations": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "BG_constraints": [
+        "cal Raw BG/image",
+        "cal Platt BG/image"
+      ],
+      "reselect_on_calibration": true
+    },
+    "E5": {
+      "inner_split_seeds": [
+        777,
+        778,
+        779
+      ],
+      "fit_images": 500,
+      "selection_images": 500,
+      "full_policy_families": true,
+      "same500fit_in_sample_selection_control": true,
+      "1000fit_same_sample_selection_reference": true,
+      "no_refit_after_threshold_selection": true
+    },
+    "E6": {
+      "targets": [
+        "cal Raw known recall",
+        "cal Raw accepted count"
+      ],
+      "freeze_selected_score_transform": true,
+      "thresholds_selected_on_cal_only": true,
+      "report_test_actual_match": true,
+      "matched_rows_distinguished_from_original_modes": true
+    },
+    "E7": {
+      "human_manual_audit": false,
+      "annotation_support_diagnostics": true,
+      "no_relabelled_UFA_without_object_ground_truth": true
+    },
+    "E8": {
+      "online_scope": "boxes/labels/scores/image dimensions to feature construction, scoring/fusion and filtering",
+      "warmup": 10,
+      "repetitions": 100,
+      "offline_fit_and_search_reported_separately": true
+    },
+    "C_sensitivity": {
+      "values": [
+        0.1,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "only_cal_internal_selection": true
+    }
+  },
+  "enhancement_amendment": {
+    "date": "2026-10-01",
+    "reason": "User requests a substantive attempt to improve gains before narrowing claims; reviewers question whether geometry contributes beyond score/class.",
+    "candidate_designs": [
+      "locked additive baseline",
+      "class-by-score and class-by-geometry interactions with matched SC score-interaction control",
+      "known-TP class geometry profile with shrinkage20 to global profile"
+    ],
+    "C_candidates": [
+      0.1,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "selection_data": "original1000 calibration only; three500fit500selection splits777/778/779",
+    "primary_selection_objective": "mean independent calibration-selection B; ties lower BG and then higher calibration AP",
+    "held_out_test_used_to_choose_candidate_or_C": false,
+    "report_selection_before_test_evaluation": true,
+    "geometry_ablation_capacity_control": "SC includes the same class-by-score mechanism; only geometric features or class-by-geometry blocks differ",
+    "fallback": "If no enhanced design improves independent calibration-selection B, retain the original locked baseline. Do not search until held-out significance is obtained."
+  },
+  "archive_note": "Scientific fields of the initial revision protocol; private author workflow instructions are omitted. final_method_lock.json binds the amended primary family/C."
+}

@@ -1,0 +1,21 @@
+vocabulary,contrast,metric,observed_difference,ci_low,ci_high,n_boot,seed,bootstrap_population_images,alias_note
+original20,RF-Raw,precision_recall_unknown_balanced_score,0.006116715354666291,0.003963424339213856,0.008336122987480633,2000,20260930,4000,RF equals SCG_RF; not a separate method
+original20,RF-Raw,known_precision,0.010393447011936674,0.006683842416838231,0.014573627867393637,2000,20260930,4000,RF equals SCG_RF; not a separate method
+original20,RF-Raw,known_recall,0.0012859560067681741,-0.0018123480040334622,0.004327794237165107,2000,20260930,4000,RF equals SCG_RF; not a separate method
+original20,RF-Raw,unknown_false_accept_objects,-124.0,-150.0,-99.0,2000,20260930,4000,RF equals SCG_RF; not a separate method
+original20,RF-Raw,background_false_accept_count,-47.0,-109.0,11.0,2000,20260930,4000,RF equals SCG_RF; not a separate method
+original20,AP-C-Raw,precision_recall_unknown_balanced_score,0.006116715354666291,0.003963424339213856,0.008336122987480633,2000,20260930,4000,
+original20,AP-C-Raw,known_precision,0.010393447011936674,0.006683842416838231,0.014573627867393637,2000,20260930,4000,
+original20,AP-C-Raw,known_recall,0.0012859560067681741,-0.0018123480040334622,0.004327794237165107,2000,20260930,4000,
+original20,AP-C-Raw,unknown_false_accept_objects,-124.0,-150.0,-99.0,2000,20260930,4000,
+original20,AP-C-Raw,background_false_accept_count,-47.0,-109.0,11.0,2000,20260930,4000,
+original20,SCG-SC,precision_recall_unknown_balanced_score,0.0002491249190245126,-0.002008927805403002,0.0024865152745787798,2000,20260930,4000,
+original20,SCG-SC,known_precision,0.0006070513917990628,-0.00347368400373283,0.004739037251892934,2000,20260930,4000,
+original20,SCG-SC,known_recall,-0.0006768189509306355,-0.003757351879136775,0.0024687848377666043,2000,20260930,4000,
+original20,SCG-SC,unknown_false_accept_objects,-24.0,-41.0,-9.0,2000,20260930,4000,
+original20,SCG-SC,background_false_accept_count,12.0,-54.0,76.0,2000,20260930,4000,
+original20,SCG_RF-SC_RF,precision_recall_unknown_balanced_score,-5.122205121010914e-05,-0.0019777830741967485,0.0019147739349392842,2000,20260930,4000,
+original20,SCG_RF-SC_RF,known_precision,0.0004364886331295059,-0.0031073558979789278,0.00399084570513481,2000,20260930,4000,
+original20,SCG_RF-SC_RF,known_recall,-0.0002707275803722764,-0.0028379860779913697,0.002380378647833777,2000,20260930,4000,
+original20,SCG_RF-SC_RF,unknown_false_accept_objects,6.0,-8.0,21.0,2000,20260930,4000,
+original20,SCG_RF-SC_RF,background_false_accept_count,-6.0,-64.0,51.0,2000,20260930,4000,

@@ -1,0 +1,36 @@
+{
+  "locked_date": "2026-10-01",
+  "decision_stage": "After calibration-only enhancement comparison; before evaluating the enhanced candidate on held-out test",
+  "chosen_family": "class_interactions",
+  "C": 0.1,
+  "reason": "Largest mean independent calibration-selection B across the predeclared three500fit/500selection splits; improves on the best additive C control.",
+  "calibration_mean_B": 0.7814942781475089,
+  "delta_cal_B_vs_original_additive_C05": 0.0006851892673463977,
+  "delta_cal_B_vs_best_additive_C1": 0.000523986956494582,
+  "delta_cal_B_vs_matched_interaction_SC": 0.000568953616112311,
+  "held_out_test_used_for_family_or_C_choice": false,
+  "SCG_input": "standardized raw score, logit and eight geometry terms; predicted-class one-hot; class-by-standardized-numeric interactions",
+  "SC_input": "standardized raw score/logit; predicted-class one-hot; class-by-score interactions; no geometry",
+  "primary_SC_dimension": 62,
+  "primary_SCG_dimension": 230,
+  "SG_control": "raw score/logit plus eight geometry terms, no class indicator or interactions, same C and weights",
+  "risk_weights": {
+    "unknown_false_accept": 2.0,
+    "background_false_accept": 1.25,
+    "other": 1.0
+  },
+  "policy_family": "same16 named streams and the same fixed-anchor/cal-quantile threshold construction; B selection and zero-tolerance AP/AP50 gate",
+  "final_validation_required": [
+    "primary and secondary E0/E1",
+    "matched known-only E2",
+    "five vocabulary streams E3",
+    "selection objectives E4",
+    "nested selection E5",
+    "matched threshold E6",
+    "annotation-support E7",
+    "full online E8",
+    "official COCO AP separate check"
+  ],
+  "do_not_reselect_from_final_test_results": true,
+  "original_additive_experiments_retained": true
+}

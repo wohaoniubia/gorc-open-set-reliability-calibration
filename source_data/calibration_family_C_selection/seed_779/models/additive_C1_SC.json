@@ -1,0 +1,121 @@
+{
+  "C": 1.0,
+  "class_weight": "balanced",
+  "solver": "liblinear",
+  "max_iter": 1000,
+  "random_state": 12,
+  "unknown_weight": 2.0,
+  "background_weight": 1.25,
+  "feature_order": [
+    "raw_score",
+    "score_logit",
+    "box_area_norm",
+    "box_aspect_log",
+    "box_width_norm",
+    "box_height_norm",
+    "center_x_norm",
+    "center_y_norm",
+    "edge_min_dist_norm",
+    "edge_contact_count",
+    "pred_label"
+  ],
+  "variant": "SC",
+  "supervision": "full",
+  "numeric": [
+    "raw_score",
+    "score_logit"
+  ],
+  "with_class": true,
+  "fit_ids_sha256": "42267e7253c4ee6a61336bda0a2ca5c66848f13fc52811ea39430bff39c7a1a7",
+  "taxonomy": "revised predicted-class TP, all-overlap UFA, GT-independent BG",
+  "n_fit_images": 500,
+  "n_fit_candidates": 12361,
+  "positive": 1409,
+  "negative": 10952,
+  "risk_weight_sum": 15613.25,
+  "feature_names": [
+    "num__raw_score",
+    "num__score_logit",
+    "cat__pred_label_airplane",
+    "cat__pred_label_bench",
+    "cat__pred_label_bicycle",
+    "cat__pred_label_bird",
+    "cat__pred_label_boat",
+    "cat__pred_label_bus",
+    "cat__pred_label_car",
+    "cat__pred_label_cat",
+    "cat__pred_label_cow",
+    "cat__pred_label_dog",
+    "cat__pred_label_fire_hydrant",
+    "cat__pred_label_horse",
+    "cat__pred_label_motorcycle",
+    "cat__pred_label_parking_meter",
+    "cat__pred_label_person",
+    "cat__pred_label_sheep",
+    "cat__pred_label_stop_sign",
+    "cat__pred_label_traffic_light",
+    "cat__pred_label_train",
+    "cat__pred_label_truck"
+  ],
+  "coef": [
+    [
+      0.6039500769081387,
+      1.8021663191669155,
+      -0.38366678224084827,
+      -1.1963521564756836,
+      0.3324288436144695,
+      1.1458073015164218,
+      0.14308666891495933,
+      -0.30538868039535244,
+      0.4094352030485207,
+      -0.27958871091723647,
+      -1.1590663343812353,
+      -0.030028923155253497,
+      0.7447088530312367,
+      -1.2751977730305526,
+      -9.425548809673112e-05,
+      -1.2148068801046494,
+      0.30626883891153694,
+      0.7828889478432763,
+      -1.1964171820156122,
+      0.45264907822039485,
+      0.16249312458603876,
+      0.6499339539409565
+    ]
+  ],
+  "intercept": [
+    -1.9109068645760083
+  ],
+  "scaler_mean": [
+    0.10223714813775617,
+    -4.2163236095766115
+  ],
+  "scaler_scale": [
+    0.2283373519357358,
+    2.4287989949726345
+  ],
+  "class_encoder_categories": [
+    [
+      "airplane",
+      "bench",
+      "bicycle",
+      "bird",
+      "boat",
+      "bus",
+      "car",
+      "cat",
+      "cow",
+      "dog",
+      "fire_hydrant",
+      "horse",
+      "motorcycle",
+      "parking_meter",
+      "person",
+      "sheep",
+      "stop_sign",
+      "traffic_light",
+      "train",
+      "truck"
+    ]
+  ]
+}

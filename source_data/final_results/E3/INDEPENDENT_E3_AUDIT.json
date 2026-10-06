@@ -1,0 +1,79 @@
+{
+  "complete": true,
+  "passed": true,
+  "chosen_family": "class_interactions",
+  "C": 0.1,
+  "method_lock_sha256": "86ee1098f056a16084cef2f90314a4802859d22b4a1de1ca181b021cf0ba2edc",
+  "checks": [
+    {
+      "vocabulary": "original20",
+      "input_candidate_ledger_GT_files_hash_unchanged": true,
+      "every_saved_output_hash_verified": true,
+      "both_models_family_C_weights_and_calibration_IDs_verified": true,
+      "both_models_have_identical_calibration_training_labels": true,
+      "dimensions_SC": 62,
+      "dimensions_SCG": 230,
+      "all_primary_direct_and_matched_policies_reselected_from_cal_only_grids": true,
+      "same_named_policy_capacity": 320,
+      "bootstrap_2000_replicates_4000_images_all_CIs_recomputed": true,
+      "RF_SCG_RF_alias_metrics_identical": true
+    },
+    {
+      "vocabulary": "voc20",
+      "input_candidate_ledger_GT_files_hash_unchanged": true,
+      "every_saved_output_hash_verified": true,
+      "both_models_family_C_weights_and_calibration_IDs_verified": true,
+      "both_models_have_identical_calibration_training_labels": true,
+      "dimensions_SC": 62,
+      "dimensions_SCG": 230,
+      "all_primary_direct_and_matched_policies_reselected_from_cal_only_grids": true,
+      "same_named_policy_capacity": 320,
+      "bootstrap_2000_replicates_4000_images_all_CIs_recomputed": true,
+      "RF_SCG_RF_alias_metrics_identical": true
+    },
+    {
+      "vocabulary": "random20_seed611",
+      "input_candidate_ledger_GT_files_hash_unchanged": true,
+      "every_saved_output_hash_verified": true,
+      "both_models_family_C_weights_and_calibration_IDs_verified": true,
+      "both_models_have_identical_calibration_training_labels": true,
+      "dimensions_SC": 62,
+      "dimensions_SCG": 230,
+      "all_primary_direct_and_matched_policies_reselected_from_cal_only_grids": true,
+      "same_named_policy_capacity": 320,
+      "bootstrap_2000_replicates_4000_images_all_CIs_recomputed": true,
+      "RF_SCG_RF_alias_metrics_identical": true
+    },
+    {
+      "vocabulary": "random20_seed612",
+      "input_candidate_ledger_GT_files_hash_unchanged": true,
+      "every_saved_output_hash_verified": true,
+      "both_models_family_C_weights_and_calibration_IDs_verified": true,
+      "both_models_have_identical_calibration_training_labels": true,
+      "dimensions_SC": 62,
+      "dimensions_SCG": 230,
+      "all_primary_direct_and_matched_policies_reselected_from_cal_only_grids": true,
+      "same_named_policy_capacity": 320,
+      "bootstrap_2000_replicates_4000_images_all_CIs_recomputed": true,
+      "RF_SCG_RF_alias_metrics_identical": true
+    },
+    {
+      "vocabulary": "random20_seed613",
+      "input_candidate_ledger_GT_files_hash_unchanged": true,
+      "every_saved_output_hash_verified": true,
+      "both_models_family_C_weights_and_calibration_IDs_verified": true,
+      "both_models_have_identical_calibration_training_labels": true,
+      "dimensions_SC": 62,
+      "dimensions_SCG": 230,
+      "all_primary_direct_and_matched_policies_reselected_from_cal_only_grids": true,
+      "same_named_policy_capacity": 320,
+      "bootstrap_2000_replicates_4000_images_all_CIs_recomputed": true,
+      "RF_SCG_RF_alias_metrics_identical": true
+    }
+  ],
+  "summary_hashes": {
+    "vocabulary_sensitivity_summary.csv": "59617e81e4987671cc119b3a384448610611aef145d14478754b88480af84b1d",
+    "geometry_increment_summary.csv": "8af73b9502ebfc71bad5a066d20cad496e59b302caab8e21c8da1b65e94d8d7c",
+    "E3_RESULTS_SUMMARY.md": "c29dc844b7dd01f0a56bb5efbc98854344bfbd9b9723e9157a6eb385e8c66563"
+  }
+}

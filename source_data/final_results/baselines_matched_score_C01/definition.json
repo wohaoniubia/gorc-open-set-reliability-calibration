@@ -1,0 +1,16 @@
+{
+  "C": 0.1,
+  "features": [
+    "raw_score",
+    "score_logit"
+  ],
+  "class_weight": "balanced",
+  "risk_weights": {
+    "unknown": 2.0,
+    "BG": 1.25,
+    "other": 1.0
+  },
+  "fit_ids_sha256": "55b55401863543467015b271842f4eb19e91b05683a7d8418fc491cb65c6d154",
+  "threshold_selection": "formal B on calibration only",
+  "external_baselines": "previous ordinary Platt/temperature/isotonic/raw class thresholds are independent valid comparators and remain unchanged"
+}

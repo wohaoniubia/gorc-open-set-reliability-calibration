@@ -1,0 +1,52 @@
+{
+  "complete": true,
+  "n_model_policy_evaluations": 96,
+  "saved_chosen_model_grid_reproduction": [
+    {
+      "seed": 777,
+      "variant": "SC",
+      "model_scores_reproduce_grid": true,
+      "fit_selection_disjoint": true,
+      "prediction_new_label_safe": true
+    },
+    {
+      "seed": 777,
+      "variant": "SCG",
+      "model_scores_reproduce_grid": true,
+      "fit_selection_disjoint": true,
+      "prediction_new_label_safe": true
+    },
+    {
+      "seed": 778,
+      "variant": "SC",
+      "model_scores_reproduce_grid": true,
+      "fit_selection_disjoint": true,
+      "prediction_new_label_safe": true
+    },
+    {
+      "seed": 778,
+      "variant": "SCG",
+      "model_scores_reproduce_grid": true,
+      "fit_selection_disjoint": true,
+      "prediction_new_label_safe": true
+    },
+    {
+      "seed": 779,
+      "variant": "SC",
+      "model_scores_reproduce_grid": true,
+      "fit_selection_disjoint": true,
+      "prediction_new_label_safe": true
+    },
+    {
+      "seed": 779,
+      "variant": "SCG",
+      "model_scores_reproduce_grid": true,
+      "fit_selection_disjoint": true,
+      "prediction_new_label_safe": true
+    }
+  ],
+  "profiles_identical_under_full_and_known_only_TP_information": true,
+  "no_test_annotation_reads": true,
+  "no_test_evaluations": true,
+  "selection_locked_to_preregistered_mean_B": true
+}

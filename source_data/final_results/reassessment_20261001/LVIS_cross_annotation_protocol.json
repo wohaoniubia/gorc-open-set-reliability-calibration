@@ -1,0 +1,15 @@
+{
+  "lvis_path": "[original project resource: data/public/lvis/annotations/lvis_v1_val.json]",
+  "lvis_sha256": "2bf946b92c3037f53c172d80017f5b74ea035f00a21b20e0766b3b638b2363f9",
+  "coco_5000_images_covered": 4809,
+  "coco_5000_LVIS_annotations": 50672,
+  "test_images": 4000,
+  "test_images_LVIS_covered": 3848,
+  "category_count": 1203,
+  "IoU": 0.5,
+  "bootstrap_unit": "image",
+  "bootstrap_repeats": 2000,
+  "seed": 20261002,
+  "limitations": "Additional annotation support is measurable. It does not prove that a detection corresponds to a COCO-missing distinct object: annotation vocabulary and box extents can differ. Unmatched boxes remain unresolved because LVIS federated labels are incomplete. UFA/BG metric definitions and original policies remain unchanged.",
+  "primary_source": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Gupta_LVIS_A_Dataset_for_Large_Vocabulary_Instance_Segmentation_CVPR_2019_paper.pdf"
+}

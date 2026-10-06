@@ -1,0 +1,17 @@
+AP50_tolerance,AP_tolerance,eligible_named_streams,eligible_named_policies,score_col,threshold,cal_balanced,main_rule
+0.0,0.0,16,320,geometry_risk_score,0.8,0.7835097631065348,True
+0.0,0.005,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.0,0.01,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.0,0.02,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.005,0.0,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.005,0.005,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.005,0.01,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.005,0.02,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.01,0.0,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.01,0.005,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.01,0.01,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.01,0.02,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.02,0.0,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.02,0.005,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.02,0.01,16,320,geometry_risk_score,0.8,0.7835097631065348,False
+0.02,0.02,16,320,geometry_risk_score,0.8,0.7835097631065348,False

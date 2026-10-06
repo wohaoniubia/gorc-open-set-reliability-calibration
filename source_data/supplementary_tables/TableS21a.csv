@@ -1,0 +1,4 @@
+﻿Policy,BG FP,BG FP on LVIS-annotated images,Matching a LVIS box,Fraction [95% interval]
+Raw,2875,2792,453,"16.2% [13.1%, 20.0%]"
+GORC-RF / AP-C,2828,2748,423,"15.4% [12.4%, 19.1%]"
+Per-class thresholds,2469,2399,385,"16.0% [12.4%, 20.6%]"

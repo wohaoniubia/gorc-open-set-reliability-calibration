@@ -1,0 +1,68 @@
+{
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.15 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:12:15) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "[original local resource omitted: python.exe; resource-id dcbb50e49789]",
+  "hardware": {
+    "cpu_physical_cores": 16,
+    "cpu_logical_cores": 24,
+    "total_RAM_bytes": 34078011392,
+    "cpu_brand": "12th Gen Intel(R) Core(TM) i7-12800HX"
+  },
+  "threads": 1,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "mkl",
+      "num_threads": 1,
+      "prefix": "mkl_rt",
+      "filepath": "[original local resource omitted: mkl_rt.2.dll; resource-id 5dddfb00d953]",
+      "version": "2023.1-Product",
+      "threading_layer": "intel"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "[original environment module: site-packages/scipy.libs/libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll]",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "[original environment module: site-packages/sklearn/.libs/vcomp140.dll]",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "[original local resource omitted: libiomp5md.dll; resource-id a925522ded82]",
+      "version": null
+    }
+  ],
+  "numpy": "2.0.1",
+  "pandas": "3.0.2",
+  "warmup": 10,
+  "repetitions": 100,
+  "C": 0.1,
+  "dense_feature_dimension": 230,
+  "trained_logistic_parameters": 231,
+  "compiled_numeric_dimension": 10,
+  "online_scope": "raw boxes/labels/scores/image dimensions -> ten geometry/score features -> fitted standardization -> predicted-class coefficient selection or dense one-hot/interactions -> logistic sigmoid -> fixed fusion/class scaling -> thresholding and output box/label/score copies",
+  "exclusions": "image loading, detector inference, detector NMS/candidate generation, model loading, raw input-array preparation and all offline fitting/policy search",
+  "single_image_sampling": "one median-count image per pre-fixed candidate-count bin, image-ID tie break; these are representative-image measurements, not quantiles across every test image",
+  "geometry": {
+    "edge_contact_margin": 0.015,
+    "score_logit_clip": 1e-06,
+    "box_epsilon": 1e-06
+  },
+  "timing_clock": "perf_counter_ns",
+  "batch_images": 4000,
+  "batch_candidates": 100497
+}

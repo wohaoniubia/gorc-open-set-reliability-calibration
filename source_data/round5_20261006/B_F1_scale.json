@@ -1,0 +1,12 @@
+{
+  "source": "artifacts/coco_yolo/main_metrics.csv; primary test rows",
+  "condition": "P and R fixed; only URR changes after 100 fewer annotated unknown-object accepts",
+  "unknown_objects": 14613,
+  "Raw_B": 0.7728742612972317,
+  "B_delta_100_fewer_UFA": 0.0014128089923990395,
+  "Raw_F1": 0.699123244707392,
+  "RF_F1": 0.7043980070970286,
+  "F1_delta": 0.005274762389636645,
+  "Raw_UFA": 299,
+  "RF_UFA": 176
+}

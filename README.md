@@ -1,68 +1,78 @@
 # GORC Open-Set Reliability Calibration
 
-This repository contains source data, final figure files, and analysis scripts for Geometry-aware Open-Set Reliability Calibration (GORC). It is organized for result checking and reuse. Image datasets, detector weights, and large detector-output caches are not included.
+Research code, data and figures for **Lightweight Open-Set Reliability Calibration for Frozen Open-Vocabulary Object Detectors**.
 
-## Folder Layout
+Geometry-aware Open-Set Reliability Calibration (GORC) learns an acceptance layer from a frozen detector's boxes, labels, confidence scores and image sizes. It combines a class-conditioned reliability ranker with calibration-selected score policies and thresholds.
 
-- `data/figure_source/`: source files for data-based figures.
-- `data/table_source/`: source files for main Tables 1-6.
-- `data/supplementary_source/`: source files for additional tables and diagnostics.
-- `data/cache_metadata/`: notes on omitted datasets, model weights, and large candidate caches.
-- `figures/`: final figure files, provided as `Fig1.jpg` through `Fig9.jpg`.
-- `code/analysis/`: scripts for protocol preparation, detector evaluation, GORC calibration, bootstrap diagnostics, and table construction.
-- `code/audit/`: secondary consistency checks and evidence-building scripts.
-- `scripts/`: lightweight repository checks.
+**Version: 2026-10-06.** This version replaces the initial release with the current evaluation rules, complete cached inputs, fitted models, numerical results and manuscript figures. Earlier contents remain in Git history; earlier Markdown documentation is preserved in [docs/history](docs/history/README.md).
 
-## Figure Source Mapping
+## Main result
 
-| Figure | Source data |
-|---|---|
-| Fig. 1 | final diagram file in `figures/Fig1.jpg` |
-| Fig. 2 | final diagram file in `figures/Fig2.jpg` |
-| Fig. 3 | `data/figure_source/fig03_coco_operating_landscape.csv` |
-| Fig. 4 | `data/supplementary_source/s_policy_grid.csv`; `data/figure_source/fig04_reliability_score_bins.csv` |
-| Fig. 5 | `data/figure_source/fig05_preference_scores.csv` |
-| Fig. 6 | `data/figure_source/fig06_geometry_group_ablation.csv` |
-| Fig. 7 | `data/figure_source/fig07_bootstrap_ci.csv`; `data/supplementary_source/s_repeated_split_exact_ap.csv`; `data/figure_source/fig07_calibration_budget.csv`; `data/figure_source/fig07_repeated_split_false_accept_changes.csv` |
-| Fig. 8 | `data/figure_source/fig08_prompt_stress.csv` |
-| Fig. 9 | `data/figure_source/fig09_qualitative_cases_manifest.csv` |
+On the primary COCO test split with YOLO-World-l, GORC-RF reduces accepted annotated unknown objects from **299 to 176 (41.1%)**, while increasing the balanced reliability score B from **0.7729 to 0.7789**.
 
-## Table Source Mapping
+| Policy | B | Known precision | Known recall | UFA | BG FP | Full-list AP |
+|---|---:|---:|---:|---:|---:|---:|
+| Raw global threshold | 0.7729 | 0.7384 | 0.6638 | 299 | 2875 | 0.4859 |
+| GORC-SCG | 0.7792 | 0.7488 | 0.6646 | 145 | 2848 | 0.4803 |
+| GORC-RF / AP-C | 0.7789 | 0.7487 | 0.6650 | 176 | 2828 | 0.4858 |
 
-| Table | Source data |
-|---|---|
-| Table 1 | `data/table_source/table01_validation_protocols.csv` |
-| Table 2 | `data/table_source/table02_main_coco_operating_points.csv` |
-| Table 3 | `data/table_source/table03_coco_baseline_ablation_audit.csv` |
-| Table 4 | `data/table_source/table04_computational_footprint.csv` |
-| Table 5 | `data/table_source/table05_selected_policy_apc_card.csv` |
-| Table 6 | `data/table_source/table06_lvis_grounding_dino_diagnostics.csv` |
+UFA counts annotated unknown **objects**; BG FP counts accepted **detections**. B is the harmonic mean of known precision, known recall and unknown rejection. Full-list AP is evaluated before acceptance thresholding. RF and AP-C select the same primary policy. [Online Resource 1](docs/Online_Resource_1.pdf) gives uncertainty, matched baselines and the wider experiments.
 
-## Additional Source Data
+![GORC operating points](figures/Fig03.png)
 
-- `s_policy_grid.csv`: policy-grid source for threshold and operating-mode selection.
-- `s_exact_ap_bootstrap.csv`: fixed-policy exact AP bootstrap source.
-- `s_repeated_split_exact_ap.csv`: repeated calibration/test split diagnostics. Split 1-5 correspond to seeds 101, 202, 303, 404, and 505.
-- `s_calibration_budget.csv`: calibration-budget sensitivity source.
-- `s_known_label_only_diagnostic.csv`: known-label-only threshold diagnostic source.
-- `s_preference_table.csv`: preference-sensitive accepted-output risk source.
-- `s_prompt_stress.csv`: Grounding DINO prompt-template stress source.
-- `s_detector_config.csv`: detector configuration and reproducibility-boundary fields.
-
-## Data Check
-
-Install Python with `pandas`, then run:
+## Get started
 
 ```bash
-python scripts/validate_released_data.py
+git clone https://github.com/wohaoniubia/gorc-open-set-reliability-calibration.git
+cd gorc-open-set-reliability-calibration
+python -m pip install -r requirements.txt
+python scripts/validate_release.py
+python code/portable_cli.py smoke --dataset coco_yolo --out run_outputs/smoke
+python code/portable_cli.py replay --dataset coco_yolo --out run_outputs/replay
 ```
 
-The script checks required source files, verifies selected cross-table values, confirms the final figure set, and scans the release tree for local-path markers and omitted working-package folders.
+Use **Python 3.11** in a fresh environment. The checkout contains approximately 900 MB of data and models. Cached-output reproduction needs neither original photographs nor detector checkpoints. `replay` reconstructs selected scores from fitted models and checks all six primary method rows on calibration and test images against archived results.
 
-## Reproducing Analyses
+To refit the fixed method and select policies using calibration images only:
 
-The scripts in `code/analysis/` are intended to be run from a local clone after dataset and model resources have been configured. See `code/analysis/CONFIGURE_PATHS.md` for the expected local resources. Large image datasets, detector checkpoints, and scored-candidate caches must be obtained or regenerated separately.
+```bash
+python code/portable_cli.py refit --dataset coco_yolo --out run_outputs/refit
+```
 
-## License
+Available streams: `coco_yolo`, `coco_gdino`, `lvis_yolo`, `original20`, `voc20`, `random20_seed611`, `random20_seed612`, `random20_seed613`. The original primary COCO cache and the separately inferred `original20` control remain separate because their floating-point outputs differ slightly.
 
-No reuse license is included at this stage. External datasets and model checkpoints remain under the terms of their original providers.
+## Repository guide
+
+| Location | Contents |
+|---|---|
+| [code](code/) | Portable loading, fitting, policy selection, evaluation, coefficient folding, runtime and supplementary diagnostics |
+| [data](data/) | Candidate boxes/scores, known/unknown annotations, class maps and complete image splits for eight streams |
+| [artifacts](artifacts/) | Fitted models, readable coefficients, priors, frozen selected scores and reference metrics |
+| [config](config/) | Stream configuration, fixed family/C decision and detector/vocabulary settings |
+| [source_data](source_data/) | Detailed experiments, numerical figure inputs, author ratings and crowd diagnostic |
+| [figures](figures/README.md) | Nine figures extracted from the latest manuscript, with captions, crop provenance and checksums |
+| [Result index](docs/RESULTS_INDEX.md) | Figures and Tables 1–7 / S1–S23 mapped to source files |
+| [Data guide](docs/DATA_GUIDE.md) | Schemas, counting units and provenance |
+| [Reproduction guide](docs/REPRODUCIBILITY.md) | Detailed commands and experiment scope |
+| [verification](verification/) | Archived verification and checks run for this publication |
+| [MANIFEST.json](MANIFEST.json) | Current file checksums and byte sizes |
+
+Main and supplementary tables are also provided as CSV files extracted from the manuscript and ESM. They preserve displayed precision; use the numerical experiment files for computation.
+
+## Additional analyses
+
+```bash
+python code/portable_cli.py verify-online --dataset coco_yolo --out run_outputs/online_check
+python code/benchmark_cli.py --dataset coco_yolo --out run_outputs/benchmark
+python code/reassessment_cli.py --out run_outputs/reassessment
+python code/manual_review_summary.py
+python code/round5_crowd_review.py --out run_outputs/crowd_review
+```
+
+The reassessment command covers the score-only baseline bridge, RF versus per-class thresholds, LVIS support and the nested AP comparison. The crowd command reproduces the bounding-box overlap and recorded-name diagnostic. Other supplementary experiments have archived results and settings; replay does not rerun every bootstrap or detector-inference experiment.
+
+## Sources and reuse
+
+COCO/LVIS annotations, processed detector outputs and derived results are included. Original dataset photographs and pretrained detector checkpoints are obtained from their providers; figure files include the manuscript examples. See [third-party sources and terms](THIRD_PARTY_NOTICES.md).
+
+The existing licensing status is retained: the authors have not specified a separate reuse license for project-authored code and materials. No new terms are assigned to third-party assets. For citation, include this repository URL and the commit used; paper publication details can be added when available.

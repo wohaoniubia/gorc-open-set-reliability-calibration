@@ -1,0 +1,11 @@
+﻿Item,Value,Scope
+Detector training,None,Frozen weights in every stream
+Full training feature dimension,230,Primary 20-class interaction model
+Fitted ranker parameters,231,Includes regularized intercept
+Online numeric dimension,10 plus class lookup,Exact algebraic coefficient folding
+Complete RF batch median / p95,32.1 / 33.1 ms,4000 images; 100497 boxes; raw feature construction through filtering
+Amortized RF median,0.00802 ms/image,Batch average; not a single-image latency
+Representative RF single-image medians,0.146-0.179 ms,Non-empty candidate-count strata
+Offline fit / prior / grid,0.529 / 0.416 / 0.804 s,Separate from online processing
+Configuration search,51.6 s,96 calibration-only fits including controls
+Dense / compiled agreement,Maximum score difference 6.11e-16,All tested acceptance masks and metrics identical

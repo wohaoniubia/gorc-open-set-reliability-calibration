@@ -1,0 +1,4 @@
+﻿Run,Configuration selected,Separate selection: RF ΔB,AP-C ΔB,AP-C ΔAP,Selection on fitting images: RF ΔB,AP-C ΔAP
+1,"Additive, C = 0.1",+0.0041,+0.0041,+0.0005,+0.0053,+0.0007
+2,"Additive, C = 0.1",−0.00003,0.0000,0.0000,+0.0030,−0.0010
+3,"Interactions with profiles, C = 1",+0.0035,+0.0035,0.0000,−0.0035,−0.0228

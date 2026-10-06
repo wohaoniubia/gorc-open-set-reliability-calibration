@@ -1,0 +1,11 @@
+method,split,max_metric_absolute_error,agrees_with_archived_result
+Raw,calibration,0.0,True
+Raw,test,0.0,True
+RF,calibration,0.0,True
+RF,test,0.0,True
+AP-C,calibration,0.0,True
+AP-C,test,0.0,True
+SC,calibration,0.0,True
+SC,test,0.0,True
+SCG,calibration,0.0,True
+SCG,test,0.0,True

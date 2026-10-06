@@ -1,0 +1,41 @@
+{
+  "numeric_features": [
+    "raw_score",
+    "score_logit",
+    "box_area_norm",
+    "box_aspect_log",
+    "box_width_norm",
+    "box_height_norm",
+    "center_x_norm",
+    "center_y_norm",
+    "edge_min_dist_norm",
+    "edge_contact_count"
+  ],
+  "categories": [
+    "airplane",
+    "bench",
+    "bicycle",
+    "bird",
+    "boat",
+    "bus",
+    "car",
+    "cat",
+    "cow",
+    "dog",
+    "fire_hydrant",
+    "horse",
+    "motorcycle",
+    "parking_meter",
+    "person",
+    "sheep",
+    "stop_sign",
+    "traffic_light",
+    "train",
+    "truck"
+  ],
+  "dense_feature_dimension": 230,
+  "trained_logistic_parameters": 231,
+  "C": 0.1,
+  "formula": "z=(numeric-mean)/scale; logit=(global_numeric+class_interaction[c])·z + intercept+class_offset[c]",
+  "unknown_label_rule": "global_numeric coefficients and intercept only; exactly corresponds to ignored unknown one-hot class"
+}

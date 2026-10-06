@@ -1,0 +1,34 @@
+{
+  "definition": "max over iscrowd=1 boxes of area(detection intersect crowd box)/area(detection) >= 0.5; any category; bounding boxes, not segmentation masks",
+  "diagnostic_only": true,
+  "original_metrics_changed": false,
+  "source_hashes": {
+    "candidates": "a720927937048e6a59aef83c1f193aec63719d20341ce80e835f10ac4fde09f5",
+    "support": "7f9f3c981defb01d16ba4163499e55ebe92398de440a515b5c5faad00361326d",
+    "coco": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+    "ratings": "9727dab6a6ab5e191cec14d99cf6796c8dcefa9151a33ffaaaa7eff107486e07",
+    "gt": "861c96cfa21b67c8ceab5cd1b5e3ac926d850e78ebb50946e5868f5fbdeff36c"
+  },
+  "crowd_annotations_in_coco": 446,
+  "crowd_annotations_in_project_gt": 446,
+  "manual_name_summary": {
+    "recognizable": 112,
+    "known_name_matches": 103,
+    "person_name": 81,
+    "well_fitted_known_name": 89,
+    "outside_known_names": 9,
+    "outside_name_counts": {
+      "sign": 3,
+      "clothing": 1,
+      "wheelchair": 1,
+      "hand": 1,
+      "chair": 1,
+      "rhino": 1,
+      "foot": 1
+    },
+    "sample_inside_crowd_box": 71,
+    "sample_images": 125,
+    "vocabulary_relation_used": false
+  },
+  "scope_note": "Name matching is literal after case/space normalization, not semantic reannotation. Nonmatching names include generic signs and body parts; these are not nine verified distinct unknown objects."
+}

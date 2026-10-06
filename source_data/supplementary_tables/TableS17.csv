@@ -1,0 +1,14 @@
+﻿Policy,B,R,UFA,BG FP,Unknown-heavy,Background-heavy,Coverage-sensitive
+Raw global threshold,0.7729,0.6638,299,2875,0.7572,2.5211,3.5987
+Raw per-class thresholds,0.7748,0.6432,148,2469,0.6567,2.3540,3.7764
+"Class-balanced logit, fine grid",0.7692,0.6285,231,2232,0.7155,2.2464,3.9168
+"Class-balanced logit, common grid",0.7731,0.6675,302,2945,0.7586,2.5472,3.5653
+"Risk-weighted score logistic, C = 0.5",0.7730,0.6627,294,2847,0.7536,2.5088,3.6079
+"Risk-weighted score logistic, C = 0.1",0.7727,0.6617,292,2836,0.7529,2.5062,3.6182
+Ordinary Platt scaling,0.7725,0.6728,315,3090,0.7688,2.6092,3.5193
+Temperature scaling,0.7730,0.6665,302,2930,0.7590,2.5423,3.5742
+Isotonic regression,0.7725,0.6592,286,2792,0.7495,2.4894,3.6409
+GORC-SC,0.7791,0.6654,169,2833,0.6659,2.5029,3.5734
+GORC-SG,0.7736,0.6636,235,2960,0.7200,2.5807,3.6027
+GORC-SCG,0.7792,0.6646,145,2848,0.6518,2.5170,3.5807
+GORC-RF / AP-C,0.7789,0.6650,176,2828,0.6709,2.5018,3.5771

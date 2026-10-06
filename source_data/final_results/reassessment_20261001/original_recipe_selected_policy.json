@@ -1,0 +1,20 @@
+{
+  "score_col": "score",
+  "mode_family": "direct",
+  "threshold": 0.8,
+  "cal_balanced": 0.7733279903432543,
+  "cal_precision": 0.7462295081967213,
+  "cal_recall": 0.6557188130221838,
+  "cal_unknown_reject": 0.9859765425803162,
+  "cal_num_accepted": 3050,
+  "cal_unknown_false_accept": 55,
+  "cal_background_false_accepts": 645,
+  "cal_tp_known": 2276,
+  "cal_AP50": 0.6812417878942949,
+  "cal_AP75": 0.5363208931379845,
+  "cal_AP": 0.49931802281922294,
+  "stream_hash": "4af1da34b63bf874943b6b394915ec9d1b38f29a6a331b52ae10a2e9fe039020",
+  "acceptance_mask_hash": "08392bcf73eee97485a98c45c3c2e69084a9e683070f4290331a77e5064ccf81",
+  "canonical_stream": "score",
+  "selection_objective": 0.7733279903432543
+}

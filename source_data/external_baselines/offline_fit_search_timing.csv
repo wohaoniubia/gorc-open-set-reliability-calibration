@@ -1,0 +1,6 @@
+method,fit_seconds,threshold_grid_seconds
+Score-only balanced logistic,0.6130988000004436,0.3090403999995033
+Ordinary Platt/logistic,0.009759399999893503,0.07417290000012144
+Positive temperature scaling,0.006445200000598561,0.07663270000193734
+Isotonic regression,0.0018873000008170493,0.07242640000185929
+Raw per-class threshold,0.0,14.007326899998588

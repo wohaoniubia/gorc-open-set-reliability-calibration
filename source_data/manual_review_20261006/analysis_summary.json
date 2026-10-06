@@ -1,0 +1,48 @@
+{
+  "n_sampled": 150,
+  "n_images": 125,
+  "n_category_recorded": 150,
+  "n_category_missing": 0,
+  "counts": {
+    "Recognizable object": 112,
+    "Object part or ambiguous region": 29,
+    "Background or texture": 3,
+    "Unable to judge": 6,
+    "Category not recorded": 0
+  },
+  "summary_rows": [
+    {
+      "category": "Recognizable object",
+      "count": 112,
+      "percent_of_150": 74.7
+    },
+    {
+      "category": "Object part or ambiguous region",
+      "count": 29,
+      "percent_of_150": 19.3
+    },
+    {
+      "category": "Background or texture",
+      "count": 3,
+      "percent_of_150": 2.0
+    },
+    {
+      "category": "Unable to judge",
+      "count": 6,
+      "percent_of_150": 4.0
+    }
+  ],
+  "missing_ids": [],
+  "one_author": true,
+  "reviewer_field_missing_in_original": 0,
+  "review_date_UTC_min": "2026-10-05 09:04:50.522000+00:00",
+  "review_date_UTC_max": "2026-10-06 04:24:12.057000+00:00",
+  "sampling": "Simple random sampling without replacement from 2828 RF background detections",
+  "sampling_seed": 20261004,
+  "original_input_sha256": "b941b29198929c4ba46869ad62c32c25f56aaddc4a10bcaf4976fa0c28017fde",
+  "anonymous_input_sha256": "52aab9b12b9142ca45b8c843f508edca2ace01b98b04f5cd9a09017fc6c1b59b",
+  "category_clarifications": {},
+  "semantic_labels_inferred": false,
+  "population_metrics_reclassified": false,
+  "uncertainty": "Descriptive sample counts and percentages; no population or between-policy inference"
+}

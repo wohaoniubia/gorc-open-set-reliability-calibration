@@ -1,0 +1,58 @@
+{
+  "C": 0.1,
+  "class_weight": "balanced",
+  "solver": "liblinear",
+  "max_iter": 1000,
+  "random_state": 12,
+  "unknown_weight": 2.0,
+  "background_weight": 1.25,
+  "feature_order": [
+    "raw_score",
+    "score_logit",
+    "box_area_norm",
+    "box_aspect_log",
+    "box_width_norm",
+    "box_height_norm",
+    "center_x_norm",
+    "center_y_norm",
+    "edge_min_dist_norm",
+    "edge_contact_count",
+    "pred_label"
+  ],
+  "variant": "S",
+  "supervision": "full",
+  "numeric": [
+    "raw_score",
+    "score_logit"
+  ],
+  "with_class": false,
+  "fit_ids_sha256": "55b55401863543467015b271842f4eb19e91b05683a7d8418fc491cb65c6d154",
+  "taxonomy": "revised predicted-class TP, all-overlap UFA, GT-independent BG",
+  "n_fit_images": 1000,
+  "n_fit_candidates": 24931,
+  "positive": 2911,
+  "negative": 22020,
+  "risk_weight_sum": 31461.0,
+  "feature_names": [
+    "num__raw_score",
+    "num__score_logit"
+  ],
+  "coef": [
+    [
+      0.47511304811360283,
+      1.920886362430483
+    ]
+  ],
+  "intercept": [
+    -1.687617470286493
+  ],
+  "scaler_mean": [
+    0.10398083172289267,
+    -4.233946229261769
+  ],
+  "scaler_scale": [
+    0.23121340334800106,
+    2.456886556501506
+  ],
+  "class_encoder_categories": []
+}

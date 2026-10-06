@@ -1,0 +1,12 @@
+{
+  "family": "class_interactions",
+  "C": 0.1,
+  "primary_feature_dimension": 230,
+  "numeric_class_interactions": true,
+  "compiled_lookup": "class-conditioned 10-output-term affine coefficients + sigmoid",
+  "operating_modes_and_thresholds_fixed_on_calibration": true,
+  "unknown_not_detector_prompt": true,
+  "example_labels_and_score_icons": "schematic; no experimental probabilities are displayed",
+  "input_photo": "[original project resource: data/public/coco2017/val2017/000000000139.jpg]",
+  "input_photo_sha256": "ffe0f0cec3b2e27aab1967229cdf0a0d7751dcdd5800322f0b8ac0dffb3b8a8d"
+}

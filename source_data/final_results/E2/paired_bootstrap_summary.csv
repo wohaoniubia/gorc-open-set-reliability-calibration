@@ -1,0 +1,7 @@
+comparison,metric,n_bootstrap,mean_delta,ci025,ci975,bootstrap_unit,fixed_policies
+full-minus-known-only,precision_recall_unknown_balanced_score,1000,0.0007439756799537968,2.4724431415376624e-05,0.0014575374103267841,image,True
+full-minus-known-only,known_precision,1000,-0.0008318055745426499,-0.002042732600147701,0.0003973424130872284,image,True
+full-minus-known-only,known_recall,1000,0.0018165686037770507,0.0008577598864583314,0.0028510533890581695,image,True
+full-minus-known-only,unknown_false_accept_objects,1000,-14.966,-24.0,-7.0,image,True
+full-minus-known-only,background_false_accept_count,1000,36.704,18.0,56.02499999999998,image,True
+full-minus-known-only,unknown_reject_rate_object_level,1000,0.0010249971570047438,0.0004829257369682066,0.0016425978520271222,image,True

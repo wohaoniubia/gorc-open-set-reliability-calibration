@@ -1,0 +1,155 @@
+{
+  "complete": true,
+  "n_runs": 16,
+  "checks": [
+    {
+      "run": "seed711_n25",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed711_n50",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed711_n100",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed711_n250",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed711_n500",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed712_n25",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed712_n50",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed712_n100",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed712_n250",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed712_n500",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed713_n25",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed713_n50",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed713_n100",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed713_n250",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "seed713_n500",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    },
+    {
+      "run": "full_n1000",
+      "model_round_trip_scores": true,
+      "labels_rebuilt_only_from_fit_ids": true,
+      "class_prior_calibration_only": true,
+      "policy_reselection_from_saved_cal_grid": true,
+      "full_4000_test_metrics_and_AP_recomputed": true,
+      "output_hashes_verified": true
+    }
+  ],
+  "full_population_4000": true,
+  "all_nested_subsets_verified": true,
+  "summary_mean_SD_verified": true,
+  "full_budget_E0_equivalence_verified": true,
+  "diagnostic_scope": "conditional locked family/C; no small-budget hyperparameter search"
+}

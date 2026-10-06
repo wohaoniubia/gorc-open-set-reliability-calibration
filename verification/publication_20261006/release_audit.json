@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "protected_documents_unchanged": true,
+  "source_archive_files_preserved": 1535,
+  "python_files_parsed": 12,
+  "privacy_findings": [],
+  "files_over_100MiB": [],
+  "primary_replay_rows": 12,
+  "primary_replay_matches": true,
+  "crowd_replay_byte_identical": true,
+  "old_markdown_files_archived": 5
+}

@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "elapsed_seconds": 10.066230058670044,
+  "selection": "calibration only; revised taxonomy",
+  "extra": {
+    "score_transform_frozen": true,
+    "threshold_selection_only_on_cal": true,
+    "test_exact_match_not_claimed": true
+  },
+  "files": {
+    "cal_matched_threshold_test.csv": "ede9a80d6a5a40011fcef6b56fb653ca6f171dd150e3f96219931fbfa411bf61",
+    "rank_preservation_diagnostic.json": "b4907194e9c0cde316ce695b351407c262f4cfdded0c49c217f9d9a50da84393"
+  },
+  "archive_note": "Historical experiment hashes bind the original outputs before path anonymization. MANIFEST.json binds actual package files."
+}

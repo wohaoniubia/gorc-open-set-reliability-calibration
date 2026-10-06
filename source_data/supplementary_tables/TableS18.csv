@@ -1,0 +1,9 @@
+﻿Score function,Matched quantity,Threshold,Test R,Accepted,UFA,BG FP,Full-list AP,Accepted-set AP
+Raw,Recall,0.3007,0.6638,"13,274",297,2868,0.4859,0.4479
+SC,Recall,0.8132,0.6590,"12,857",159,2672,0.4859,0.4392
+SCG,Recall,0.8212,0.6550,"12,707",137,2616,0.4803,0.4328
+RF / AP-C,Recall,0.7214,0.6548,"12,702",157,2598,0.4858,0.4408
+Raw,Accepted count,0.3005,0.6638,"13,275",297,2868,0.4859,0.4479
+SC,Accepted count,0.7987,0.6663,"13,170",169,2853,0.4859,0.4436
+SCG,Accepted count,0.7997,0.6652,"13,126",146,2851,0.4803,0.4373
+RF / AP-C,Accepted count,0.6985,0.6657,"13,148",177,2839,0.4858,0.4444

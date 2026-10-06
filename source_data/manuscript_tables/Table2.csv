@@ -1,0 +1,4 @@
+﻿Protocol,Detector,Calibration images,Test images,Known classes,Annotated unknown classes,Known GT objects in test,Annotated unknown GT objects in test,Cached candidates: calibration + test,Cached candidates: test only,Raw accepted detections in test
+COCO-Val-OpenSet-5K,YOLO-World-l,1000,4000,20,60,14775,14613,125428 (24931 cal + 100497 test),100497,13283
+LVIS-Clear-Mini-300,YOLO-World-l,105,195,4,8,218,207,9096 (3086 cal + 6010 test),6010,243
+COCO-Val-OpenSet-5K,Grounding DINO tiny,1000,4000,20,60,14775,14613,35488 (7248 cal + 28240 test),28240,14060

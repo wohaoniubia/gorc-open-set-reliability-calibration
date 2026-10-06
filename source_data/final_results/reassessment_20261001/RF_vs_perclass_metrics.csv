@@ -1,0 +1,3 @@
+method,num_known_gt,num_unknown_gt,num_accepted_detections,tp_known,fp_known,fn_known,known_precision,known_recall,unknown_false_accept_objects,unknown_reject_rate_object_level,open_set_hscore_object_level,precision_recall_unknown_balanced_score,background_false_accept_count
+RF,14775,14613,13124,9826,3298,4949,0.7487046632124352,0.6650423011844332,176,0.98795592965168,0.7949584853360934,0.7789183594070077,2828
+Raw per-class threshold,14775,14613,12425,9504,2921,5271,0.7649094567404426,0.643248730964467,148,0.9898720317525491,0.779775681968202,0.7747564803567544,2469

@@ -1,0 +1,199 @@
+{
+  "source_docx": "manuscript_final_20261006.docx",
+  "source_sha256": "93c165d7c1752f8b7589b961e2859bfbc7c95594a532b173fa6e119abf835f76",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "figures/Fig01.png",
+      "caption": "Fig. 1. GORC output-side reliability calibration workflow for frozen open-vocabulary detectors: frozen detector query, fixed candidate stream, SCG feature construction, reliability ranking, calibrated acceptance, and operating-mode selection.",
+      "embedded_part": "word/media/image1.png",
+      "embedded_sha256": "330d91af04e0771e28a04892900805fca5662a49368122179d4eff0cada8b539",
+      "extracted_sha256": "330d91af04e0771e28a04892900805fca5662a49368122179d4eff0cada8b539",
+      "pixels": [
+        11165,
+        4299
+      ],
+      "word_extent_EMU": {
+        "cx": "5486400",
+        "cy": "2112645"
+      },
+      "word_crop_100000": {},
+      "crop_pixels": null,
+      "embedded_original": null
+    },
+    {
+      "figure": 2,
+      "file": "figures/Fig02.jpg",
+      "caption": "Fig. 2. Detection-level accepted-output taxonomy, geometry cues, and reliability metrics. (a) Candidate-output taxonomy. (b) Normalized box geometry. (c) Accepted-set metrics.",
+      "embedded_part": "word/media/image2.jpeg",
+      "embedded_sha256": "6ec46bbe9fd1f196f62a5f011e98ae7a301c6a976245c83d8511e8e8e2b91102",
+      "extracted_sha256": "6ec46bbe9fd1f196f62a5f011e98ae7a301c6a976245c83d8511e8e8e2b91102",
+      "pixels": [
+        4488,
+        2061
+      ],
+      "word_extent_EMU": {
+        "cx": "5486400",
+        "cy": "2518410"
+      },
+      "word_crop_100000": {},
+      "crop_pixels": null,
+      "embedded_original": null
+    },
+    {
+      "figure": 3,
+      "file": "figures/Fig03.png",
+      "caption": "Fig. 3. COCO operating-point trade-offs across baselines, GORC ablations, and GORC modes. (a) AP-B landscape. (b) UFA-recall trade-off. (c) BG FP-AP trade-off. RF and AP-C select the same policy, so they share one marker.",
+      "embedded_part": "word/media/image3.png",
+      "embedded_sha256": "98b42844b4719625052d6ba5ddd4270f8c33ee84cda7a0225c8b20eb4e90f49f",
+      "extracted_sha256": "98b42844b4719625052d6ba5ddd4270f8c33ee84cda7a0225c8b20eb4e90f49f",
+      "pixels": [
+        3600,
+        1243
+      ],
+      "word_extent_EMU": {
+        "cx": "5486400",
+        "cy": "1895475"
+      },
+      "word_crop_100000": {},
+      "crop_pixels": null,
+      "embedded_original": null
+    },
+    {
+      "figure": 4,
+      "file": "figures/Fig04.png",
+      "caption": "Fig. 4. COCO risk-coverage and score-bin diagnostics. (a\u2013c) Zoomed operating regions for B, UFA and BG FP; the full grid is included in Online Resource 2. (d) Score-bin known-TP rate. RF and AP-C select the same score and are shown once.",
+      "embedded_part": "word/media/image4.png",
+      "embedded_sha256": "d934f09be13983fdcfe66505ae78cdba1e85b9d0809e7fa6bb621123c6cf805f",
+      "extracted_sha256": "32342e988f62d8aa78a34a0c73ef484366bfbf7f59e28c5d0620e66e54783920",
+      "pixels": [
+        2000,
+        1302
+      ],
+      "word_extent_EMU": {
+        "cx": "5001260",
+        "cy": "3255645"
+      },
+      "word_crop_100000": {
+        "b": "6877"
+      },
+      "crop_pixels": [
+        0,
+        0,
+        2000,
+        1302
+      ],
+      "embedded_original": "figures/embedded/Fig04.png"
+    },
+    {
+      "figure": 5,
+      "file": "figures/Fig05.png",
+      "caption": "Fig. 5. Preference-sensitive rankings for the plotted policies. The two score-only logistic rows use raw score, score logit and risk weighting, with C=0.5 or C=0.1. RF and AP-C select the same policy.",
+      "embedded_part": "word/media/image5.png",
+      "embedded_sha256": "5a693c59f3b9bbcb9b84fd2b57eba56d9775fdc7aa538e48d072b621636d30bb",
+      "extracted_sha256": "b522239868393abe44b5050f1aae69aa370a10f14f4a9163a5a6dc6e5e5aa0cd",
+      "pixels": [
+        1768,
+        1255
+      ],
+      "word_extent_EMU": {
+        "cx": "4846320",
+        "cy": "3439795"
+      },
+      "word_crop_100000": {
+        "l": "11585",
+        "b": "5495"
+      },
+      "crop_pixels": [
+        232,
+        0,
+        2000,
+        1255
+      ],
+      "embedded_original": "figures/embedded/Fig05.png"
+    },
+    {
+      "figure": 6,
+      "file": "figures/Fig06.png",
+      "caption": "Fig. 6. Effect of adding each geometry group to the matched score-class (SC) model on the primary COCO stream. (a) Change in B and (b) change in AP, both in units of 10\u207b\u00b3; (c) change in BG FP and (d) change in UFA, in counts. Negative values in (c) and (d) mean fewer false accepts. Each group is added together with its class interactions, and GORC-SCG uses all four groups. Values are listed in Table S8, and intervals for GORC-SCG are given in Table S6.",
+      "embedded_part": "word/media/image6.png",
+      "embedded_sha256": "72545754282e0fc886941fcbe5c09e3b4938d6fba51ed9239d3c4893140d1324",
+      "extracted_sha256": "4a066ae3da9c61a976dc30d18b31fbba39ff90482a95f693901fa68bfe56514a",
+      "pixels": [
+        2000,
+        993
+      ],
+      "word_extent_EMU": {
+        "cx": "5481320",
+        "cy": "2722880"
+      },
+      "word_crop_100000": {
+        "b": "8940"
+      },
+      "crop_pixels": [
+        0,
+        0,
+        2000,
+        993
+      ],
+      "embedded_original": "figures/embedded/Fig06.png"
+    },
+    {
+      "figure": 7,
+      "file": "figures/Fig07.png",
+      "caption": "Fig. 7. Fixed-policy uncertainty and calibration dependence. (a) Paired image-bootstrap 95% intervals with frozen policies: RF/AP-C minus Raw, and SCG minus SC. (b) Five refit/reselection partitions (seeds 101, 202, 303, 404 and 505). SCG, RF and AP-C selected the same direct-score policy in every partition and are drawn as one line; SC keeps the within-class ranking, so its AP equals Raw. (c) Fixed-configuration calibration budgets; error bars show the SD over three subsets, while the full-budget point is one fit. (d) Change in UFA and BG FP for GORC-RF relative to Raw in each partition.",
+      "embedded_part": "word/media/image7.png",
+      "embedded_sha256": "789b272e4caa1443332b5a1ec932aee2170e2a3896f1f7d98ae650bcdd017ca4",
+      "extracted_sha256": "789b272e4caa1443332b5a1ec932aee2170e2a3896f1f7d98ae650bcdd017ca4",
+      "pixels": [
+        2000,
+        1428
+      ],
+      "word_extent_EMU": {
+        "cx": "4956175",
+        "cy": "3538855"
+      },
+      "word_crop_100000": {},
+      "crop_pixels": null,
+      "embedded_original": null
+    },
+    {
+      "figure": 8,
+      "file": "figures/Fig08.png",
+      "caption": "Fig. 8. Grounding DINO prompt-format diagnostics on 100 calibration and 300 test images. Each candidate stream is recalibrated separately. Counts and Raw performance differ across prompt formats, including low-recall cases.",
+      "embedded_part": "word/media/image8.png",
+      "embedded_sha256": "36cc859c03e6189e596d8617cd81064ef19cbbff554c09151c86ff7c22f8484d",
+      "extracted_sha256": "36cc859c03e6189e596d8617cd81064ef19cbbff554c09151c86ff7c22f8484d",
+      "pixels": [
+        2000,
+        765
+      ],
+      "word_extent_EMU": {
+        "cx": "5255260",
+        "cy": "2010410"
+      },
+      "word_crop_100000": {},
+      "crop_pixels": null,
+      "embedded_original": null
+    },
+    {
+      "figure": 9,
+      "file": "figures/Fig09.png",
+      "caption": "Fig. 9. Final-policy accepted-output examples from the evaluated public protocols. Suppressed unknown-object examples are checked at the object level; annotation-unsupported examples use the stated IoU rule. Retained failures are shown separately. Solid boxes indicate suppressed detections and dashed boxes retained errors.",
+      "embedded_part": "word/media/image9.png",
+      "embedded_sha256": "70a415815fbc7e57808089b107446dc27bd7f001355bc3fc8f5de47bf4555192",
+      "extracted_sha256": "70a415815fbc7e57808089b107446dc27bd7f001355bc3fc8f5de47bf4555192",
+      "pixels": [
+        3600,
+        2113
+      ],
+      "word_extent_EMU": {
+        "cx": "5486400",
+        "cy": "3221355"
+      },
+      "word_crop_100000": {},
+      "crop_pixels": null,
+      "embedded_original": null
+    }
+  ]
+}

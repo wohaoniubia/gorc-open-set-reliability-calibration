@@ -1,0 +1,14 @@
+{
+  "T": 1.0373486965815812,
+  "log_T": 0.03666812786765139,
+  "cal_NLL": 0.14497188101867248,
+  "positive_temperature": true,
+  "optimization_bounds_log_T": [
+    -7,
+    7
+  ],
+  "success": true,
+  "iterations": 16,
+  "intercept": false,
+  "loss": "unweighted candidate TP/rest negative log likelihood on calibration only"
+}

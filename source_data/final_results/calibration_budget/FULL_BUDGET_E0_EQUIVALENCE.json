@@ -1,0 +1,43 @@
+{
+  "verified": true,
+  "comparisons": [
+    {
+      "method": "Raw",
+      "split": "calibration",
+      "all_metrics_match": true
+    },
+    {
+      "method": "Raw",
+      "split": "test",
+      "all_metrics_match": true
+    },
+    {
+      "method": "RF",
+      "split": "calibration",
+      "all_metrics_match": true
+    },
+    {
+      "method": "RF",
+      "split": "test",
+      "all_metrics_match": true
+    },
+    {
+      "method": "AP-C",
+      "split": "calibration",
+      "all_metrics_match": true
+    },
+    {
+      "method": "AP-C",
+      "split": "test",
+      "all_metrics_match": true
+    }
+  ],
+  "full_calibration_RF_matches_main_E0": true,
+  "source_hashes": {
+    "[original project resource: GORC_paper_release_bundle/data_outputs/coco_main/step12c_gorc/csv/step12c_geometry_scored_candidates.csv]": "8e07ccfc6c009abcca95b3564a0a984802659f6785c71dee953a64123fb318ce",
+    "[original project resource: outputs/step12a_coco_val_openset_protocol/csv/step12a_scene_split.csv]": "3b5b134396b43faefbe29315ada6eee7d7efc12c3a72920d54e9f455a261ea2b",
+    "[original experiment resource: final_results/E0/coco_yolo/main_metrics.csv]": "1fdf9e186a01266e26d1178a916ecfda8cb8d0a46af97cd1ac4ecf832c31edc4",
+    "[original experiment resource: final_results/E0/coco_yolo/selected_policies.csv]": "ccb73d61f93a98f25c91447e3ac6fe629661b00155dce2acf56c5f7c8526bd2e"
+  },
+  "tolerance": 1e-12
+}
